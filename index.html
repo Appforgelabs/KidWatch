@@ -162,6 +162,42 @@
     ⚙️ <strong>Setup needed:</strong> Configure the YouTube account in the pipeline script to start collecting data.
   </div>
 
+  <!-- Safety Panel -->
+  <div id="safety-overview" style="display:none; margin-bottom:28px;">
+    <div class="chart-card" style="border-color:rgba(248,113,113,0.3);">
+      <div class="chart-title" style="color:#f87171;">
+        <span class="chart-title-icon">🧩</span> Autism-Aware Content Analysis
+        <span style="margin-left:auto;font-size:11px;color:var(--muted);font-weight:400;text-transform:none;letter-spacing:0;">Flags: sensory overload risk · rapid pacing · low structure</span>
+      </div>
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:12px;margin-bottom:20px;">
+        <div style="background:rgba(52,211,153,0.1);border:1px solid rgba(52,211,153,0.25);border-radius:8px;padding:14px;text-align:center;">
+          <div style="font-size:24px;font-weight:700;color:#34d399;" id="s-good">–</div>
+          <div style="font-size:11px;color:var(--muted);margin-top:4px;">✅ Good for her</div>
+        </div>
+        <div style="background:rgba(100,116,139,0.1);border:1px solid rgba(100,116,139,0.2);border-radius:8px;padding:14px;text-align:center;">
+          <div style="font-size:24px;font-weight:700;color:#94a3b8;" id="s-neutral">–</div>
+          <div style="font-size:11px;color:var(--muted);margin-top:4px;">⬜ Neutral</div>
+        </div>
+        <div style="background:rgba(251,191,36,0.1);border:1px solid rgba(251,191,36,0.25);border-radius:8px;padding:14px;text-align:center;">
+          <div style="font-size:24px;font-weight:700;color:#fbbf24;" id="s-review">–</div>
+          <div style="font-size:11px;color:var(--muted);margin-top:4px;">⚠️ Worth reviewing</div>
+        </div>
+        <div style="background:rgba(248,113,113,0.1);border:1px solid rgba(248,113,113,0.25);border-radius:8px;padding:14px;text-align:center;">
+          <div style="font-size:24px;font-weight:700;color:#f87171;" id="s-flag">–</div>
+          <div style="font-size:11px;color:var(--muted);margin-top:4px;">🚩 Flag for review</div>
+        </div>
+      </div>
+      <div style="margin-bottom:16px;">
+        <div style="font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:0.7px;margin-bottom:10px;">Channel Safety</div>
+        <div id="channel-badges" style="display:flex;flex-wrap:wrap;gap:8px;"></div>
+      </div>
+      <div>
+        <div style="font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:0.7px;margin-bottom:10px;">🚩 Videos to Review or Limit</div>
+        <div id="flagged-list" style="display:flex;flex-direction:column;gap:8px;"></div>
+      </div>
+    </div>
+  </div>
+
   <!-- Stats Row -->
   <div class="stats-row">
     <div class="stat-card" style="--accent-color: #a78bfa">
@@ -415,9 +451,10 @@ function renderVideos(data) {
     return;
   }
 
+  const safetyColors = { good: 'rgba(52,211,153,0.08)', review: 'rgba(251,191,36,0.08)', flag: 'rgba(248,113,113,0.1)', neutral: 'transparent' };
   container.innerHTML = videos.slice(0, 25).map((v, i) => `
-    <div class="video-item">
-      <div class="video-num">${i + 1}</div>
+    <div class="video-item" style="background:${safetyColors[v.safety_rating||'neutral']}; border-color:${v.safety_rating==='flag'?'rgba(248,113,113,0.3)':v.safety_rating==='review'?'rgba(251,191,36,0.2)':'var(--border)'}">
+      <div class="video-num">${v.safety_badge || (i + 1)}</div>
       <div class="video-info">
         <div class="video-title">${v.title || 'Unknown Title'}</div>
         <div class="video-meta">📺 ${v.channel || 'Unknown Channel'}${v.duration_seconds ? ` · ${Math.round(v.duration_seconds/60)}m` : ''}</div>
@@ -428,10 +465,57 @@ function renderVideos(data) {
   `).join('');
 }
 
+function renderSafety(data) {
+  const safety = data.safety;
+  if (!safety) return;
+
+  document.getElementById('safety-overview').style.display = 'block';
+  document.getElementById('s-good').textContent = safety.good_count || 0;
+  document.getElementById('s-neutral').textContent = safety.neutral_count || 0;
+  document.getElementById('s-review').textContent = safety.review_count || 0;
+  document.getElementById('s-flag').textContent = safety.flag_count || 0;
+
+  // Channel badges
+  const badgeContainer = document.getElementById('channel-badges');
+  (safety.channel_summary || []).slice(0, 15).forEach(ch => {
+    const pill = document.createElement('div');
+    const colors = {
+      '✅': 'rgba(52,211,153,0.15)',
+      '⚠️': 'rgba(251,191,36,0.15)',
+      '🚩': 'rgba(248,113,113,0.15)',
+      '⬜': 'rgba(100,116,139,0.1)',
+    };
+    pill.style.cssText = `background:${colors[ch.badge]||'rgba(100,116,139,0.1)'};border-radius:6px;padding:5px 10px;font-size:12px;white-space:nowrap;`;
+    pill.textContent = `${ch.badge} ${ch.channel} (${ch.video_count})`;
+    badgeContainer.appendChild(pill);
+  });
+
+  // Flagged videos
+  const flagContainer = document.getElementById('flagged-list');
+  const flagged = (safety.flagged_videos || []).slice(0, 20);
+  if (!flagged.length) {
+    flagContainer.innerHTML = '<div style="color:var(--muted);font-size:13px;">No flagged videos in current history.</div>';
+    return;
+  }
+  flagged.forEach(v => {
+    const item = document.createElement('div');
+    item.style.cssText = 'display:flex;gap:12px;align-items:flex-start;padding:10px 14px;background:rgba(248,113,113,0.06);border:1px solid rgba(248,113,113,0.15);border-radius:8px;';
+    const reasons = (v.flags || []).map(f => `<span style="font-size:10px;background:rgba(248,113,113,0.15);color:#f87171;padding:2px 6px;border-radius:3px;margin-right:4px;">${f.type.replace(/_/g,' ')}</span>`).join('');
+    item.innerHTML = `
+      <div style="flex:1;min-width:0;">
+        <div style="font-size:13px;font-weight:500;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">${v.title}</div>
+        <div style="font-size:11px;color:var(--muted);margin-top:3px;">📺 ${v.channel}</div>
+        <div style="margin-top:5px;">${reasons}</div>
+      </div>`;
+    flagContainer.appendChild(item);
+  });
+}
+
 async function init() {
   try {
     const data = await loadData();
     renderStats(data);
+    renderSafety(data);
     renderChannels(data);
     renderCategories(data);
     renderHours(data);

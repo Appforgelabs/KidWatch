@@ -13,7 +13,12 @@
       "timestamp": "2026-02-19T07:00:00-05:00",
       "duration_str": "46:25",
       "duration_seconds": 2785,
-      "category": "Gaming"
+      "category": "Gaming",
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
     },
     {
       "title": "Sesame Street Friends Board Books Compilation | Ten Books",
@@ -23,7 +28,17 @@
       "timestamp": "2026-02-19T07:03:00-05:00",
       "duration_str": "25:52",
       "duration_seconds": 1552,
-      "category": "Cartoons & Animation"
+      "category": "Cartoons & Animation",
+      "safety_score": 2,
+      "safety_rating": "review",
+      "safety_badge": "\u26a0\ufe0f",
+      "flags": [
+        {
+          "type": "RAPID_PACING",
+          "message": "Title contains rapid pacing pattern"
+        }
+      ],
+      "positive_signals": []
     },
     {
       "title": "123 Sesame STreet Mecha Builders,Alphabet Kitchen,Elmo Loves ABCs,Learn with Sesame Street,ElmoCalls",
@@ -33,7 +48,15 @@
       "timestamp": "2026-02-19T07:07:00-05:00",
       "duration_str": "28:46",
       "duration_seconds": 1726,
-      "category": "Cartoons & Animation"
+      "category": "Cartoons & Animation",
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": [
+        "Contains 'learn' \u2014 positive developmental signal",
+        "Contains 'abc' \u2014 positive developmental signal"
+      ]
     },
     {
       "title": "Sesame Street 16 Games: Alphabet Kitchen,Look & Find Elmo,Sesame Street Elmo Loves ABCs,Elmo's World",
@@ -43,7 +66,24 @@
       "timestamp": "2026-02-19T07:11:00-05:00",
       "duration_str": "1:06:05",
       "duration_seconds": 3965,
-      "category": "Gaming"
+      "category": "Gaming",
+      "safety_score": 2,
+      "safety_rating": "review",
+      "safety_badge": "\u26a0\ufe0f",
+      "flags": [
+        {
+          "type": "HIGH_PACE",
+          "message": "Channel concern: Rapid-cut app gameplay compilations. High visual pace, frequent transitions, minimal narration. Can be overstimulating."
+        },
+        {
+          "type": "RAPID_PACING",
+          "message": "Title contains rapid pacing pattern"
+        }
+      ],
+      "positive_signals": [
+        "Contains 'abc' \u2014 positive developmental signal",
+        "Contains 'alphabet' \u2014 positive developmental signal"
+      ]
     },
     {
       "title": "Pinkfong Baby Shark,Baby Shark: Phone,Pizza Game,Dentist Play,Jigsaw Puzzle Fun,Baby Shark: World",
@@ -53,7 +93,17 @@
       "timestamp": "2026-02-19T07:15:00-05:00",
       "duration_str": "31:14",
       "duration_seconds": 1874,
-      "category": "Gaming"
+      "category": "Gaming",
+      "safety_score": 2,
+      "safety_rating": "review",
+      "safety_badge": "\u26a0\ufe0f",
+      "flags": [
+        {
+          "type": "HIGH_PACE",
+          "message": "Channel concern: Similar to iGameplay1337 \u2014 fast-paced app reviews, minimal dialogue. Watch time without educational payoff."
+        }
+      ],
+      "positive_signals": []
     },
     {
       "title": "Boo! \ud83c\udf83 | Learning About Halloween & Having Fun | Read Aloud for Toddlers | Hoots & Tales",
@@ -63,7 +113,15 @@
       "timestamp": "2026-02-19T07:19:00-05:00",
       "duration_str": "3:11",
       "duration_seconds": 191,
-      "category": "Science & Education"
+      "category": "Science & Education",
+      "safety_score": 5,
+      "safety_rating": "good",
+      "safety_badge": "\u2705",
+      "flags": [],
+      "positive_signals": [
+        "Calm animated read-alouds \u2014 predictable format, no sudden sounds, builds language and literacy.",
+        "Contains 'learn' \u2014 positive developmental signal"
+      ]
     },
     {
       "title": "Baby Supermarket Shopping | Pretend Play | Kids Cartoon | Animation For Kids | BabyBus",
@@ -73,7 +131,14 @@
       "timestamp": "2026-02-19T07:23:00-05:00",
       "duration_str": "6:27",
       "duration_seconds": 387,
-      "category": "Cartoons & Animation"
+      "category": "Cartoons & Animation",
+      "safety_score": 4,
+      "safety_rating": "good",
+      "safety_badge": "\u2705",
+      "flags": [],
+      "positive_signals": [
+        "Structured nursery content, consistent characters, teaches social rules and safety."
+      ]
     },
     {
       "title": "PEPPA PIG Indoor Play Area in Peppa Pig World | George's Spaceship Playzone (Feb 2023) [4K]",
@@ -83,7 +148,12 @@
       "timestamp": "2026-02-19T07:27:00-05:00",
       "duration_str": "6:28",
       "duration_seconds": 388,
-      "category": "Cartoons & Animation"
+      "category": "Cartoons & Animation",
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
     },
     {
       "title": "Tom and Jerry | Mega Compilation | Vol. 7 | Warner Classics",
@@ -93,7 +163,25 @@
       "timestamp": "2026-02-19T07:31:00-05:00",
       "duration_str": "48:57",
       "duration_seconds": 2937,
-      "category": "Cartoons & Animation"
+      "category": "Cartoons & Animation",
+      "safety_score": 2,
+      "safety_rating": "review",
+      "safety_badge": "\u26a0\ufe0f",
+      "flags": [
+        {
+          "type": "SENSORY_OVERLOAD",
+          "message": "Title contains sensory overload pattern"
+        },
+        {
+          "type": "VIOLENT_OR_SCARY",
+          "message": "Title contains violent or scary pattern"
+        },
+        {
+          "type": "RAPID_PACING",
+          "message": "Title contains rapid pacing pattern"
+        }
+      ],
+      "positive_signals": []
     },
     {
       "title": "Yes Yes! Box of Board Books \ud83c\udfa8 | Toddler Read-Aloud Compilation | Opposites, Behaviors & Fun",
@@ -103,7 +191,19 @@
       "timestamp": "2026-02-19T07:35:00-05:00",
       "duration_str": "8:53",
       "duration_seconds": 533,
-      "category": "Science & Education"
+      "category": "Science & Education",
+      "safety_score": 2,
+      "safety_rating": "review",
+      "safety_badge": "\u26a0\ufe0f",
+      "flags": [
+        {
+          "type": "RAPID_PACING",
+          "message": "Title contains rapid pacing pattern"
+        }
+      ],
+      "positive_signals": [
+        "Calm animated read-alouds \u2014 predictable format, no sudden sounds, builds language and literacy."
+      ]
     },
     {
       "title": "Boo Boo Song | Healthy Meal | Sick Song | Healthy Habits | Toddlers | Nursery Rhymes | Germs | Kids",
@@ -113,7 +213,14 @@
       "timestamp": "2026-02-19T07:39:00-05:00",
       "duration_str": "7:21",
       "duration_seconds": 441,
-      "category": "Music"
+      "category": "Music",
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": [
+        "Contains 'healthy habits' \u2014 positive developmental signal"
+      ]
     },
     {
       "title": "Wash your hands - Brush your teeth - Boo Boo Song - Healthy Habits - Nursery Rhymes - Kids Songs",
@@ -123,7 +230,14 @@
       "timestamp": "2026-02-19T07:42:00-05:00",
       "duration_str": "6:22",
       "duration_seconds": 382,
-      "category": "Music"
+      "category": "Music",
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": [
+        "Contains 'healthy habits' \u2014 positive developmental signal"
+      ]
     },
     {
       "title": "Feelings with Leslie Patricelli \ud83d\udc9b | Toddler Read-Aloud Compilation | Emotions & Empathy",
@@ -133,7 +247,20 @@
       "timestamp": "2026-02-19T07:46:00-05:00",
       "duration_str": "11:17",
       "duration_seconds": 677,
-      "category": "Science & Education"
+      "category": "Science & Education",
+      "safety_score": 2,
+      "safety_rating": "review",
+      "safety_badge": "\u26a0\ufe0f",
+      "flags": [
+        {
+          "type": "RAPID_PACING",
+          "message": "Title contains rapid pacing pattern"
+        }
+      ],
+      "positive_signals": [
+        "Calm animated read-alouds \u2014 predictable format, no sudden sounds, builds language and literacy.",
+        "Contains 'feelings' \u2014 positive developmental signal"
+      ]
     },
     {
       "title": "10 Cocomelon Books | Animated Read Aloud | JJ's Box of Books, Pocket Library, Potty Time & More!",
@@ -143,7 +270,15 @@
       "timestamp": "2026-02-19T07:50:00-05:00",
       "duration_str": "30:08",
       "duration_seconds": 1808,
-      "category": "Cartoons & Animation"
+      "category": "Cartoons & Animation",
+      "safety_score": 5,
+      "safety_rating": "good",
+      "safety_badge": "\u2705",
+      "flags": [],
+      "positive_signals": [
+        "Calm animated read-alouds \u2014 predictable format, no sudden sounds, builds language and literacy.",
+        "Contains 'potty' \u2014 positive developmental signal"
+      ]
     },
     {
       "title": "MICKEY MOUSE CLUBHOUSE: Mickey's Wildlife Count Along By Disney Best app for kids iPad iOS",
@@ -153,7 +288,12 @@
       "timestamp": "2026-02-19T07:54:00-05:00",
       "duration_str": "20:23",
       "duration_seconds": 1223,
-      "category": "Gaming"
+      "category": "Gaming",
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
     },
     {
       "title": "Counting is fun with Disney Buddies 123s",
@@ -163,7 +303,14 @@
       "timestamp": "2026-02-19T07:58:00-05:00",
       "duration_str": "21:42",
       "duration_seconds": 1302,
-      "category": "Science & Education"
+      "category": "Science & Education",
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": [
+        "Contains 'counting' \u2014 positive developmental signal"
+      ]
     },
     {
       "title": "MY FRIEND PEPPA PIG - COMPLETE EDITION - EXTRA CONTENTS - NO COMMENTS - ENGLISH - 100% COMPLETE",
@@ -173,7 +320,12 @@
       "timestamp": "2026-02-19T08:02:00-05:00",
       "duration_str": "2:03:03",
       "duration_seconds": 7383,
-      "category": "Gaming"
+      "category": "Gaming",
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
     },
     {
       "title": "4 Big Box of Books \ud83d\udcda | CoComelon, Peppa, Bluey & More | Family & Friends Read Aloud Stories",
@@ -183,7 +335,15 @@
       "timestamp": "2026-02-19T08:06:00-05:00",
       "duration_str": "24:11",
       "duration_seconds": 1451,
-      "category": "Cartoons & Animation"
+      "category": "Cartoons & Animation",
+      "safety_score": 5,
+      "safety_rating": "good",
+      "safety_badge": "\u2705",
+      "flags": [],
+      "positive_signals": [
+        "Calm animated read-alouds \u2014 predictable format, no sudden sounds, builds language and literacy.",
+        "Contains 'read aloud' \u2014 positive developmental signal"
+      ]
     },
     {
       "title": "Bluey Little Library - Read Aloud Books For Children and Toddler",
@@ -193,7 +353,14 @@
       "timestamp": "2026-02-19T08:10:00-05:00",
       "duration_str": "3:05",
       "duration_seconds": 185,
-      "category": "Cartoons & Animation"
+      "category": "Cartoons & Animation",
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": [
+        "Contains 'read aloud' \u2014 positive developmental signal"
+      ]
     },
     {
       "title": "The Powerpuff Girls Are Ready to Save the World | Mega Compilation | Cartoon Network",
@@ -203,7 +370,21 @@
       "timestamp": "2026-02-19T08:14:00-05:00",
       "duration_str": "2:49:43",
       "duration_seconds": 10183,
-      "category": "Cartoons & Animation"
+      "category": "Cartoons & Animation",
+      "safety_score": 2,
+      "safety_rating": "review",
+      "safety_badge": "\u26a0\ufe0f",
+      "flags": [
+        {
+          "type": "SENSORY_OVERLOAD",
+          "message": "Title contains sensory overload pattern"
+        },
+        {
+          "type": "RAPID_PACING",
+          "message": "Title contains rapid pacing pattern"
+        }
+      ],
+      "positive_signals": []
     },
     {
       "title": "22 min 5 Books of David's adventures - Animated Read Aloud Books",
@@ -213,7 +394,14 @@
       "timestamp": "2026-02-19T08:18:00-05:00",
       "duration_str": "22:55",
       "duration_seconds": 1375,
-      "category": "Science & Education"
+      "category": "Science & Education",
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": [
+        "Contains 'read aloud' \u2014 positive developmental signal"
+      ]
     },
     {
       "title": "Pinkfong Wonderstar Characters In REAL LIFE! | \ud83c\udfac Favorite Movies, Foods \ud83c\udf55 & More | Hogi, Jeni...",
@@ -223,7 +411,17 @@
       "timestamp": "2026-02-19T08:21:00-05:00",
       "duration_str": "16:07",
       "duration_seconds": 967,
-      "category": "Other"
+      "category": "Other",
+      "safety_score": 2,
+      "safety_rating": "review",
+      "safety_badge": "\u26a0\ufe0f",
+      "flags": [
+        {
+          "type": "HIGH_PACE",
+          "message": "Channel concern: Character comparison quizzes \u2014 unpredictable format, rapid image switching."
+        }
+      ],
+      "positive_signals": []
     },
     {
       "title": "Peppa Pig becomes the Train Driver! | Story for Kids | Kids Cartoons | Peppa Pig Videos",
@@ -233,7 +431,12 @@
       "timestamp": "2026-02-19T08:25:00-05:00",
       "duration_str": "29:50",
       "duration_seconds": 1790,
-      "category": "Cartoons & Animation"
+      "category": "Cartoons & Animation",
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
     },
     {
       "title": "Peppa Pig Official Channel | Making Birthday Cake with Peppa Pig",
@@ -243,7 +446,12 @@
       "timestamp": "2026-02-19T08:29:00-05:00",
       "duration_str": "10:05",
       "duration_seconds": 605,
-      "category": "Cartoons & Animation"
+      "category": "Cartoons & Animation",
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
     },
     {
       "title": "Leslie Patricelli Opposites Collection 13 Min | Animated Storytime for Toddlers & PreK | Read Aloud",
@@ -253,7 +461,15 @@
       "timestamp": "2026-02-19T08:33:00-05:00",
       "duration_str": "13:05",
       "duration_seconds": 785,
-      "category": "Science & Education"
+      "category": "Science & Education",
+      "safety_score": 5,
+      "safety_rating": "good",
+      "safety_badge": "\u2705",
+      "flags": [],
+      "positive_signals": [
+        "Gentle storytime format, consistent pacing, Leslie Patricelli books excellent for toddler emotional development.",
+        "Contains 'read aloud' \u2014 positive developmental signal"
+      ]
     },
     {
       "title": "my friend Peppa pig (PC) Longplay",
@@ -263,7 +479,12 @@
       "timestamp": "2026-02-19T08:37:00-05:00",
       "duration_str": "2:13:18",
       "duration_seconds": 7998,
-      "category": "Gaming"
+      "category": "Gaming",
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
     },
     {
       "title": "Peppa Pig: World Adventures Episode 8 (PS4) Day 7: Paris",
@@ -273,7 +494,12 @@
       "timestamp": "2026-02-19T08:41:00-05:00",
       "duration_str": "27:19",
       "duration_seconds": 1639,
-      "category": "Gaming"
+      "category": "Gaming",
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
     },
     {
       "title": "Peppa Pig World Adventures (Full Game)",
@@ -283,7 +509,17 @@
       "timestamp": "2026-02-19T08:45:00-05:00",
       "duration_str": "2:09:16",
       "duration_seconds": 7756,
-      "category": "Gaming"
+      "category": "Gaming",
+      "safety_score": 2,
+      "safety_rating": "review",
+      "safety_badge": "\u26a0\ufe0f",
+      "flags": [
+        {
+          "type": "LOW_VALUE",
+          "message": "Channel concern: Silent gameplay \u2014 no verbal engagement, passive watching without narrative."
+        }
+      ],
+      "positive_signals": []
     },
     {
       "title": "\u00a1Adivina 50 CANCIONES INFANTILES! \ud83d\ude0d\ud83c\udfb6Zootopia 2\ud83d\udc99Las Guerreras K-pop\ud83d\udc67Frozen \u00bfComo se llama la Canci\u00f3n?",
@@ -293,7 +529,12 @@
       "timestamp": "2026-02-19T08:49:00-05:00",
       "duration_str": "23:21",
       "duration_seconds": 1401,
-      "category": "Other"
+      "category": "Other",
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
     },
     {
       "title": "Guess The Nursery & Kids Show Logo Sound \ud83d\udc76\ud83c\udfa7 | Peppa Pig, Cocomelon",
@@ -303,7 +544,21 @@
       "timestamp": "2026-02-19T08:53:00-05:00",
       "duration_str": "7:42",
       "duration_seconds": 462,
-      "category": "Cartoons & Animation"
+      "category": "Cartoons & Animation",
+      "safety_score": 1,
+      "safety_rating": "flag",
+      "safety_badge": "\ud83d\udea9",
+      "flags": [
+        {
+          "type": "SENSORY_OVERLOAD",
+          "message": "Channel concern: Same concern as Quiz Noke \u2014 sudden loud sounds, rapid pacing, no educational structure."
+        },
+        {
+          "type": "SENSORY_OVERLOAD",
+          "message": "Title contains sensory overload pattern"
+        }
+      ],
+      "positive_signals": []
     },
     {
       "title": "Guess The Preschool Learning Character Logo Sound \ud83d\udd0a | Baby Shark, Blippi, Peppa Pig | Quiz 2026",
@@ -313,7 +568,23 @@
       "timestamp": "2026-02-19T08:57:00-05:00",
       "duration_str": "8:09",
       "duration_seconds": 489,
-      "category": "Cartoons & Animation"
+      "category": "Cartoons & Animation",
+      "safety_score": 1,
+      "safety_rating": "flag",
+      "safety_badge": "\ud83d\udea9",
+      "flags": [
+        {
+          "type": "SENSORY_OVERLOAD",
+          "message": "Channel concern: Logo sound quizzes \u2014 unexpected audio triggers, no predictable structure. High sensory stimulation."
+        },
+        {
+          "type": "SENSORY_OVERLOAD",
+          "message": "Title contains sensory overload pattern"
+        }
+      ],
+      "positive_signals": [
+        "Contains 'learn' \u2014 positive developmental signal"
+      ]
     },
     {
       "title": "Guess The Nursery Rhyme Logo Sound \ud83d\udc76\ud83c\udfb5 | Baby Shark, Little Baby Bum",
@@ -323,7 +594,21 @@
       "timestamp": "2026-02-19T09:00:00-05:00",
       "duration_str": "7:42",
       "duration_seconds": 462,
-      "category": "Music"
+      "category": "Music",
+      "safety_score": 1,
+      "safety_rating": "flag",
+      "safety_badge": "\ud83d\udea9",
+      "flags": [
+        {
+          "type": "SENSORY_OVERLOAD",
+          "message": "Channel concern: Same concern as Quiz Noke \u2014 sudden loud sounds, rapid pacing, no educational structure."
+        },
+        {
+          "type": "SENSORY_OVERLOAD",
+          "message": "Title contains sensory overload pattern"
+        }
+      ],
+      "positive_signals": []
     },
     {
       "title": "Ultimate Learning Mix, Shapes , Number , and Letters, ABC, Kids Songs, Super Simple Songs",
@@ -333,7 +618,20 @@
       "timestamp": "2026-02-19T09:04:00-05:00",
       "duration_str": "16:09",
       "duration_seconds": 969,
-      "category": "Music"
+      "category": "Music",
+      "safety_score": 2,
+      "safety_rating": "review",
+      "safety_badge": "\u26a0\ufe0f",
+      "flags": [
+        {
+          "type": "RAPID_PACING",
+          "message": "Title contains rapid pacing pattern"
+        }
+      ],
+      "positive_signals": [
+        "Contains 'learn' \u2014 positive developmental signal",
+        "Contains 'abc' \u2014 positive developmental signal"
+      ]
     },
     {
       "title": "Little Baby Bum in REAL LIFE \ud83d\udc69\u2b50 + Guess The Voice Quiz ~ Mia, Max, Twinkle Twinkle Little Star...",
@@ -343,7 +641,17 @@
       "timestamp": "2026-02-19T09:08:00-05:00",
       "duration_str": "15:26",
       "duration_seconds": 926,
-      "category": "Comedy & Skits"
+      "category": "Comedy & Skits",
+      "safety_score": 2,
+      "safety_rating": "review",
+      "safety_badge": "\u26a0\ufe0f",
+      "flags": [
+        {
+          "type": "HIGH_PACE",
+          "message": "Channel concern: Character comparison quizzes \u2014 unpredictable format, rapid image switching."
+        }
+      ],
+      "positive_signals": []
     },
     {
       "title": "30 Minutes Leslie Patricelli Storytime Collection|ReadAloud|Toot|pottytrain|Little Libraryprek kids",
@@ -353,7 +661,15 @@
       "timestamp": "2026-02-19T09:12:00-05:00",
       "duration_str": "30:52",
       "duration_seconds": 1852,
-      "category": "Science & Education"
+      "category": "Science & Education",
+      "safety_score": 5,
+      "safety_rating": "good",
+      "safety_badge": "\u2705",
+      "flags": [],
+      "positive_signals": [
+        "Gentle storytime format, consistent pacing, Leslie Patricelli books excellent for toddler emotional development.",
+        "Contains 'potty' \u2014 positive developmental signal"
+      ]
     },
     {
       "title": "4 Leslie Patricelli Books | Routines Compilation | Tooth, Hair, Tubby, Potty | Hoots and Tales",
@@ -363,7 +679,20 @@
       "timestamp": "2026-02-19T09:16:00-05:00",
       "duration_str": "8:00",
       "duration_seconds": 480,
-      "category": "Science & Education"
+      "category": "Science & Education",
+      "safety_score": 2,
+      "safety_rating": "review",
+      "safety_badge": "\u26a0\ufe0f",
+      "flags": [
+        {
+          "type": "RAPID_PACING",
+          "message": "Title contains rapid pacing pattern"
+        }
+      ],
+      "positive_signals": [
+        "Calm animated read-alouds \u2014 predictable format, no sudden sounds, builds language and literacy.",
+        "Contains 'potty' \u2014 positive developmental signal"
+      ]
     },
     {
       "title": "Peppa Pig Teaches George About Potty Training \ud83d\udebd Peppa Pig Asia \ud83d\udc3d Peppa Pig English Episodes",
@@ -373,7 +702,14 @@
       "timestamp": "2026-02-19T09:20:00-05:00",
       "duration_str": "31:23",
       "duration_seconds": 1883,
-      "category": "Cartoons & Animation"
+      "category": "Cartoons & Animation",
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": [
+        "Contains 'potty' \u2014 positive developmental signal"
+      ]
     },
     {
       "title": "Baby Panda's Candy Shop was Stolen | Baby Panda Sheriff | Policeman Pretend Play | BabyBus",
@@ -383,7 +719,14 @@
       "timestamp": "2026-02-19T09:24:00-05:00",
       "duration_str": "34:08",
       "duration_seconds": 2048,
-      "category": "Gaming"
+      "category": "Gaming",
+      "safety_score": 4,
+      "safety_rating": "good",
+      "safety_badge": "\u2705",
+      "flags": [],
+      "positive_signals": [
+        "Structured nursery content, consistent characters, teaches social rules and safety."
+      ]
     },
     {
       "title": "Baby Panda School Bus #1 - Gameplay Walkthrough",
@@ -393,7 +736,17 @@
       "timestamp": "2026-02-19T09:28:00-05:00",
       "duration_str": "22:08",
       "duration_seconds": 1328,
-      "category": "Gaming"
+      "category": "Gaming",
+      "safety_score": 2,
+      "safety_rating": "review",
+      "safety_badge": "\u26a0\ufe0f",
+      "flags": [
+        {
+          "type": "LOW_VALUE",
+          "message": "Channel concern: Gaming walkthrough channel \u2014 no narration, minimal language learning value."
+        }
+      ],
+      "positive_signals": []
     },
     {
       "title": "My Friend Peppa Pig FULL GAME Longplay All Episodes (PS4)",
@@ -403,7 +756,12 @@
       "timestamp": "2026-02-19T09:32:00-05:00",
       "duration_str": "1:50:37",
       "duration_seconds": 6637,
-      "category": "Gaming"
+      "category": "Gaming",
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
     },
     {
       "title": "Peppa Pig World Adventures | Full Gameplay | Walkthrough | 100% | No Commentary | ENGLISH",
@@ -413,7 +771,12 @@
       "timestamp": "2026-02-19T09:36:00-05:00",
       "duration_str": "3:28:51",
       "duration_seconds": 12531,
-      "category": "Gaming"
+      "category": "Gaming",
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
     },
     {
       "title": "Peppa Pig ABC Dance Song",
@@ -423,7 +786,14 @@
       "timestamp": "2026-02-19T09:39:00-05:00",
       "duration_str": "3:11",
       "duration_seconds": 191,
-      "category": "Cartoons & Animation"
+      "category": "Cartoons & Animation",
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": [
+        "Contains 'abc' \u2014 positive developmental signal"
+      ]
     },
     {
       "title": "Peppa Pig | Learn the Alphabet with Peppa Pig! | Learn With Peppa Pig",
@@ -433,7 +803,15 @@
       "timestamp": "2026-02-19T09:43:00-05:00",
       "duration_str": "5:33",
       "duration_seconds": 333,
-      "category": "Cartoons & Animation"
+      "category": "Cartoons & Animation",
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": [
+        "Contains 'learn' \u2014 positive developmental signal",
+        "Contains 'alphabet' \u2014 positive developmental signal"
+      ]
     },
     {
       "title": "Peppa Pig: World Adventures Episode 7 (PS4) Day 6: Italy",
@@ -443,7 +821,12 @@
       "timestamp": "2026-02-19T09:47:00-05:00",
       "duration_str": "17:05",
       "duration_seconds": 1025,
-      "category": "Gaming"
+      "category": "Gaming",
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
     },
     {
       "title": "Peppa Pig - Let's Draw Peppa Pig - Learning with Peppa Pig",
@@ -453,7 +836,14 @@
       "timestamp": "2026-02-19T09:51:00-05:00",
       "duration_str": "31:23",
       "duration_seconds": 1883,
-      "category": "Cartoons & Animation"
+      "category": "Cartoons & Animation",
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": [
+        "Contains 'learn' \u2014 positive developmental signal"
+      ]
     },
     {
       "title": "Play Marble Run with Peppa Pig",
@@ -463,7 +853,14 @@
       "timestamp": "2026-02-19T09:55:00-05:00",
       "duration_str": "10:50",
       "duration_seconds": 650,
-      "category": "Cartoons & Animation"
+      "category": "Cartoons & Animation",
+      "safety_score": 4,
+      "safety_rating": "good",
+      "safety_badge": "\u2705",
+      "flags": [],
+      "positive_signals": [
+        "Consistent characters, predictable episodes, gentle pacing. Official channel \u2014 highest quality control."
+      ]
     },
     {
       "title": "Pinkfong Wonderstar \u2728 Characters & Their Favorite Drinks, Snacks + More! | Pinkfong",
@@ -473,7 +870,17 @@
       "timestamp": "2026-02-19T09:59:00-05:00",
       "duration_str": "15:35",
       "duration_seconds": 935,
-      "category": "Other"
+      "category": "Other",
+      "safety_score": 2,
+      "safety_rating": "review",
+      "safety_badge": "\u26a0\ufe0f",
+      "flags": [
+        {
+          "type": "LOW_VALUE",
+          "message": "Channel concern: Character 'what they like' quizzes \u2014 low educational value, rapid visual content."
+        }
+      ],
+      "positive_signals": []
     },
     {
       "title": "\ud83d\udc37\u2728Peppa Pig Movie Characters & Their Favorite Drinks\ud83e\uddcb, Snacks, Movies & More! | Evie, Peppa, George",
@@ -483,7 +890,12 @@
       "timestamp": "2026-02-19T10:03:00-05:00",
       "duration_str": "18:06",
       "duration_seconds": 1086,
-      "category": "Cartoons & Animation"
+      "category": "Cartoons & Animation",
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
     },
     {
       "title": "\ud83d\udc3d Peppa Pig Characters And Their Favorite Snacks Drinks & More! | Evie Pig, Peppa Pig, Mummy Pig",
@@ -493,7 +905,17 @@
       "timestamp": "2026-02-19T10:07:00-05:00",
       "duration_str": "18:03",
       "duration_seconds": 1083,
-      "category": "Cartoons & Animation"
+      "category": "Cartoons & Animation",
+      "safety_score": 2,
+      "safety_rating": "review",
+      "safety_badge": "\u26a0\ufe0f",
+      "flags": [
+        {
+          "type": "LOW_VALUE",
+          "message": "Channel concern: Character 'what they like' quizzes \u2014 low educational value, rapid visual content."
+        }
+      ],
+      "positive_signals": []
     },
     {
       "title": "Guess The YouTube Kids Animation Sound \ud83d\udd0a\ud83e\uddd2 | Cocomelon, Pinkfong, Little Baby Bum, Dave and Ava",
@@ -503,7 +925,17 @@
       "timestamp": "2026-02-19T10:11:00-05:00",
       "duration_str": "15:24",
       "duration_seconds": 924,
-      "category": "Cartoons & Animation"
+      "category": "Cartoons & Animation",
+      "safety_score": 1,
+      "safety_rating": "flag",
+      "safety_badge": "\ud83d\udea9",
+      "flags": [
+        {
+          "type": "SENSORY_OVERLOAD",
+          "message": "Channel concern: Same concern as Quiz Noke \u2014 sudden loud sounds, rapid pacing, no educational structure."
+        }
+      ],
+      "positive_signals": []
     },
     {
       "title": "Guess The Cartoon TV Channel Logo Sound \ud83d\udd0a\ud83d\udcfa | Disney Channel, Nickelodeon, Cartoon Network",
@@ -513,7 +945,21 @@
       "timestamp": "2026-02-19T10:15:00-05:00",
       "duration_str": "7:44",
       "duration_seconds": 464,
-      "category": "Cartoons & Animation"
+      "category": "Cartoons & Animation",
+      "safety_score": 1,
+      "safety_rating": "flag",
+      "safety_badge": "\ud83d\udea9",
+      "flags": [
+        {
+          "type": "SENSORY_OVERLOAD",
+          "message": "Channel concern: Same concern as Quiz Noke \u2014 sudden loud sounds, rapid pacing, no educational structure."
+        },
+        {
+          "type": "SENSORY_OVERLOAD",
+          "message": "Title contains sensory overload pattern"
+        }
+      ],
+      "positive_signals": []
     },
     {
       "title": "Guess The Logo Sound \ud83c\udfac\ud83d\udd0a | KFC, 20th Century Fox, Tik Tok, Nickelodeon",
@@ -523,7 +969,21 @@
       "timestamp": "2026-02-19T10:18:00-05:00",
       "duration_str": "8:49",
       "duration_seconds": 529,
-      "category": "Comedy & Skits"
+      "category": "Comedy & Skits",
+      "safety_score": 1,
+      "safety_rating": "flag",
+      "safety_badge": "\ud83d\udea9",
+      "flags": [
+        {
+          "type": "SENSORY_OVERLOAD",
+          "message": "Channel concern: Logo sound quizzes \u2014 rapid audio bursts, unexpected sounds, no narrative structure. Potentially overstimulating for sensory-sensitive kids."
+        },
+        {
+          "type": "SENSORY_OVERLOAD",
+          "message": "Title contains sensory overload pattern"
+        }
+      ],
+      "positive_signals": []
     },
     {
       "title": "Guess The Early Learning App Logo Sound \ud83d\udd0a\ud83e\udde0 | Khan Academy Kids, Duolingo ABC, Sago Mini",
@@ -533,7 +993,24 @@
       "timestamp": "2026-02-19T10:22:00-05:00",
       "duration_str": "7:03",
       "duration_seconds": 423,
-      "category": "Gaming"
+      "category": "Gaming",
+      "safety_score": 1,
+      "safety_rating": "flag",
+      "safety_badge": "\ud83d\udea9",
+      "flags": [
+        {
+          "type": "SENSORY_OVERLOAD",
+          "message": "Channel concern: Logo sound quizzes \u2014 rapid audio bursts, unexpected sounds, no narrative structure. Potentially overstimulating for sensory-sensitive kids."
+        },
+        {
+          "type": "SENSORY_OVERLOAD",
+          "message": "Title contains sensory overload pattern"
+        }
+      ],
+      "positive_signals": [
+        "Contains 'learn' \u2014 positive developmental signal",
+        "Contains 'abc' \u2014 positive developmental signal"
+      ]
     },
     {
       "title": "Guess The YouTube Kids Animation Sound \ud83c\udfb5\ud83e\uddf8| Baby Bus, Peppa Pig, Like Nastya & More | Quiz 2026",
@@ -543,7 +1020,17 @@
       "timestamp": "2026-02-19T10:26:00-05:00",
       "duration_str": "7:03",
       "duration_seconds": 423,
-      "category": "Cartoons & Animation"
+      "category": "Cartoons & Animation",
+      "safety_score": 1,
+      "safety_rating": "flag",
+      "safety_badge": "\ud83d\udea9",
+      "flags": [
+        {
+          "type": "SENSORY_OVERLOAD",
+          "message": "Channel concern: Logo sound quizzes \u2014 rapid audio bursts, unexpected sounds, no narrative structure. Potentially overstimulating for sensory-sensitive kids."
+        }
+      ],
+      "positive_signals": []
     },
     {
       "title": "INTRO & TRAILERS OF TOCA BOCA | TOCA BOCA GAMES",
@@ -553,7 +1040,12 @@
       "timestamp": "2026-02-19T10:30:00-05:00",
       "duration_str": "13:59",
       "duration_seconds": 839,
-      "category": "Gaming"
+      "category": "Gaming",
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
     },
     {
       "title": "Can You Guess These Early Learning Logo Sounds? | Global Preschool Channels | Quiz 2026",
@@ -563,7 +1055,23 @@
       "timestamp": "2026-02-19T10:34:00-05:00",
       "duration_str": "8:00",
       "duration_seconds": 480,
-      "category": "Science & Education"
+      "category": "Science & Education",
+      "safety_score": 1,
+      "safety_rating": "flag",
+      "safety_badge": "\ud83d\udea9",
+      "flags": [
+        {
+          "type": "SENSORY_OVERLOAD",
+          "message": "Channel concern: Logo sound quizzes \u2014 rapid audio bursts, unexpected sounds, no narrative structure. Potentially overstimulating for sensory-sensitive kids."
+        },
+        {
+          "type": "SENSORY_OVERLOAD",
+          "message": "Title contains sensory overload pattern"
+        }
+      ],
+      "positive_signals": [
+        "Contains 'learn' \u2014 positive developmental signal"
+      ]
     },
     {
       "title": "Sesame Street: Elmo Loves ABCs,Alphabet Kitchen,Official App,Big Moving Adventure,Elmo,Cookie Calls",
@@ -573,7 +1081,15 @@
       "timestamp": "2026-02-19T10:38:00-05:00",
       "duration_str": "35:00",
       "duration_seconds": 2100,
-      "category": "Gaming"
+      "category": "Gaming",
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": [
+        "Contains 'abc' \u2014 positive developmental signal",
+        "Contains 'alphabet' \u2014 positive developmental signal"
+      ]
     },
     {
       "title": "Sesame Street Look and Find Elmo,Alphabet Kitchen,Elmo Loves 123s,Potty Time With Elmo,Elmo's World",
@@ -583,7 +1099,20 @@
       "timestamp": "2026-02-19T10:42:00-05:00",
       "duration_str": "50:00",
       "duration_seconds": 3000,
-      "category": "Cartoons & Animation"
+      "category": "Cartoons & Animation",
+      "safety_score": 2,
+      "safety_rating": "review",
+      "safety_badge": "\u26a0\ufe0f",
+      "flags": [
+        {
+          "type": "HIGH_PACE",
+          "message": "Channel concern: Rapid-cut app gameplay compilations. High visual pace, frequent transitions, minimal narration. Can be overstimulating."
+        }
+      ],
+      "positive_signals": [
+        "Contains 'potty' \u2014 positive developmental signal",
+        "Contains 'alphabet' \u2014 positive developmental signal"
+      ]
     },
     {
       "title": "Pinkfong Baby Shark Dessert Shop / Wash Hands / Makeover Game / ABC Phonics / Baby Shark World",
@@ -593,7 +1122,19 @@
       "timestamp": "2026-02-19T10:46:00-05:00",
       "duration_str": "28:00",
       "duration_seconds": 1680,
-      "category": "Gaming"
+      "category": "Gaming",
+      "safety_score": 2,
+      "safety_rating": "review",
+      "safety_badge": "\u26a0\ufe0f",
+      "flags": [
+        {
+          "type": "HIGH_PACE",
+          "message": "Channel concern: Similar to iGameplay1337 \u2014 fast-paced app reviews, minimal dialogue. Watch time without educational payoff."
+        }
+      ],
+      "positive_signals": [
+        "Contains 'abc' \u2014 positive developmental signal"
+      ]
     },
     {
       "title": "Baby Shark Pizza,Shapes & Colors,Hospital,Pinkfong Baby Shark,Tracing World,Car Town,Baby Shark Fly",
@@ -603,7 +1144,20 @@
       "timestamp": "2026-02-19T10:50:00-05:00",
       "duration_str": "32:00",
       "duration_seconds": 1920,
-      "category": "Science & Education"
+      "category": "Science & Education",
+      "safety_score": 2,
+      "safety_rating": "review",
+      "safety_badge": "\u26a0\ufe0f",
+      "flags": [
+        {
+          "type": "HIGH_PACE",
+          "message": "Channel concern: Similar to iGameplay1337 \u2014 fast-paced app reviews, minimal dialogue. Watch time without educational payoff."
+        }
+      ],
+      "positive_signals": [
+        "Contains 'shapes' \u2014 positive developmental signal",
+        "Contains 'colors' \u2014 positive developmental signal"
+      ]
     }
   ],
   "top_channels": [
@@ -708,5 +1262,485 @@
     "Fri": 0,
     "Sat": 0,
     "Sun": 0
+  },
+  "safety": {
+    "generated": "2026-02-19T21:05:16.254615",
+    "total_scored": 60,
+    "good_count": 8,
+    "neutral_count": 25,
+    "review_count": 18,
+    "flag_count": 9,
+    "concern_breakdown": {
+      "SENSORY_OVERLOAD": 18,
+      "RAPID_PACING": 8,
+      "HIGH_PACE": 7,
+      "LOW_VALUE": 4,
+      "VIOLENT_OR_SCARY": 1
+    },
+    "channel_summary": [
+      {
+        "channel": "Hoots & Tales",
+        "video_count": 6,
+        "avg_score": 3.5,
+        "badge": "\u2b1c"
+      },
+      {
+        "channel": "Shery Quiz",
+        "video_count": 4,
+        "avg_score": 1.0,
+        "badge": "\ud83d\udea9"
+      },
+      {
+        "channel": "Quiz Noke",
+        "video_count": 4,
+        "avg_score": 1.0,
+        "badge": "\ud83d\udea9"
+      },
+      {
+        "channel": "AndromalicPlay1337",
+        "video_count": 3,
+        "avg_score": 2.0,
+        "badge": "\ud83d\udea9"
+      },
+      {
+        "channel": "Peppa Pig's Pretend Play",
+        "video_count": 3,
+        "avg_score": 3.0,
+        "badge": "\u2b1c"
+      },
+      {
+        "channel": "\u2605WishingTikal\u2605",
+        "video_count": 3,
+        "avg_score": 3.0,
+        "badge": "\u2b1c"
+      },
+      {
+        "channel": "AndromalicPlay",
+        "video_count": 2,
+        "avg_score": 3.0,
+        "badge": "\u2b1c"
+      },
+      {
+        "channel": "iGameplay1337",
+        "video_count": 2,
+        "avg_score": 2.0,
+        "badge": "\ud83d\udea9"
+      },
+      {
+        "channel": "BabyBus - Kids Songs and Cartoons",
+        "video_count": 2,
+        "avg_score": 4.0,
+        "badge": "\u2705"
+      },
+      {
+        "channel": "Genki Park",
+        "video_count": 2,
+        "avg_score": 3.0,
+        "badge": "\u2b1c"
+      },
+      {
+        "channel": "Games and fun with Palmi & Mino",
+        "video_count": 2,
+        "avg_score": 3.0,
+        "badge": "\u2b1c"
+      },
+      {
+        "channel": "Great Quiz",
+        "video_count": 2,
+        "avg_score": 2.0,
+        "badge": "\ud83d\udea9"
+      },
+      {
+        "channel": "Bright Star Storytime",
+        "video_count": 2,
+        "avg_score": 5.0,
+        "badge": "\u2705"
+      },
+      {
+        "channel": "Blaze Kingdom",
+        "video_count": 2,
+        "avg_score": 2.0,
+        "badge": "\ud83d\udea9"
+      },
+      {
+        "channel": "Penguin Gaming",
+        "video_count": 1,
+        "avg_score": 3.0,
+        "badge": "\u2b1c"
+      },
+      {
+        "channel": "BrainSnax Books",
+        "video_count": 1,
+        "avg_score": 2.0,
+        "badge": "\ud83d\udea9"
+      },
+      {
+        "channel": "PlanIt Park",
+        "video_count": 1,
+        "avg_score": 3.0,
+        "badge": "\u2b1c"
+      },
+      {
+        "channel": "Warner Bros. Classics",
+        "video_count": 1,
+        "avg_score": 2.0,
+        "badge": "\ud83d\udea9"
+      },
+      {
+        "channel": "SmartKidz Apps",
+        "video_count": 1,
+        "avg_score": 3.0,
+        "badge": "\u2b1c"
+      },
+      {
+        "channel": "RSPlay",
+        "video_count": 1,
+        "avg_score": 3.0,
+        "badge": "\u2b1c"
+      }
+    ],
+    "flagged_videos": [
+      {
+        "title": "Sesame Street Friends Board Books Compilation | Ten Books",
+        "channel": "BrainSnax Books",
+        "badge": "\u26a0\ufe0f",
+        "flags": [
+          {
+            "type": "RAPID_PACING",
+            "message": "Title contains rapid pacing pattern"
+          }
+        ]
+      },
+      {
+        "title": "Sesame Street 16 Games: Alphabet Kitchen,Look & Find Elmo,Sesame Street Elmo Loves ABCs,Elmo's World",
+        "channel": "iGameplay1337",
+        "badge": "\u26a0\ufe0f",
+        "flags": [
+          {
+            "type": "HIGH_PACE",
+            "message": "Channel concern: Rapid-cut app gameplay compilations. High visual pace, frequent transitions, minimal narration. Can be overstimulating."
+          },
+          {
+            "type": "RAPID_PACING",
+            "message": "Title contains rapid pacing pattern"
+          }
+        ]
+      },
+      {
+        "title": "Pinkfong Baby Shark,Baby Shark: Phone,Pizza Game,Dentist Play,Jigsaw Puzzle Fun,Baby Shark: World",
+        "channel": "AndromalicPlay1337",
+        "badge": "\u26a0\ufe0f",
+        "flags": [
+          {
+            "type": "HIGH_PACE",
+            "message": "Channel concern: Similar to iGameplay1337 \u2014 fast-paced app reviews, minimal dialogue. Watch time without educational payoff."
+          }
+        ]
+      },
+      {
+        "title": "Tom and Jerry | Mega Compilation | Vol. 7 | Warner Classics",
+        "channel": "Warner Bros. Classics",
+        "badge": "\u26a0\ufe0f",
+        "flags": [
+          {
+            "type": "SENSORY_OVERLOAD",
+            "message": "Title contains sensory overload pattern"
+          },
+          {
+            "type": "VIOLENT_OR_SCARY",
+            "message": "Title contains violent or scary pattern"
+          },
+          {
+            "type": "RAPID_PACING",
+            "message": "Title contains rapid pacing pattern"
+          }
+        ]
+      },
+      {
+        "title": "Yes Yes! Box of Board Books \ud83c\udfa8 | Toddler Read-Aloud Compilation | Opposites, Behaviors & Fun",
+        "channel": "Hoots & Tales",
+        "badge": "\u26a0\ufe0f",
+        "flags": [
+          {
+            "type": "RAPID_PACING",
+            "message": "Title contains rapid pacing pattern"
+          }
+        ]
+      },
+      {
+        "title": "Feelings with Leslie Patricelli \ud83d\udc9b | Toddler Read-Aloud Compilation | Emotions & Empathy",
+        "channel": "Hoots & Tales",
+        "badge": "\u26a0\ufe0f",
+        "flags": [
+          {
+            "type": "RAPID_PACING",
+            "message": "Title contains rapid pacing pattern"
+          }
+        ]
+      },
+      {
+        "title": "The Powerpuff Girls Are Ready to Save the World | Mega Compilation | Cartoon Network",
+        "channel": "The Powerpuff Girls",
+        "badge": "\u26a0\ufe0f",
+        "flags": [
+          {
+            "type": "SENSORY_OVERLOAD",
+            "message": "Title contains sensory overload pattern"
+          },
+          {
+            "type": "RAPID_PACING",
+            "message": "Title contains rapid pacing pattern"
+          }
+        ]
+      },
+      {
+        "title": "Pinkfong Wonderstar Characters In REAL LIFE! | \ud83c\udfac Favorite Movies, Foods \ud83c\udf55 & More | Hogi, Jeni...",
+        "channel": "Great Quiz",
+        "badge": "\u26a0\ufe0f",
+        "flags": [
+          {
+            "type": "HIGH_PACE",
+            "message": "Channel concern: Character comparison quizzes \u2014 unpredictable format, rapid image switching."
+          }
+        ]
+      },
+      {
+        "title": "Peppa Pig World Adventures (Full Game)",
+        "channel": "Gameplay Only",
+        "badge": "\u26a0\ufe0f",
+        "flags": [
+          {
+            "type": "LOW_VALUE",
+            "message": "Channel concern: Silent gameplay \u2014 no verbal engagement, passive watching without narrative."
+          }
+        ]
+      },
+      {
+        "title": "Guess The Nursery & Kids Show Logo Sound \ud83d\udc76\ud83c\udfa7 | Peppa Pig, Cocomelon",
+        "channel": "Shery Quiz",
+        "badge": "\ud83d\udea9",
+        "flags": [
+          {
+            "type": "SENSORY_OVERLOAD",
+            "message": "Channel concern: Same concern as Quiz Noke \u2014 sudden loud sounds, rapid pacing, no educational structure."
+          },
+          {
+            "type": "SENSORY_OVERLOAD",
+            "message": "Title contains sensory overload pattern"
+          }
+        ]
+      },
+      {
+        "title": "Guess The Preschool Learning Character Logo Sound \ud83d\udd0a | Baby Shark, Blippi, Peppa Pig | Quiz 2026",
+        "channel": "Quiz Tone",
+        "badge": "\ud83d\udea9",
+        "flags": [
+          {
+            "type": "SENSORY_OVERLOAD",
+            "message": "Channel concern: Logo sound quizzes \u2014 unexpected audio triggers, no predictable structure. High sensory stimulation."
+          },
+          {
+            "type": "SENSORY_OVERLOAD",
+            "message": "Title contains sensory overload pattern"
+          }
+        ]
+      },
+      {
+        "title": "Guess The Nursery Rhyme Logo Sound \ud83d\udc76\ud83c\udfb5 | Baby Shark, Little Baby Bum",
+        "channel": "Shery Quiz",
+        "badge": "\ud83d\udea9",
+        "flags": [
+          {
+            "type": "SENSORY_OVERLOAD",
+            "message": "Channel concern: Same concern as Quiz Noke \u2014 sudden loud sounds, rapid pacing, no educational structure."
+          },
+          {
+            "type": "SENSORY_OVERLOAD",
+            "message": "Title contains sensory overload pattern"
+          }
+        ]
+      },
+      {
+        "title": "Ultimate Learning Mix, Shapes , Number , and Letters, ABC, Kids Songs, Super Simple Songs",
+        "channel": "Adventures with Sisters",
+        "badge": "\u26a0\ufe0f",
+        "flags": [
+          {
+            "type": "RAPID_PACING",
+            "message": "Title contains rapid pacing pattern"
+          }
+        ]
+      },
+      {
+        "title": "Little Baby Bum in REAL LIFE \ud83d\udc69\u2b50 + Guess The Voice Quiz ~ Mia, Max, Twinkle Twinkle Little Star...",
+        "channel": "Great Quiz",
+        "badge": "\u26a0\ufe0f",
+        "flags": [
+          {
+            "type": "HIGH_PACE",
+            "message": "Channel concern: Character comparison quizzes \u2014 unpredictable format, rapid image switching."
+          }
+        ]
+      },
+      {
+        "title": "4 Leslie Patricelli Books | Routines Compilation | Tooth, Hair, Tubby, Potty | Hoots and Tales",
+        "channel": "Hoots & Tales",
+        "badge": "\u26a0\ufe0f",
+        "flags": [
+          {
+            "type": "RAPID_PACING",
+            "message": "Title contains rapid pacing pattern"
+          }
+        ]
+      },
+      {
+        "title": "Baby Panda School Bus #1 - Gameplay Walkthrough",
+        "channel": "ROBIXX GAMING",
+        "badge": "\u26a0\ufe0f",
+        "flags": [
+          {
+            "type": "LOW_VALUE",
+            "message": "Channel concern: Gaming walkthrough channel \u2014 no narration, minimal language learning value."
+          }
+        ]
+      },
+      {
+        "title": "Pinkfong Wonderstar \u2728 Characters & Their Favorite Drinks, Snacks + More! | Pinkfong",
+        "channel": "Blaze Kingdom",
+        "badge": "\u26a0\ufe0f",
+        "flags": [
+          {
+            "type": "LOW_VALUE",
+            "message": "Channel concern: Character 'what they like' quizzes \u2014 low educational value, rapid visual content."
+          }
+        ]
+      },
+      {
+        "title": "\ud83d\udc3d Peppa Pig Characters And Their Favorite Snacks Drinks & More! | Evie Pig, Peppa Pig, Mummy Pig",
+        "channel": "Blaze Kingdom",
+        "badge": "\u26a0\ufe0f",
+        "flags": [
+          {
+            "type": "LOW_VALUE",
+            "message": "Channel concern: Character 'what they like' quizzes \u2014 low educational value, rapid visual content."
+          }
+        ]
+      },
+      {
+        "title": "Guess The YouTube Kids Animation Sound \ud83d\udd0a\ud83e\uddd2 | Cocomelon, Pinkfong, Little Baby Bum, Dave and Ava",
+        "channel": "Shery Quiz",
+        "badge": "\ud83d\udea9",
+        "flags": [
+          {
+            "type": "SENSORY_OVERLOAD",
+            "message": "Channel concern: Same concern as Quiz Noke \u2014 sudden loud sounds, rapid pacing, no educational structure."
+          }
+        ]
+      },
+      {
+        "title": "Guess The Cartoon TV Channel Logo Sound \ud83d\udd0a\ud83d\udcfa | Disney Channel, Nickelodeon, Cartoon Network",
+        "channel": "Shery Quiz",
+        "badge": "\ud83d\udea9",
+        "flags": [
+          {
+            "type": "SENSORY_OVERLOAD",
+            "message": "Channel concern: Same concern as Quiz Noke \u2014 sudden loud sounds, rapid pacing, no educational structure."
+          },
+          {
+            "type": "SENSORY_OVERLOAD",
+            "message": "Title contains sensory overload pattern"
+          }
+        ]
+      },
+      {
+        "title": "Guess The Logo Sound \ud83c\udfac\ud83d\udd0a | KFC, 20th Century Fox, Tik Tok, Nickelodeon",
+        "channel": "Quiz Noke",
+        "badge": "\ud83d\udea9",
+        "flags": [
+          {
+            "type": "SENSORY_OVERLOAD",
+            "message": "Channel concern: Logo sound quizzes \u2014 rapid audio bursts, unexpected sounds, no narrative structure. Potentially overstimulating for sensory-sensitive kids."
+          },
+          {
+            "type": "SENSORY_OVERLOAD",
+            "message": "Title contains sensory overload pattern"
+          }
+        ]
+      },
+      {
+        "title": "Guess The Early Learning App Logo Sound \ud83d\udd0a\ud83e\udde0 | Khan Academy Kids, Duolingo ABC, Sago Mini",
+        "channel": "Quiz Noke",
+        "badge": "\ud83d\udea9",
+        "flags": [
+          {
+            "type": "SENSORY_OVERLOAD",
+            "message": "Channel concern: Logo sound quizzes \u2014 rapid audio bursts, unexpected sounds, no narrative structure. Potentially overstimulating for sensory-sensitive kids."
+          },
+          {
+            "type": "SENSORY_OVERLOAD",
+            "message": "Title contains sensory overload pattern"
+          }
+        ]
+      },
+      {
+        "title": "Guess The YouTube Kids Animation Sound \ud83c\udfb5\ud83e\uddf8| Baby Bus, Peppa Pig, Like Nastya & More | Quiz 2026",
+        "channel": "Quiz Noke",
+        "badge": "\ud83d\udea9",
+        "flags": [
+          {
+            "type": "SENSORY_OVERLOAD",
+            "message": "Channel concern: Logo sound quizzes \u2014 rapid audio bursts, unexpected sounds, no narrative structure. Potentially overstimulating for sensory-sensitive kids."
+          }
+        ]
+      },
+      {
+        "title": "Can You Guess These Early Learning Logo Sounds? | Global Preschool Channels | Quiz 2026",
+        "channel": "Quiz Noke",
+        "badge": "\ud83d\udea9",
+        "flags": [
+          {
+            "type": "SENSORY_OVERLOAD",
+            "message": "Channel concern: Logo sound quizzes \u2014 rapid audio bursts, unexpected sounds, no narrative structure. Potentially overstimulating for sensory-sensitive kids."
+          },
+          {
+            "type": "SENSORY_OVERLOAD",
+            "message": "Title contains sensory overload pattern"
+          }
+        ]
+      },
+      {
+        "title": "Sesame Street Look and Find Elmo,Alphabet Kitchen,Elmo Loves 123s,Potty Time With Elmo,Elmo's World",
+        "channel": "iGameplay1337",
+        "badge": "\u26a0\ufe0f",
+        "flags": [
+          {
+            "type": "HIGH_PACE",
+            "message": "Channel concern: Rapid-cut app gameplay compilations. High visual pace, frequent transitions, minimal narration. Can be overstimulating."
+          }
+        ]
+      },
+      {
+        "title": "Pinkfong Baby Shark Dessert Shop / Wash Hands / Makeover Game / ABC Phonics / Baby Shark World",
+        "channel": "AndromalicPlay1337",
+        "badge": "\u26a0\ufe0f",
+        "flags": [
+          {
+            "type": "HIGH_PACE",
+            "message": "Channel concern: Similar to iGameplay1337 \u2014 fast-paced app reviews, minimal dialogue. Watch time without educational payoff."
+          }
+        ]
+      },
+      {
+        "title": "Baby Shark Pizza,Shapes & Colors,Hospital,Pinkfong Baby Shark,Tracing World,Car Town,Baby Shark Fly",
+        "channel": "AndromalicPlay1337",
+        "badge": "\u26a0\ufe0f",
+        "flags": [
+          {
+            "type": "HIGH_PACE",
+            "message": "Channel concern: Similar to iGameplay1337 \u2014 fast-paced app reviews, minimal dialogue. Watch time without educational payoff."
+          }
+        ]
+      }
+    ]
   }
 }
