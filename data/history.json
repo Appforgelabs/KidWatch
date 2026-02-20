@@ -1,0 +1,13 @@
+{
+  "generated": "2026-02-19T18:00:00",
+  "account": "",
+  "period_days": 7,
+  "total_videos": 0,
+  "total_watch_minutes": 0,
+  "videos": [],
+  "top_channels": [],
+  "top_categories": [],
+  "hourly_counts": {},
+  "daily_counts": {},
+  "note": "Pipeline not yet configured. Run scripts/kidwatch_pipeline.py to populate."
+}

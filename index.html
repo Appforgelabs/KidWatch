@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>KidWatch 📺 — YouTube Tracker</title>
+  <script src="https://cdn.plot.ly/plotly-2.27.0.min.js"></script>
+  <style>
+    :root {
+      --bg: #0d0d1a;
+      --card: #13131f;
+      --border: #1e1e35;
+      --accent1: #a78bfa;
+      --accent2: #60a5fa;
+      --accent3: #34d399;
+      --accent4: #f472b6;
+      --accent5: #fbbf24;
+      --text: #e2e8f0;
+      --muted: #64748b;
+      --good: #34d399;
+      --warn: #fbbf24;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+      min-height: 100vh;
+      padding: 0 0 40px 0;
+    }
+
+    /* Header */
+    .header {
+      background: linear-gradient(135deg, #1a0a2e 0%, #0f1a3d 100%);
+      border-bottom: 1px solid var(--border);
+      padding: 20px 32px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+    .header-left { display: flex; align-items: center; gap: 14px; }
+    .header-icon { font-size: 36px; }
+    .header-title { font-size: 22px; font-weight: 700; color: var(--accent1); letter-spacing: -0.3px; }
+    .header-sub { font-size: 13px; color: var(--muted); margin-top: 2px; }
+    .header-right { text-align: right; }
+    .last-updated { font-size: 12px; color: var(--muted); }
+    .live-dot { display: inline-block; width: 7px; height: 7px; border-radius: 50%; background: var(--good); margin-right: 5px; animation: pulse 2s infinite; }
+    @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:0.4} }
+
+    /* Layout */
+    .container { max-width: 1280px; margin: 0 auto; padding: 28px 24px; }
+
+    /* Stat cards */
+    .stats-row { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px; margin-bottom: 28px; }
+    .stat-card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 20px 22px;
+      position: relative;
+      overflow: hidden;
+    }
+    .stat-card::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0;
+      height: 3px;
+      background: var(--accent-color, var(--accent1));
+    }
+    .stat-label { font-size: 11px; text-transform: uppercase; letter-spacing: 0.8px; color: var(--muted); margin-bottom: 8px; }
+    .stat-value { font-size: 28px; font-weight: 700; color: var(--text); line-height: 1; }
+    .stat-sub { font-size: 12px; color: var(--muted); margin-top: 6px; }
+    .stat-emoji { font-size: 28px; float: right; opacity: 0.6; margin-top: -4px; }
+
+    /* Charts grid */
+    .charts-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-bottom: 28px; }
+    .chart-wide { grid-column: 1 / -1; }
+    @media (max-width: 768px) { .charts-grid { grid-template-columns: 1fr; } .chart-wide { grid-column: 1; } }
+
+    .chart-card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 20px;
+    }
+    .chart-title { font-size: 13px; font-weight: 600; color: var(--muted); text-transform: uppercase; letter-spacing: 0.7px; margin-bottom: 14px; display: flex; align-items: center; gap: 8px; }
+    .chart-title-icon { font-size: 16px; }
+
+    /* Recent videos table */
+    .video-list { display: flex; flex-direction: column; gap: 10px; }
+    .video-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 14px;
+      padding: 12px 16px;
+      background: rgba(255,255,255,0.03);
+      border-radius: 8px;
+      border: 1px solid var(--border);
+      transition: border-color 0.2s;
+    }
+    .video-item:hover { border-color: var(--accent1); }
+    .video-num { font-size: 11px; color: var(--muted); min-width: 22px; margin-top: 2px; }
+    .video-info { flex: 1; min-width: 0; }
+    .video-title { font-size: 14px; font-weight: 500; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; color: var(--text); }
+    .video-meta { font-size: 12px; color: var(--muted); margin-top: 3px; }
+    .video-category {
+      font-size: 11px;
+      padding: 2px 8px;
+      border-radius: 4px;
+      background: rgba(167,139,250,0.15);
+      color: var(--accent1);
+      white-space: nowrap;
+      flex-shrink: 0;
+    }
+    .video-time { font-size: 11px; color: var(--muted); white-space: nowrap; flex-shrink: 0; }
+
+    /* Empty state */
+    .empty-state { text-align: center; padding: 60px 20px; color: var(--muted); }
+    .empty-state-icon { font-size: 48px; margin-bottom: 16px; }
+    .empty-state h3 { font-size: 18px; color: var(--text); margin-bottom: 8px; }
+    .empty-state p { font-size: 14px; line-height: 1.6; }
+
+    /* Alert banner */
+    .setup-banner {
+      background: rgba(167,139,250,0.1);
+      border: 1px solid rgba(167,139,250,0.3);
+      border-radius: 10px;
+      padding: 16px 20px;
+      margin-bottom: 24px;
+      font-size: 13px;
+      color: var(--accent1);
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    /* Footer */
+    .footer { text-align: center; color: var(--muted); font-size: 12px; margin-top: 40px; }
+    .footer a { color: var(--accent1); text-decoration: none; }
+  </style>
+</head>
+<body>
+
+<div class="header">
+  <div class="header-left">
+    <div class="header-icon">📺</div>
+    <div>
+      <div class="header-title">KidWatch</div>
+      <div class="header-sub">YouTube Activity Tracker · Last 7 Days</div>
+    </div>
+  </div>
+  <div class="header-right">
+    <div class="last-updated"><span class="live-dot"></span>Updated daily · <span id="last-updated-time">loading...</span></div>
+  </div>
+</div>
+
+<div class="container">
+  <div id="setup-banner" class="setup-banner" style="display:none;">
+    ⚙️ <strong>Setup needed:</strong> Configure the YouTube account in the pipeline script to start collecting data.
+  </div>
+
+  <!-- Stats Row -->
+  <div class="stats-row">
+    <div class="stat-card" style="--accent-color: #a78bfa">
+      <div class="stat-emoji">🎬</div>
+      <div class="stat-label">Videos Watched</div>
+      <div class="stat-value" id="stat-videos">–</div>
+      <div class="stat-sub">last 7 days</div>
+    </div>
+    <div class="stat-card" style="--accent-color: #60a5fa">
+      <div class="stat-emoji">⏱️</div>
+      <div class="stat-label">Watch Time</div>
+      <div class="stat-value" id="stat-time">–</div>
+      <div class="stat-sub" id="stat-time-sub">minutes</div>
+    </div>
+    <div class="stat-card" style="--accent-color: #34d399">
+      <div class="stat-emoji">⭐</div>
+      <div class="stat-label">Top Channel</div>
+      <div class="stat-value" id="stat-channel" style="font-size:18px;padding-top:4px;">–</div>
+      <div class="stat-sub" id="stat-channel-sub">–</div>
+    </div>
+    <div class="stat-card" style="--accent-color: #f472b6">
+      <div class="stat-emoji">🏷️</div>
+      <div class="stat-label">Top Category</div>
+      <div class="stat-value" id="stat-category" style="font-size:18px;padding-top:4px;">–</div>
+      <div class="stat-sub" id="stat-category-sub">–</div>
+    </div>
+    <div class="stat-card" style="--accent-color: #fbbf24">
+      <div class="stat-emoji">🕐</div>
+      <div class="stat-label">Peak Viewing Hour</div>
+      <div class="stat-value" id="stat-peak-hour">–</div>
+      <div class="stat-sub">most active time</div>
+    </div>
+  </div>
+
+  <!-- Charts Row 1 -->
+  <div class="charts-grid">
+    <div class="chart-card chart-wide">
+      <div class="chart-title"><span class="chart-title-icon">📺</span> Top Channels (Last 7 Days)</div>
+      <div id="chart-channels" style="height:260px;"></div>
+    </div>
+    <div class="chart-card">
+      <div class="chart-title"><span class="chart-title-icon">🏷️</span> Content Categories</div>
+      <div id="chart-categories" style="height:280px;"></div>
+    </div>
+    <div class="chart-card">
+      <div class="chart-title"><span class="chart-title-icon">🕐</span> Watch Activity by Hour</div>
+      <div id="chart-hours" style="height:280px;"></div>
+    </div>
+    <div class="chart-card chart-wide">
+      <div class="chart-title"><span class="chart-title-icon">📅</span> Activity by Day of Week</div>
+      <div id="chart-days" style="height:220px;"></div>
+    </div>
+  </div>
+
+  <!-- Recent Videos -->
+  <div class="chart-card">
+    <div class="chart-title"><span class="chart-title-icon">🕐</span> Recently Watched</div>
+    <div id="video-list-container" class="video-list"></div>
+  </div>
+
+  <div class="footer">
+    KidWatch · Powered by <a href="https://appforgelabs.github.io/PulseForge" target="_blank">Luka / OpenClaw</a> · Updates daily at 8 PM ET
+  </div>
+</div>
+
+<script>
+const PLOTLY_LAYOUT = {
+  paper_bgcolor: 'transparent',
+  plot_bgcolor: 'transparent',
+  font: { color: '#94a3b8', family: 'Segoe UI, system-ui, sans-serif', size: 11 },
+  margin: { t: 10, r: 10, b: 40, l: 40 },
+  xaxis: { gridcolor: '#1e1e35', zerolinecolor: '#1e1e35', tickfont: { color: '#64748b', size: 10 } },
+  yaxis: { gridcolor: '#1e1e35', zerolinecolor: '#1e1e35', tickfont: { color: '#64748b', size: 10 } },
+  showlegend: false,
+};
+const PLOTLY_CONFIG = { displayModeBar: false, responsive: true };
+
+const CATEGORY_COLORS = {
+  'Gaming': '#a78bfa',
+  'Cartoons & Animation': '#f472b6',
+  'Music': '#60a5fa',
+  'Science & Education': '#34d399',
+  'Sports': '#fbbf24',
+  'Comedy & Skits': '#fb923c',
+  'Unboxing & Toys': '#e879f9',
+  'Vlogs & DIY': '#38bdf8',
+  'Animals & Nature': '#4ade80',
+  'Other': '#64748b',
+};
+
+function fmtHour(h) {
+  const ampm = h >= 12 ? 'PM' : 'AM';
+  const h12 = h === 0 ? 12 : h > 12 ? h - 12 : h;
+  return `${h12} ${ampm}`;
+}
+
+function timeAgo(isoStr) {
+  if (!isoStr) return '';
+  const diff = (Date.now() - new Date(isoStr)) / 1000;
+  if (diff < 3600) return `${Math.round(diff/60)}m ago`;
+  if (diff < 86400) return `${Math.round(diff/3600)}h ago`;
+  return `${Math.round(diff/86400)}d ago`;
+}
+
+async function loadData() {
+  const res = await fetch('data/history.json?t=' + Date.now());
+  return await res.json();
+}
+
+function renderStats(data) {
+  document.getElementById('last-updated-time').textContent =
+    new Date(data.generated).toLocaleString('en-US', { month: 'short', day: 'numeric', hour: '2-digit', minute: '2-digit' });
+
+  document.getElementById('stat-videos').textContent = data.total_videos || '0';
+
+  const mins = data.total_watch_minutes || 0;
+  if (mins >= 60) {
+    document.getElementById('stat-time').textContent = (mins / 60).toFixed(1);
+    document.getElementById('stat-time-sub').textContent = 'hours';
+  } else {
+    document.getElementById('stat-time').textContent = mins;
+    document.getElementById('stat-time-sub').textContent = 'minutes';
+  }
+
+  if (data.top_channels && data.top_channels[0]) {
+    document.getElementById('stat-channel').textContent = data.top_channels[0].channel;
+    document.getElementById('stat-channel-sub').textContent = `${data.top_channels[0].count} videos`;
+  }
+
+  if (data.top_categories && data.top_categories[0]) {
+    document.getElementById('stat-category').textContent = data.top_categories[0].category;
+    document.getElementById('stat-category-sub').textContent = `${data.top_categories[0].count} videos`;
+  }
+
+  // Peak hour
+  if (data.hourly_counts) {
+    const hours = Object.entries(data.hourly_counts);
+    const peak = hours.reduce((a, b) => (b[1] > a[1] ? b : a), ['0', 0]);
+    if (peak[1] > 0) {
+      document.getElementById('stat-peak-hour').textContent = fmtHour(parseInt(peak[0]));
+    }
+  }
+
+  if (data.total_videos === 0) {
+    document.getElementById('setup-banner').style.display = 'flex';
+  }
+}
+
+function renderChannels(data) {
+  if (!data.top_channels || !data.top_channels.length) {
+    document.getElementById('chart-channels').innerHTML = '<div class="empty-state" style="padding:40px"><div class="empty-state-icon">📡</div><p>No data yet</p></div>';
+    return;
+  }
+  const channels = data.top_channels.slice(0, 12);
+  Plotly.newPlot('chart-channels', [{
+    type: 'bar',
+    x: channels.map(c => c.channel),
+    y: channels.map(c => c.count),
+    marker: {
+      color: channels.map((_, i) => ['#a78bfa','#60a5fa','#34d399','#f472b6','#fbbf24','#fb923c','#e879f9','#38bdf8','#4ade80','#facc15','#c084fc','#818cf8'][i % 12]),
+      opacity: 0.85,
+      line: { width: 0 }
+    },
+    text: channels.map(c => c.count),
+    textposition: 'outside',
+    textfont: { size: 10, color: '#94a3b8' },
+  }], {
+    ...PLOTLY_LAYOUT,
+    margin: { t: 10, r: 10, b: 80, l: 30 },
+    xaxis: { ...PLOTLY_LAYOUT.xaxis, tickangle: -30 },
+  }, PLOTLY_CONFIG);
+}
+
+function renderCategories(data) {
+  if (!data.top_categories || !data.top_categories.length) {
+    document.getElementById('chart-categories').innerHTML = '<div class="empty-state" style="padding:40px"><p>No data yet</p></div>';
+    return;
+  }
+  const cats = data.top_categories;
+  Plotly.newPlot('chart-categories', [{
+    type: 'pie',
+    labels: cats.map(c => c.category),
+    values: cats.map(c => c.count),
+    marker: { colors: cats.map(c => CATEGORY_COLORS[c.category] || '#64748b') },
+    hole: 0.5,
+    textinfo: 'label+percent',
+    textfont: { size: 10, color: '#e2e8f0' },
+    hovertemplate: '<b>%{label}</b><br>%{value} videos (%{percent})<extra></extra>',
+  }], {
+    ...PLOTLY_LAYOUT,
+    showlegend: true,
+    legend: { font: { color: '#94a3b8', size: 10 }, bgcolor: 'transparent' },
+    margin: { t: 10, r: 10, b: 10, l: 10 },
+  }, PLOTLY_CONFIG);
+}
+
+function renderHours(data) {
+  if (!data.hourly_counts) { return; }
+  const hours = Array.from({length: 24}, (_, i) => i);
+  const counts = hours.map(h => data.hourly_counts[String(h)] || 0);
+  Plotly.newPlot('chart-hours', [{
+    type: 'bar',
+    x: hours.map(fmtHour),
+    y: counts,
+    marker: {
+      color: counts.map(v => v === Math.max(...counts) ? '#a78bfa' : 'rgba(167,139,250,0.35)'),
+      line: { width: 0 }
+    },
+  }], {
+    ...PLOTLY_LAYOUT,
+    margin: { t: 10, r: 10, b: 60, l: 30 },
+    xaxis: { ...PLOTLY_LAYOUT.xaxis, tickangle: -45, tickfont: { size: 9, color: '#64748b' } },
+  }, PLOTLY_CONFIG);
+}
+
+function renderDays(data) {
+  if (!data.daily_counts) { return; }
+  const days = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'];
+  const counts = days.map(d => data.daily_counts[d] || 0);
+  Plotly.newPlot('chart-days', [{
+    type: 'bar',
+    x: days,
+    y: counts,
+    marker: {
+      color: counts.map(v => v === Math.max(...counts) ? '#60a5fa' : 'rgba(96,165,250,0.35)'),
+      line: { width: 0 }
+    },
+    text: counts.map(String),
+    textposition: 'outside',
+    textfont: { size: 10, color: '#94a3b8' },
+  }], {
+    ...PLOTLY_LAYOUT,
+    margin: { t: 10, r: 10, b: 40, l: 30 },
+  }, PLOTLY_CONFIG);
+}
+
+function renderVideos(data) {
+  const container = document.getElementById('video-list-container');
+  const videos = data.videos || [];
+
+  if (!videos.length) {
+    container.innerHTML = `
+      <div class="empty-state">
+        <div class="empty-state-icon">🎬</div>
+        <h3>No watch history yet</h3>
+        <p>Configure the YouTube account in the pipeline script<br>to start tracking activity.</p>
+      </div>`;
+    return;
+  }
+
+  container.innerHTML = videos.slice(0, 25).map((v, i) => `
+    <div class="video-item">
+      <div class="video-num">${i + 1}</div>
+      <div class="video-info">
+        <div class="video-title">${v.title || 'Unknown Title'}</div>
+        <div class="video-meta">📺 ${v.channel || 'Unknown Channel'}${v.duration_seconds ? ` · ${Math.round(v.duration_seconds/60)}m` : ''}</div>
+      </div>
+      <div class="video-category">${v.category || 'Other'}</div>
+      <div class="video-time">${timeAgo(v.watched_at)}</div>
+    </div>
+  `).join('');
+}
+
+async function init() {
+  try {
+    const data = await loadData();
+    renderStats(data);
+    renderChannels(data);
+    renderCategories(data);
+    renderHours(data);
+    renderDays(data);
+    renderVideos(data);
+  } catch (e) {
+    console.error('Failed to load data:', e);
+    document.getElementById('setup-banner').style.display = 'flex';
+    document.getElementById('setup-banner').textContent = '⚠️ Failed to load data. Pipeline may not be configured yet.';
+  }
+}
+
+init();
+</script>
+</body>
+</html>
