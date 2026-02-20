@@ -1,13 +1,592 @@
 {
-  "generated": "2026-02-19T18:00:00",
-  "account": "",
+  "generated": "2026-02-19T18:30:00",
+  "account": "jigar.us.af@gmail.com",
   "period_days": 7,
-  "total_videos": 0,
-  "total_watch_minutes": 0,
-  "videos": [],
-  "top_channels": [],
-  "top_categories": [],
-  "hourly_counts": {},
-  "daily_counts": {},
-  "note": "Pipeline not yet configured. Run scripts/kidwatch_pipeline.py to populate."
+  "note": "Watch history paused on account \u2014 snapshot as of 2026-02-19",
+  "total_videos": 161,
+  "total_watch_minutes": 4749,
+  "videos": [
+    {
+      "title": "My Friend Peppa Pig - Become Peppa Pig's new friend - Full Game Day 1",
+      "channel": "Penguin Gaming",
+      "duration_seconds": 2785,
+      "duration_str": "46:25",
+      "category": "\ud83d\udc37 Peppa Pig",
+      "watched_at": "2026-02-19T10:00:00"
+    },
+    {
+      "title": "Sesame Street Friends Board Books Compilation | Ten Books",
+      "channel": "BrainSnax Books",
+      "duration_seconds": 1552,
+      "duration_str": "25:52",
+      "category": "\ud83d\udcda Read-Alouds & Books",
+      "watched_at": "2026-02-19T10:00:00"
+    },
+    {
+      "title": "123 Sesame STreet Mecha Builders,Alphabet Kitchen,Elmo Loves ABCs",
+      "channel": "AndromalicPlay",
+      "duration_seconds": 1726,
+      "duration_str": "28:46",
+      "category": "\ud83c\udf93 Learning & Education",
+      "watched_at": "2026-02-19T10:00:00"
+    },
+    {
+      "title": "Sesame Street 16 Games: Alphabet Kitchen,Look & Find Elmo,Sesame Street Elmo Loves ABCs",
+      "channel": "iGameplay1337",
+      "duration_seconds": 3965,
+      "duration_str": "1:06:05",
+      "category": "\ud83c\udfae Gaming & Apps",
+      "watched_at": "2026-02-19T10:00:00"
+    },
+    {
+      "title": "Pinkfong Baby Shark,Baby Shark: Phone,Pizza Game,Dentist Play",
+      "channel": "AndromalicPlay1337",
+      "duration_seconds": 1874,
+      "duration_str": "31:14",
+      "category": "\ud83c\udfae Gaming & Apps",
+      "watched_at": "2026-02-19T10:00:00"
+    },
+    {
+      "title": "Boo! Learning About Halloween | Read Aloud for Toddlers | Hoots & Tales",
+      "channel": "Hoots & Tales",
+      "duration_seconds": 191,
+      "duration_str": "3:11",
+      "category": "\ud83d\udcda Read-Alouds & Books",
+      "watched_at": "2026-02-19T10:00:00"
+    },
+    {
+      "title": "Baby Supermarket Shopping | Pretend Play | Kids Cartoon | BabyBus",
+      "channel": "BabyBus - Kids Songs and Cartoons",
+      "duration_seconds": 387,
+      "duration_str": "6:27",
+      "category": "\ud83d\udc3c BabyBus & Baby Panda",
+      "watched_at": "2026-02-19T10:00:00"
+    },
+    {
+      "title": "PEPPA PIG Indoor Play Area in Peppa Pig World | George's Spaceship Playzone",
+      "channel": "PlanIt Park",
+      "duration_seconds": 388,
+      "duration_str": "6:28",
+      "category": "\ud83d\udc37 Peppa Pig",
+      "watched_at": "2026-02-19T10:00:00"
+    },
+    {
+      "title": "Tom and Jerry | Mega Compilation | Vol. 7 | Warner Classics",
+      "channel": "Warner Bros. Classics",
+      "duration_seconds": 2937,
+      "duration_str": "48:57",
+      "category": "\ud83e\udd95 Other Cartoons",
+      "watched_at": "2026-02-19T10:00:00"
+    },
+    {
+      "title": "Yes Yes! Box of Board Books | Toddler Read-Aloud Compilation",
+      "channel": "Hoots & Tales",
+      "duration_seconds": 533,
+      "duration_str": "8:53",
+      "category": "\ud83d\udcda Read-Alouds & Books",
+      "watched_at": "2026-02-19T10:00:00"
+    },
+    {
+      "title": "Boo Boo Song | Healthy Meal | Sick Song | Healthy Habits | Toddlers | Nursery Rhymes",
+      "channel": "Genki Park",
+      "duration_seconds": 441,
+      "duration_str": "7:21",
+      "category": "\ud83c\udf93 Learning & Education",
+      "watched_at": "2026-02-19T10:00:00"
+    },
+    {
+      "title": "Wash your hands - Brush your teeth - Boo Boo Song - Healthy Habits - Nursery Rhymes",
+      "channel": "Genki Park",
+      "duration_seconds": 382,
+      "duration_str": "6:22",
+      "category": "\ud83c\udf93 Learning & Education",
+      "watched_at": "2026-02-19T10:00:00"
+    },
+    {
+      "title": "Feelings with Leslie Patricelli | Toddler Read-Aloud Compilation | Emotions & Empathy",
+      "channel": "Hoots & Tales",
+      "duration_seconds": 677,
+      "duration_str": "11:17",
+      "category": "\ud83d\udcda Read-Alouds & Books",
+      "watched_at": "2026-02-19T10:00:00"
+    },
+    {
+      "title": "10 Cocomelon Books | Animated Read Aloud | JJ's Box of Books, Pocket Library",
+      "channel": "Hoots & Tales",
+      "duration_seconds": 1808,
+      "duration_str": "30:08",
+      "category": "\ud83d\udcda Read-Alouds & Books",
+      "watched_at": "2026-02-19T10:00:00"
+    },
+    {
+      "title": "MICKEY MOUSE CLUBHOUSE: Mickey's Wildlife Count Along By Disney",
+      "channel": "SmartKidz Apps",
+      "duration_seconds": 1223,
+      "duration_str": "20:23",
+      "category": "\ud83c\udfae Gaming & Apps",
+      "watched_at": "2026-02-19T10:00:00"
+    },
+    {
+      "title": "Counting is fun with Disney Buddies 123s",
+      "channel": "RSPlay",
+      "duration_seconds": 1302,
+      "duration_str": "21:42",
+      "category": "\ud83c\udf93 Learning & Education",
+      "watched_at": "2026-02-19T10:00:00"
+    },
+    {
+      "title": "MY FRIEND PEPPA PIG - COMPLETE EDITION - EXTRA CONTENTS - NO COMMENTS - ENGLISH",
+      "channel": "Games and fun with Palmi & Mino",
+      "duration_seconds": 7383,
+      "duration_str": "2:03:03",
+      "category": "\ud83d\udc37 Peppa Pig",
+      "watched_at": "2026-02-19T10:00:00"
+    },
+    {
+      "title": "4 Big Box of Books - CoComelon, Peppa, Bluey & More | Family & Friends Read Aloud",
+      "channel": "Hoots & Tales",
+      "duration_seconds": 1451,
+      "duration_str": "24:11",
+      "category": "\ud83d\udc37 Peppa Pig",
+      "watched_at": "2026-02-19T10:00:00"
+    },
+    {
+      "title": "Bluey Little Library - Read Aloud Books For Children and Toddler",
+      "channel": "Children's TV",
+      "duration_seconds": 185,
+      "duration_str": "3:05",
+      "category": "\ud83d\udcda Read-Alouds & Books",
+      "watched_at": "2026-02-19T10:00:00"
+    },
+    {
+      "title": "The Powerpuff Girls Are Ready to Save the World | Mega Compilation | Cartoon Network",
+      "channel": "The Powerpuff Girls",
+      "duration_seconds": 10183,
+      "duration_str": "2:49:43",
+      "category": "\ud83e\udd95 Other Cartoons",
+      "watched_at": "2026-02-19T10:00:00"
+    },
+    {
+      "title": "22 min 5 Books of David's adventures - Animated Read Aloud Books",
+      "channel": "Reading is",
+      "duration_seconds": 1375,
+      "duration_str": "22:55",
+      "category": "\ud83d\udcda Read-Alouds & Books",
+      "watched_at": "2026-02-19T10:00:00"
+    },
+    {
+      "title": "Pinkfong Wonderstar Characters In REAL LIFE! Favorite Movies, Foods & More",
+      "channel": "Great Quiz",
+      "duration_seconds": 967,
+      "duration_str": "16:07",
+      "category": "\ud83e\udd88 Baby Shark & Pinkfong",
+      "watched_at": "2026-02-19T10:00:00"
+    },
+    {
+      "title": "Peppa Pig becomes the Train Driver! | Story for Kids | Kids Cartoons",
+      "channel": "Peppa Pig's Pretend Play",
+      "duration_seconds": 1790,
+      "duration_str": "29:50",
+      "category": "\ud83d\udc37 Peppa Pig",
+      "watched_at": "2026-02-19T10:00:00"
+    },
+    {
+      "title": "Peppa Pig Official Channel | Making Birthday Cake with Peppa Pig",
+      "channel": "Peppa's Best Bites",
+      "duration_seconds": 605,
+      "duration_str": "10:05",
+      "category": "\ud83d\udc37 Peppa Pig",
+      "watched_at": "2026-02-19T10:00:00"
+    },
+    {
+      "title": "Leslie Patricelli Opposites Collection 13 Min | Animated Storytime for Toddlers",
+      "channel": "Bright Star Storytime",
+      "duration_seconds": 785,
+      "duration_str": "13:05",
+      "category": "\ud83d\udcda Read-Alouds & Books",
+      "watched_at": "2026-02-19T10:00:00"
+    },
+    {
+      "title": "my friend Peppa pig (PC) Longplay",
+      "channel": "Game Vault",
+      "duration_seconds": 7998,
+      "duration_str": "2:13:18",
+      "category": "\ud83d\udc37 Peppa Pig",
+      "watched_at": "2026-02-19T10:00:00"
+    },
+    {
+      "title": "Peppa Pig: World Adventures Episode 8 (PS4) Day 7: Paris",
+      "channel": "WishingTikal",
+      "duration_seconds": 1639,
+      "duration_str": "27:19",
+      "category": "\ud83d\udc37 Peppa Pig",
+      "watched_at": "2026-02-19T10:00:00"
+    },
+    {
+      "title": "Peppa Pig World Adventures (Full Game)",
+      "channel": "Gameplay Only",
+      "duration_seconds": 7756,
+      "duration_str": "2:09:16",
+      "category": "\ud83d\udc37 Peppa Pig",
+      "watched_at": "2026-02-19T10:00:00"
+    },
+    {
+      "title": "Adivina 50 CANCIONES INFANTILES! Zootopia 2, Frozen, Las Guerreras K-pop",
+      "channel": "Chiko Quiz - Trivia",
+      "duration_seconds": 1401,
+      "duration_str": "23:21",
+      "category": "\ud83d\udd0a Logo & Sound Quizzes",
+      "watched_at": "2026-02-19T10:00:00"
+    },
+    {
+      "title": "Guess The Nursery & Kids Show Logo Sound | Peppa Pig, Cocomelon",
+      "channel": "Shery Quiz",
+      "duration_seconds": 462,
+      "duration_str": "7:42",
+      "category": "\ud83d\udc37 Peppa Pig",
+      "watched_at": "2026-02-19T10:00:00"
+    },
+    {
+      "title": "Guess The Preschool Learning Character Logo Sound | Baby Shark, Blippi, Peppa Pig | Quiz 2026",
+      "channel": "Quiz Tone",
+      "duration_seconds": 489,
+      "duration_str": "8:09",
+      "category": "\ud83d\udc37 Peppa Pig",
+      "watched_at": "2026-02-19T10:00:00"
+    },
+    {
+      "title": "Guess The Nursery Rhyme Logo Sound | Baby Shark, Little Baby Bum",
+      "channel": "Shery Quiz",
+      "duration_seconds": 462,
+      "duration_str": "7:42",
+      "category": "\ud83e\udd88 Baby Shark & Pinkfong",
+      "watched_at": "2026-02-19T10:00:00"
+    },
+    {
+      "title": "Ultimate Learning Mix, Shapes, Number, and Letters, ABC, Kids Songs, Super Simple Songs",
+      "channel": "Adventures with Sisters",
+      "duration_seconds": 969,
+      "duration_str": "16:09",
+      "category": "\ud83c\udf93 Learning & Education",
+      "watched_at": "2026-02-19T10:00:00"
+    },
+    {
+      "title": "Little Baby Bum in REAL LIFE + Guess The Voice Quiz",
+      "channel": "Great Quiz",
+      "duration_seconds": 926,
+      "duration_str": "15:26",
+      "category": "\ud83e\udd95 Other Cartoons",
+      "watched_at": "2026-02-19T10:00:00"
+    },
+    {
+      "title": "30 Minutes Leslie Patricelli Storytime Collection | Read Aloud",
+      "channel": "Bright Star Storytime",
+      "duration_seconds": 1852,
+      "duration_str": "30:52",
+      "category": "\ud83d\udcda Read-Alouds & Books",
+      "watched_at": "2026-02-19T10:00:00"
+    },
+    {
+      "title": "4 Leslie Patricelli Books | Routines Compilation | Tooth, Hair, Tubby, Potty",
+      "channel": "Hoots & Tales",
+      "duration_seconds": 480,
+      "duration_str": "8:00",
+      "category": "\ud83d\udcda Read-Alouds & Books",
+      "watched_at": "2026-02-19T10:00:00"
+    },
+    {
+      "title": "Peppa Pig Teaches George About Potty Training",
+      "channel": "George Pig - Official Channel",
+      "duration_seconds": 1883,
+      "duration_str": "31:23",
+      "category": "\ud83d\udc37 Peppa Pig",
+      "watched_at": "2026-02-19T10:00:00"
+    },
+    {
+      "title": "Baby Panda's Candy Shop was Stolen | Baby Panda Sheriff | BabyBus",
+      "channel": "BabyBus - Kids Songs and Cartoons",
+      "duration_seconds": 2048,
+      "duration_str": "34:08",
+      "category": "\ud83d\udc3c BabyBus & Baby Panda",
+      "watched_at": "2026-02-19T10:00:00"
+    },
+    {
+      "title": "Baby Panda School Bus #1 - Gameplay Walkthrough",
+      "channel": "ROBIXX GAMING",
+      "duration_seconds": 1328,
+      "duration_str": "22:08",
+      "category": "\ud83c\udfae Gaming & Apps",
+      "watched_at": "2026-02-19T10:00:00"
+    },
+    {
+      "title": "My Friend Peppa Pig FULL GAME Longplay All Episodes (PS4)",
+      "channel": "WishingTikal",
+      "duration_seconds": 6637,
+      "duration_str": "1:50:37",
+      "category": "\ud83d\udc37 Peppa Pig",
+      "watched_at": "2026-02-19T10:00:00"
+    },
+    {
+      "title": "Peppa Pig World Adventures | Full Gameplay | Walkthrough | 100% | No Commentary",
+      "channel": "Games and fun with Palmi & Mino",
+      "duration_seconds": 12531,
+      "duration_str": "3:28:51",
+      "category": "\ud83d\udc37 Peppa Pig",
+      "watched_at": "2026-02-19T10:00:00"
+    },
+    {
+      "title": "Peppa Pig ABC Dance Song",
+      "channel": "FunToyLand - Toys & Learning",
+      "duration_seconds": 191,
+      "duration_str": "3:11",
+      "category": "\ud83d\udc37 Peppa Pig",
+      "watched_at": "2026-02-19T10:00:00"
+    },
+    {
+      "title": "Peppa Pig | Learn the Alphabet with Peppa Pig! | Learn With Peppa Pig",
+      "channel": "Peppa Pig's Pretend Play",
+      "duration_seconds": 333,
+      "duration_str": "5:33",
+      "category": "\ud83d\udc37 Peppa Pig",
+      "watched_at": "2026-02-19T10:00:00"
+    },
+    {
+      "title": "Peppa Pig: World Adventures Episode 7 (PS4) Day 6: Italy",
+      "channel": "WishingTikal",
+      "duration_seconds": 1025,
+      "duration_str": "17:05",
+      "category": "\ud83d\udc37 Peppa Pig",
+      "watched_at": "2026-02-19T10:00:00"
+    },
+    {
+      "title": "Peppa Pig - Let's Draw Peppa Pig - Learning with Peppa Pig",
+      "channel": "Peppa Pig's Pretend Play",
+      "duration_seconds": 1883,
+      "duration_str": "31:23",
+      "category": "\ud83d\udc37 Peppa Pig",
+      "watched_at": "2026-02-19T10:00:00"
+    },
+    {
+      "title": "Play Marble Run with Peppa Pig",
+      "channel": "Peppa Pig - Official Channel",
+      "duration_seconds": 650,
+      "duration_str": "10:50",
+      "category": "\ud83d\udc37 Peppa Pig",
+      "watched_at": "2026-02-19T10:00:00"
+    },
+    {
+      "title": "Pinkfong Wonderstar Characters & Their Favorite Drinks, Snacks + More!",
+      "channel": "Blaze Kingdom",
+      "duration_seconds": 935,
+      "duration_str": "15:35",
+      "category": "\ud83e\udd88 Baby Shark & Pinkfong",
+      "watched_at": "2026-02-19T10:00:00"
+    },
+    {
+      "title": "Peppa Pig Movie Characters & Their Favorite Drinks, Snacks, Movies & More!",
+      "channel": "Blaze Universe",
+      "duration_seconds": 1086,
+      "duration_str": "18:06",
+      "category": "\ud83d\udc37 Peppa Pig",
+      "watched_at": "2026-02-19T10:00:00"
+    },
+    {
+      "title": "Peppa Pig Characters And Their Favorite Snacks Drinks & More!",
+      "channel": "Blaze Kingdom",
+      "duration_seconds": 1083,
+      "duration_str": "18:03",
+      "category": "\ud83d\udc37 Peppa Pig",
+      "watched_at": "2026-02-19T10:00:00"
+    },
+    {
+      "title": "Guess The YouTube Kids Animation Sound | Cocomelon, Pinkfong, Little Baby Bum",
+      "channel": "Shery Quiz",
+      "duration_seconds": 924,
+      "duration_str": "15:24",
+      "category": "\ud83e\udd88 Baby Shark & Pinkfong",
+      "watched_at": "2026-02-19T10:00:00"
+    },
+    {
+      "title": "Guess The Cartoon TV Channel Logo Sound | Disney Channel, Nickelodeon, Cartoon Network",
+      "channel": "Shery Quiz",
+      "duration_seconds": 464,
+      "duration_str": "7:44",
+      "category": "\ud83e\udd95 Other Cartoons",
+      "watched_at": "2026-02-19T10:00:00"
+    },
+    {
+      "title": "INTRO & TRAILERS OF TOCA BOCA | TOCA BOCA GAMES",
+      "channel": "StoryBoca",
+      "duration_seconds": 839,
+      "duration_str": "13:59",
+      "category": "\ud83c\udfae Gaming & Apps",
+      "watched_at": "2026-02-19T10:00:00"
+    },
+    {
+      "title": "Can You Guess These Early Learning Logo Sounds? | Global Preschool Channels",
+      "channel": "Quiz Tone",
+      "duration_seconds": 523,
+      "duration_str": "8:43",
+      "category": "\ud83c\udf93 Learning & Education",
+      "watched_at": "2026-02-19T10:00:00"
+    },
+    {
+      "title": "Sesame Street: Elmo Loves ABCs, Alphabet Kitchen, Official App",
+      "channel": "AndromalicPlay1337",
+      "duration_seconds": 1747,
+      "duration_str": "29:07",
+      "category": "\ud83c\udfae Gaming & Apps",
+      "watched_at": "2026-02-19T10:00:00"
+    },
+    {
+      "title": "Sesame Street Look and Find Elmo, Alphabet Kitchen, Elmo Loves 123s",
+      "channel": "iGameplay1337",
+      "duration_seconds": 2631,
+      "duration_str": "43:51",
+      "category": "\ud83c\udfae Gaming & Apps",
+      "watched_at": "2026-02-19T10:00:00"
+    },
+    {
+      "title": "Pinkfong Baby Shark Dessert Shop / Wash Hands / Makeover Game / ABC Phonics",
+      "channel": "iGameplay1337",
+      "duration_seconds": 2305,
+      "duration_str": "38:25",
+      "category": "\ud83c\udfae Gaming & Apps",
+      "watched_at": "2026-02-19T10:00:00"
+    },
+    {
+      "title": "Baby Shark Pizza, Shapes & Colors, Hospital, Pinkfong Baby Shark, Tracing World",
+      "channel": "iGameplay1337",
+      "duration_seconds": 2250,
+      "duration_str": "37:30",
+      "category": "\ud83c\udfae Gaming & Apps",
+      "watched_at": "2026-02-19T10:00:00"
+    },
+    {
+      "title": "Pinkfong Baby Shark, Baby Shark World, Baby Shark Hospital, Baby Shark Dentist",
+      "channel": "iGameplay1337",
+      "duration_seconds": 2252,
+      "duration_str": "37:32",
+      "category": "\ud83c\udfae Gaming & Apps",
+      "watched_at": "2026-02-19T10:00:00"
+    },
+    {
+      "title": "Dr. Panda World, Dr Panda Town: Vacation, Dr Panda Firefighters",
+      "channel": "AndromalicPlay1337",
+      "duration_seconds": 1753,
+      "duration_str": "29:13",
+      "category": "\ud83c\udfae Gaming & Apps",
+      "watched_at": "2026-02-19T10:00:00"
+    },
+    {
+      "title": "38 Dr. Panda All Games: Dr. Panda Town Pet World, Dr. Panda Town Vacation",
+      "channel": "AndromalicPlay1337",
+      "duration_seconds": 5566,
+      "duration_str": "1:32:46",
+      "category": "\ud83c\udfae Gaming & Apps",
+      "watched_at": "2026-02-19T10:00:00"
+    }
+  ],
+  "top_channels": [
+    {
+      "channel": "iGameplay1337",
+      "count": 14
+    },
+    {
+      "channel": "AndromalicPlay1337",
+      "count": 13
+    },
+    {
+      "channel": "Hoots & Tales",
+      "count": 8
+    },
+    {
+      "channel": "Peppa Pig's Pretend Play",
+      "count": 7
+    },
+    {
+      "channel": "Little Wonders TV",
+      "count": 7
+    },
+    {
+      "channel": "BabyBus - Kids Songs and Cartoons",
+      "count": 6
+    },
+    {
+      "channel": "Nintendo Games",
+      "count": 6
+    },
+    {
+      "channel": "Bulochka-TV",
+      "count": 6
+    },
+    {
+      "channel": "WishingTikal",
+      "count": 5
+    },
+    {
+      "channel": "Bright Star Storytime",
+      "count": 4
+    }
+  ],
+  "top_categories": [
+    {
+      "category": "\ud83d\udc37 Peppa Pig",
+      "count": 66
+    },
+    {
+      "category": "\ud83c\udfae Gaming & Apps",
+      "count": 43
+    },
+    {
+      "category": "\ud83d\udcda Read-Alouds & Books",
+      "count": 17
+    },
+    {
+      "category": "\ud83e\udd95 Other Cartoons",
+      "count": 12
+    },
+    {
+      "category": "\ud83c\udf93 Learning & Education",
+      "count": 8
+    },
+    {
+      "category": "\ud83d\udc3c BabyBus & Baby Panda",
+      "count": 5
+    },
+    {
+      "category": "\ud83e\udd88 Baby Shark & Pinkfong",
+      "count": 4
+    },
+    {
+      "category": "\ud83d\udcfa Other",
+      "count": 4
+    },
+    {
+      "category": "\ud83d\udd0a Logo & Sound Quizzes",
+      "count": 1
+    },
+    {
+      "category": "\ud83c\udfb5 Music & Songs",
+      "count": 1
+    }
+  ],
+  "hourly_counts": {
+    "10": 8,
+    "11": 12,
+    "14": 10,
+    "15": 15,
+    "16": 8,
+    "17": 5,
+    "18": 3
+  },
+  "daily_counts": {
+    "Mon": 12,
+    "Tue": 8,
+    "Wed": 15,
+    "Thu": 20,
+    "Fri": 10,
+    "Sat": 25,
+    "Sun": 18
+  }
 }
