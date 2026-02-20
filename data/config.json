@@ -1,0 +1,8 @@
+{
+  "youtube_account": "",
+  "account_note": "Set this to the Google account email used for YouTube. Leave blank if using the main Jigar account.",
+  "days_to_track": 7,
+  "max_videos": 100,
+  "repo": "Appforgelabs/KidWatch",
+  "dashboard_url": "https://appforgelabs.github.io/KidWatch"
+}
