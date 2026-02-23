@@ -13,7 +13,15 @@
   .header { background: white; border-bottom: 1px solid #E2E8F0; padding: 0 24px; position: sticky; top: 0; z-index: 100; }
   .header-top { display: flex; align-items: center; justify-content: space-between; padding: 14px 0 0; }
   .header-top h1 { font-size: 1.1rem; font-weight: 700; color: #1E293B; }
-  .header-top .updated { font-size: 0.75rem; color: #94A3B8; }
+  .data-status { display: flex; align-items: center; gap: 6px; }
+  .ds-dot { width: 8px; height: 8px; border-radius: 50%; background: #CBD5E1; flex-shrink: 0; transition: background .3s, box-shadow .3s; }
+  .ds-dot.connected { background: #10B981; box-shadow: 0 0 5px #10B98188; }
+  .ds-dot.offline   { background: #EF4444; box-shadow: 0 0 5px #EF444466; }
+  .ds-meta { display: flex; flex-direction: column; gap: 1px; line-height: 1.2; }
+  .ds-label { font-size: 0.6rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; color: #94A3B8; }
+  .ds-label.connected { color: #10B981; }
+  .ds-label.offline   { color: #EF4444; }
+  .ds-time { font-size: 0.7rem; color: #94A3B8; font-variant-numeric: tabular-nums; }
   .tabs { display: flex; gap: 0; margin-top: 12px; }
   .tab { padding: 10px 20px; font-size: 0.875rem; font-weight: 500; color: #64748B; cursor: pointer; border-bottom: 3px solid transparent; transition: all .15s; white-space: nowrap; }
   .tab:hover { color: #6366F1; }
@@ -121,7 +129,13 @@
 <div class="header">
   <div class="header-top">
     <h1>👧 KidWatch</h1>
-    <span class="updated" id="updated-time">Loading...</span>
+    <div class="data-status" id="dataStatus">
+      <span class="ds-dot" id="dsDot"></span>
+      <div class="ds-meta">
+        <span class="ds-label" id="dsLabel">Connecting...</span>
+        <span class="ds-time" id="updated-time">–</span>
+      </div>
+    </div>
   </div>
   <div class="tabs">
     <div class="tab active" onclick="switchTab('today', this)">Today</div>
@@ -230,6 +244,35 @@ function fmtDate(iso) {
 }
 
 // ── Load from Google Sheets ───────────────────────────────────────────────
+// Sets the data source indicator (green dot + push time vs red dot + offline)
+function setDataStatus(connected, pushedAt) {
+  const dot   = document.getElementById('dsDot');
+  const label = document.getElementById('dsLabel');
+  const time  = document.getElementById('updated-time');
+  if (!dot) return;
+  if (connected) {
+    dot.className   = 'ds-dot connected';
+    label.className = 'ds-label connected';
+    label.textContent = 'Live';
+    if (pushedAt) {
+      try {
+        const d = new Date(pushedAt);
+        const isDateOnly = !String(pushedAt).includes('T');
+        time.textContent = isDateOnly
+          ? `Pushed ${d.toLocaleDateString('en-US', { timeZone: 'UTC', month: 'short', day: 'numeric' })}`
+          : `Pushed ${d.toLocaleString('en-US', { timeZone: 'America/New_York', month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit', hour12: true })} ET`;
+      } catch (e) { time.textContent = `Pushed ${pushedAt}`; }
+    } else {
+      time.textContent = 'Push time unavailable';
+    }
+  } else {
+    dot.className   = 'ds-dot offline';
+    label.className = 'ds-label offline';
+    label.textContent = 'Offline';
+    time.textContent = 'Using cached data';
+  }
+}
+
 async function loadFromSheets() {
   try {
     console.log('[KidWatch] Loading data from Google Sheets...');
@@ -254,6 +297,16 @@ async function loadFromSheets() {
       positive_signals: []
     }));
 
+    // Get the actual pipeline push time — use most recent DailySummary date
+    // (this is when the pipeline last ran and wrote to Sheets, not when the page loaded)
+    let data_pushed_at = null;
+    if (d.dailySummary && d.dailySummary.length > 0) {
+      const sorted = [...d.dailySummary].sort((a, b) => String(b.date).localeCompare(String(a.date)));
+      data_pushed_at = sorted[0].date || null;
+    } else if (videos.length > 0 && videos[0].timestamp) {
+      data_pushed_at = videos[0].timestamp; // fallback: most recent video
+    }
+
     const data = {
       generated: d.generated || new Date().toISOString(),
       generated_at: d.generated || new Date().toISOString(),
@@ -266,9 +319,11 @@ async function loadFromSheets() {
         review: videos.filter(v => v.safety_rating === 'review').length,
         flag: videos.filter(v => v.safety_rating === 'flag').length,
         total_watch_time_seconds: videos.reduce((a, v) => a + (v.duration_seconds || 0), 0)
-      }
+      },
+      data_pushed_at,
+      source: 'sheets'
     };
-    console.log('[KidWatch] Sheets data loaded:', videos.length, 'videos');
+    console.log('[KidWatch] Sheets data loaded:', videos.length, 'videos. Push time:', data_pushed_at);
     return data;
   } catch (e) {
     console.warn('[KidWatch] Sheets load failed, falling back to JSON:', e.message);
@@ -279,9 +334,11 @@ async function loadFromSheets() {
 // Load main data
 async function loadMainData() {
   let data = null;
+  let sheetsOk = false;
 
   if (USE_SHEETS) {
     data = await loadFromSheets();
+    if (data) sheetsOk = true;
   }
 
   if (!data) {
@@ -291,9 +348,13 @@ async function loadMainData() {
       data = await resp.json();
     } catch (e) {
       document.getElementById('stat-row').innerHTML = '<div style="color:#EF4444;padding:20px">Failed to load data</div>';
+      setDataStatus(false, null);
       return;
     }
   }
+
+  // Set connection indicator: green = Sheets live, red = offline/cached
+  setDataStatus(sheetsOk, data.data_pushed_at || null);
 
   return data;
 }
@@ -304,9 +365,6 @@ loadMainData().then(data => {
     const s = data.summary || {};
     const total = data.total_videos || allVideos.length;
     const totalSec = s.total_watch_time_seconds || allVideos.reduce((a,v) => a + (v.duration_seconds||0), 0);
-
-    // Updated time
-    document.getElementById('updated-time').textContent = data.generated_at ? 'Updated ' + fmtDate(data.generated_at) : '';
 
     // Stat cards
     const statsEl = document.getElementById('stat-row');
