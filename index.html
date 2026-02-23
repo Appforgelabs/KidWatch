@@ -192,6 +192,14 @@
 </div>
 
 <script>
+// ── Google Sheets Config ──────────────────────────────────────────────────
+// To use Google Sheets as the data backend:
+//   1. Deploy KidWatch/appsscript/Code.gs as a Web App in Google Apps Script UI
+//   2. Copy the deployment URL and paste it below
+//   3. Set access to "Anyone" when deploying
+const APPS_SCRIPT_URL = ''; // TODO: paste deployment URL here, e.g. 'https://script.google.com/macros/s/ABC.../exec'
+const USE_SHEETS = APPS_SCRIPT_URL !== '';
+
 let allVideos = [];
 let currentFilter = 'all';
 let chartsBuilt = false;
@@ -221,10 +229,77 @@ function fmtDate(iso) {
   return d.toLocaleDateString('en-US', { weekday:'short', month:'short', day:'numeric', hour:'2-digit', minute:'2-digit' });
 }
 
+// ── Load from Google Sheets ───────────────────────────────────────────────
+async function loadFromSheets() {
+  try {
+    console.log('[KidWatch] Loading data from Google Sheets...');
+    const resp = await fetch(APPS_SCRIPT_URL);
+    if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+    const d = await resp.json();
+    if (d.error) throw new Error(d.error);
+
+    // Map Sheets response to history.json format
+    const videos = (d.videos || []).map(v => ({
+      title: v.title || '',
+      channel: v.channel || '',
+      url: v.url || '',
+      duration: v.duration || '',
+      duration_seconds: v.durationSeconds || 0,
+      timestamp: v.watchedAt || '',
+      category: v.categories ? (Array.isArray(v.categories) ? v.categories[0] : v.categories) : '',
+      safety_score: v.safetyScore || 3,
+      safety_rating: v.safetyRating || 'neutral',
+      safety_badge: v.safetyBadge || '⬜',
+      flags: v.flags ? (typeof v.flags === 'string' ? JSON.parse(v.flags) : v.flags) : [],
+      positive_signals: []
+    }));
+
+    const data = {
+      generated: d.generated || new Date().toISOString(),
+      generated_at: d.generated || new Date().toISOString(),
+      total_videos: videos.length,
+      total_watch_minutes: videos.reduce((a, v) => a + (v.duration_seconds || 0), 0) / 60,
+      videos,
+      summary: {
+        good: videos.filter(v => v.safety_rating === 'good').length,
+        neutral: videos.filter(v => v.safety_rating === 'neutral').length,
+        review: videos.filter(v => v.safety_rating === 'review').length,
+        flag: videos.filter(v => v.safety_rating === 'flag').length,
+        total_watch_time_seconds: videos.reduce((a, v) => a + (v.duration_seconds || 0), 0)
+      }
+    };
+    console.log('[KidWatch] Sheets data loaded:', videos.length, 'videos');
+    return data;
+  } catch (e) {
+    console.warn('[KidWatch] Sheets load failed, falling back to JSON:', e.message);
+    return null;
+  }
+}
+
 // Load main data
-fetch('data/history.json')
-  .then(r => r.json())
-  .then(data => {
+async function loadMainData() {
+  let data = null;
+
+  if (USE_SHEETS) {
+    data = await loadFromSheets();
+  }
+
+  if (!data) {
+    // Fallback: load from JSON file (original behavior)
+    try {
+      const resp = await fetch('data/history.json');
+      data = await resp.json();
+    } catch (e) {
+      document.getElementById('stat-row').innerHTML = '<div style="color:#EF4444;padding:20px">Failed to load data</div>';
+      return;
+    }
+  }
+
+  return data;
+}
+
+loadMainData().then(data => {
+  if (!data) return;
     allVideos = data.videos || [];
     const s = data.summary || {};
     const total = data.total_videos || allVideos.length;
@@ -322,7 +397,7 @@ fetch('data/history.json')
   })
   .catch(e => {
     console.error(e);
-    document.getElementById('stat-row').innerHTML = '<div style="color:#EF4444;padding:20px">Failed to load data/history.json</div>';
+    document.getElementById('stat-row').innerHTML = '<div style="color:#EF4444;padding:20px">Failed to load data</div>';
   });
 
 // Content list
