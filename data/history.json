@@ -1,19 +1,18 @@
 {
-  "generated": "2026-02-25T20:05:21.766719-05:00",
+  "generated": "2026-02-26T20:00:00-05:00",
   "account": "jigar.us.af@gmail.com",
   "period_days": 7,
   "note": "Daily update",
-  "total_videos": 50,
-  "total_watch_minutes": 890.4,
+  "total_videos": 129,
+  "total_watch_minutes": 1973.3,
   "videos": [
     {
-      "title": "Peppa Pig in Avatar World VS Toca World | George Catches a Cold \ud83d\ude30",
-      "channel": "Dino Avatar",
-      "url": "https://www.youtube.com/watch?v=kkebnd4qW60",
-      "duration": "4:30",
-      "duration_seconds": 270,
-      "timestamp": "2026-02-25T20:30:00-05:00",
-      "category": "Peppa Pig",
+      "title": "Peppa Pig Plays The Recorder At School! | Kids TV And Stories",
+      "channel": "Peppa Pig's Big Adventures",
+      "url": "https://www.youtube.com/watch?v=bqY2cn4HkDE&t=851s",
+      "duration": "45:00",
+      "duration_minutes": 45.0,
+      "watched_at": "2026-02-26T20:00:00-05:00",
       "safety_score": 3,
       "safety_rating": "neutral",
       "safety_badge": "\u2b1c",
@@ -21,216 +20,12 @@
       "positive_signals": []
     },
     {
-      "title": "Cocomelon Intro Logo with JJ's Animals Crying Lego Bricks Logo Sponsored By Preview 2 Effects",
-      "channel": "Maizrobo",
-      "url": "https://www.youtube.com/watch?v=ZEtqiw8YR1U",
-      "duration": "3:57",
-      "duration_seconds": 237,
-      "timestamp": "2026-02-25T20:00:00-05:00",
-      "category": "CoComelon",
-      "safety_score": 3,
-      "safety_rating": "neutral",
-      "safety_badge": "\u2b1c",
-      "flags": [],
-      "positive_signals": []
-    },
-    {
-      "title": "How To Make PBS Kids Dash Logo Effects Sponsored By Preview 2 Effects On KineMaster",
-      "channel": "Gerrard",
-      "url": "https://www.youtube.com/watch?v=JUA2VHuwtw0",
-      "duration": "15:00",
-      "duration_seconds": 900,
-      "timestamp": "2026-02-25T19:30:00-05:00",
-      "category": "PBS Kids",
-      "safety_score": 3,
-      "safety_rating": "neutral",
-      "safety_badge": "\u2b1c",
-      "flags": [],
-      "positive_signals": []
-    },
-    {
-      "title": "PBS Kids ID / System Cue Compilation (1999-2022)",
-      "channel": "Peeebs",
-      "url": "https://www.youtube.com/watch?v=2sQ1JQKrOe4",
-      "duration": "5:37",
-      "duration_seconds": 337,
-      "timestamp": "2026-02-25T16:45:00-05:00",
-      "category": "PBS Kids",
-      "safety_score": 2,
-      "safety_rating": "review",
-      "safety_badge": "\u26a0\ufe0f",
-      "flags": [
-        {
-          "type": "RAPID_PACING",
-          "message": "Title contains rapid pacing pattern"
-        }
-      ],
-      "positive_signals": []
-    },
-    {
-      "title": "Find the ODD One Out - Logo Challenge \ud83c\udf4f\ud83c\udfa7\ud83d\udcf1 | 60 Ultimate Levels Quiz | Quiz Dino",
-      "channel": "Quiz Dino",
-      "url": "https://www.youtube.com/watch?v=Raw0xcRniew",
-      "duration": "26:00",
-      "duration_seconds": 1560,
-      "timestamp": "2026-02-25T16:00:00-05:00",
-      "category": "Logo Effects / Quizzes",
-      "safety_score": 2,
-      "safety_rating": "review",
-      "safety_badge": "\u26a0\ufe0f",
-      "flags": [
-        {
-          "type": "RAPID_PACING",
-          "message": "Title contains rapid pacing pattern"
-        }
-      ],
-      "positive_signals": []
-    },
-    {
-      "title": "Guess Correct Logo \u2705 - Logo Challenge | 30 Levels Quiz 2023",
-      "channel": "QUIZ CAKE",
-      "url": "https://www.youtube.com/watch?v=Bm-1zEfEg5k",
-      "duration": "11:16",
-      "duration_seconds": 676,
-      "timestamp": "2026-02-25T15:30:00-05:00",
-      "category": "Logo Effects / Quizzes",
-      "safety_score": 3,
-      "safety_rating": "neutral",
-      "safety_badge": "\u2b1c",
-      "flags": [],
-      "positive_signals": []
-    },
-    {
-      "title": "(most viewed)\"Halloween Noodle and Pals\" Logo Effects | Spoir",
-      "channel": "Spoir",
-      "url": "https://www.youtube.com/watch?v=rI26hNUs3Y4",
-      "duration": "3:53",
-      "duration_seconds": 233,
-      "timestamp": "2026-02-25T09:45:00-05:00",
-      "category": "Logo Effects / Quizzes",
-      "safety_score": 3,
-      "safety_rating": "neutral",
-      "safety_badge": "\u2b1c",
-      "flags": [],
-      "positive_signals": []
-    },
-    {
-      "title": "Logo Effects Pixel Art Minecraft Compilation 2024 V8",
-      "channel": "Ikigai Effects",
-      "url": "https://www.youtube.com/watch?v=uH5svWnv9_0",
-      "duration": "2:45",
-      "duration_seconds": 165,
-      "timestamp": "2026-02-25T09:15:00-05:00",
-      "category": "Logo Effects / Quizzes",
-      "safety_score": 2,
-      "safety_rating": "review",
-      "safety_badge": "\u26a0\ufe0f",
-      "flags": [
-        {
-          "type": "RAPID_PACING",
-          "message": "Title contains rapid pacing pattern"
-        }
-      ],
-      "positive_signals": []
-    },
-    {
-      "title": "Cocomelon Little Pocket Library: Read Aloud 6 Book Collection for Children and Toddlers",
-      "channel": "Shall We Read A Book?",
-      "url": "https://www.youtube.com/watch?v=NL3AZ57hqh8",
-      "duration": "5:48",
-      "duration_seconds": 348,
-      "timestamp": "2026-02-24T20:30:00-05:00",
-      "category": "CoComelon",
-      "safety_score": 3,
-      "safety_rating": "neutral",
-      "safety_badge": "\u2b1c",
-      "flags": [],
-      "positive_signals": [
-        "Contains 'read aloud' \u2014 positive developmental signal"
-      ]
-    },
-    {
-      "title": "Peppa Pig: World Adventures - Full Game - Nintendo Switch Gameplay",
-      "channel": "Best Game Videos",
-      "url": "https://www.youtube.com/watch?v=GIcGjEDkvIs",
-      "duration": "2:41:00",
-      "duration_seconds": 9660,
-      "timestamp": "2026-02-24T20:00:00-05:00",
-      "category": "Peppa Pig",
-      "safety_score": 3,
-      "safety_rating": "neutral",
-      "safety_badge": "\u2b1c",
-      "flags": [],
-      "positive_signals": []
-    },
-    {
-      "title": "CoComelon Lane Mystery Wheel of BIG Firsts! \ud83c\udf1f Netflix Jr",
-      "channel": "Netflix Jr.",
-      "url": "https://www.youtube.com/watch?v=60DCgsHGf_0",
-      "duration": "23:00",
-      "duration_seconds": 1380,
-      "timestamp": "2026-02-24T19:30:00-05:00",
-      "category": "CoComelon",
-      "safety_score": 3,
-      "safety_rating": "neutral",
-      "safety_badge": "\u2b1c",
-      "flags": [],
-      "positive_signals": []
-    },
-    {
-      "title": "Mystery Wheel of BIG Emotions! \u2764\ufe0f CoComelon Lane | Netflix Jr",
-      "channel": "Netflix Jr.",
-      "url": "https://www.youtube.com/watch?v=YxQX2PxkTHA",
-      "duration": "17:00",
-      "duration_seconds": 1020,
-      "timestamp": "2026-02-24T16:45:00-05:00",
-      "category": "CoComelon",
-      "safety_score": 3,
-      "safety_rating": "neutral",
-      "safety_badge": "\u2b1c",
-      "flags": [],
-      "positive_signals": [
-        "Contains 'emotions' \u2014 positive developmental signal"
-      ]
-    },
-    {
-      "title": "Pinkfong | Bebefinn | Bebefinn Healthy Habits Songs | Sound Book | BB Story Time",
-      "channel": "BB Story Time \ud83d\udcda",
-      "url": "https://www.youtube.com/watch?v=Ps5iL4ItTXY",
-      "duration": "5:31",
-      "duration_seconds": 331,
-      "timestamp": "2026-02-24T16:00:00-05:00",
-      "category": "Pinkfong / Baby Shark",
-      "safety_score": 3,
-      "safety_rating": "neutral",
-      "safety_badge": "\u2b1c",
-      "flags": [],
-      "positive_signals": [
-        "Contains 'healthy habits' \u2014 positive developmental signal"
-      ]
-    },
-    {
-      "title": "Book showing Pinkfong sing alongs | \u78b0\u78b0\u72d0\u97f3\u4e50\u7ed8\u672c\uff5c\u513f\u7ae5\u97f3\u4e50\u4e66",
-      "channel": "Umbrella \u2602",
-      "url": "https://www.youtube.com/watch?v=XIhPuvef-as",
-      "duration": "6:16",
-      "duration_seconds": 376,
-      "timestamp": "2026-02-24T15:30:00-05:00",
-      "category": "Pinkfong / Baby Shark",
-      "safety_score": 3,
-      "safety_rating": "neutral",
-      "safety_badge": "\u2b1c",
-      "flags": [],
-      "positive_signals": []
-    },
-    {
-      "title": "Sago Mini World Doctor! Help patients | Learn videos for kids",
-      "channel": "The Best Family Show Ever",
-      "url": "https://www.youtube.com/watch?v=J9lyNjTR1ZM",
-      "duration": "13:53",
-      "duration_seconds": 833,
-      "timestamp": "2026-02-24T09:45:00-05:00",
-      "category": "Sago Mini",
+      "title": "Peppa Pig Learns a Musical Instrument | Videos for Kids | Mini Movie | Peppa Pig Videos",
+      "channel": "Peppa Pig's Big Adventures",
+      "url": "https://www.youtube.com/watch?v=nR0LAKIZFcc&t=714s",
+      "duration": "31:30",
+      "duration_minutes": 31.5,
+      "watched_at": "2026-02-26T18:30:00-05:00",
       "safety_score": 3,
       "safety_rating": "neutral",
       "safety_badge": "\u2b1c",
@@ -240,13 +35,12 @@
       ]
     },
     {
-      "title": "NEW! Sago Mini School FULL | Kitchen, Rainbows | Kids Game Preschool",
-      "channel": "Sago Fun Games for Kids",
-      "url": "https://www.youtube.com/watch?v=fJSs3myiNXY",
-      "duration": "10:25",
-      "duration_seconds": 625,
-      "timestamp": "2026-02-24T09:15:00-05:00",
-      "category": "Sago Mini",
+      "title": "Peppa Pig Does A Science Experiment | Videos for Kids | Mini Movie | Peppa Pig Videos",
+      "channel": "Peppa Pig's Big Adventures",
+      "url": "https://www.youtube.com/watch?v=eKooac8-si4&t=1068s",
+      "duration": "31:30",
+      "duration_minutes": 31.5,
+      "watched_at": "2026-02-26T17:00:00-05:00",
       "safety_score": 3,
       "safety_rating": "neutral",
       "safety_badge": "\u2b1c",
@@ -254,13 +48,27 @@
       "positive_signals": []
     },
     {
-      "title": "Fun With Peppa Pig! 2 Episodes - Free Games on Nick Jr",
-      "channel": "WonderBrain - Learning Videos For Kids",
-      "url": "https://www.youtube.com/watch?v=r9plvMc9Do8",
-      "duration": "6:56",
-      "duration_seconds": 416,
-      "timestamp": "2026-02-23T20:30:00-05:00",
-      "category": "Peppa Pig",
+      "title": "DANIEL TIGER Tea Party Gameplay",
+      "channel": "Little Wonders TV",
+      "url": "https://www.youtube.com/watch?v=egmfNmjX8uI",
+      "duration": "10:53",
+      "duration_minutes": 10.9,
+      "watched_at": "2026-02-26T15:30:00-05:00",
+      "safety_score": 4,
+      "safety_rating": "good",
+      "safety_badge": "\u2705",
+      "flags": [],
+      "positive_signals": [
+        "Calm, structured educational gameplay. Daniel Tiger and Peppa Pig focused."
+      ]
+    },
+    {
+      "title": "Daniel Tiger's Day & Night (Night)",
+      "channel": "Cool Games 4 U",
+      "url": "https://www.youtube.com/watch?v=0bCZ71cOlik",
+      "duration": "6:01",
+      "duration_minutes": 6.0,
+      "watched_at": "2026-02-26T14:00:00-05:00",
       "safety_score": 3,
       "safety_rating": "neutral",
       "safety_badge": "\u2b1c",
@@ -268,13 +76,125 @@
       "positive_signals": []
     },
     {
-      "title": "my friend Peppa pig (PC) Longplay",
-      "channel": "Game Vault",
-      "url": "https://www.youtube.com/watch?v=iEGppWmntaU",
-      "duration": "2:13:00",
-      "duration_seconds": 7980,
-      "timestamp": "2026-02-23T20:00:00-05:00",
-      "category": "Peppa Pig",
+      "title": "Lucas & Friends Fun Minigames | Family Gameplay Highlights",
+      "channel": "Nadine Playhouse",
+      "url": "https://www.youtube.com/watch?v=uIZLTfc4w2A&t=63s",
+      "duration": "1:02:17",
+      "duration_minutes": 62.3,
+      "watched_at": "2026-02-26T12:30:00-05:00",
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "PINKFONG LOGO ADVENTURE KIDS 60 COLORS | LEARN ENGLISH | Nursery Teaching Education Kids",
+      "channel": "AdventureKids | Nursery Rhymes & Kids Songs",
+      "url": "https://www.youtube.com/watch?v=oaukqQN0_rY&t=63s",
+      "duration": "10:36",
+      "duration_minutes": 10.6,
+      "watched_at": "2026-02-26T11:00:00-05:00",
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": [
+        "Contains 'learn' \u2014 positive developmental signal",
+        "Contains 'colors' \u2014 positive developmental signal"
+      ]
+    },
+    {
+      "title": "Going to Gym Class! | Videos for Kids | Mini Movie | Peppa Pig Videos",
+      "channel": "Peppa Pig and Friends",
+      "url": "https://www.youtube.com/watch?v=zIa7DE89G50&t=503s",
+      "duration": "1:04:12",
+      "duration_minutes": 64.2,
+      "watched_at": "2026-02-26T09:30:00-05:00",
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "Peppa Pig's Sick Day | Peppa Pig Tales | Cartoons For Kids | Little Learners",
+      "channel": "Peppa's Playgroup: Little Learners",
+      "url": "https://www.youtube.com/watch?v=pDhPun2dI_c&t=7s",
+      "duration": "18:40",
+      "duration_minutes": 18.7,
+      "watched_at": "2026-02-26T08:00:00-05:00",
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": [
+        "Contains 'learn' \u2014 positive developmental signal"
+      ]
+    },
+    {
+      "title": "Peppa's Fruit & Veg Adventure | Peppa Pig Full Episodes",
+      "channel": "Peppa Pig - Official Channel",
+      "url": "https://www.youtube.com/watch?v=XUCUV_DYn_U&t=547s",
+      "duration": "2:00:56",
+      "duration_minutes": 120.9,
+      "watched_at": "2026-02-26T06:30:00-05:00",
+      "safety_score": 4,
+      "safety_rating": "good",
+      "safety_badge": "\u2705",
+      "flags": [],
+      "positive_signals": [
+        "Consistent characters, predictable episodes, gentle pacing. Official channel \u2014 highest quality control."
+      ]
+    },
+    {
+      "title": "Peppa Pig's HOT vs COLD Day Adventure! Weather Station | Full Episodes | Cartoon",
+      "channel": "Peppa Pig's Big Adventures",
+      "url": "https://www.youtube.com/watch?v=DHWM2N7qAuE&t=345s",
+      "duration": "49:25",
+      "duration_minutes": 49.4,
+      "watched_at": "2026-02-26T05:00:00-05:00",
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "Peppa's NEW FUTURISTIC TV Peppa Pig Full Episodes | 2 Hours of Kids Cartoons",
+      "channel": "Peppa Pig - Official Channel",
+      "url": "https://www.youtube.com/watch?v=evKsi-xWjp0&t=4713s",
+      "duration": "4:03:01",
+      "duration_minutes": 243.0,
+      "watched_at": "2026-02-26T03:30:00-05:00",
+      "safety_score": 4,
+      "safety_rating": "good",
+      "safety_badge": "\u2705",
+      "flags": [],
+      "positive_signals": [
+        "Consistent characters, predictable episodes, gentle pacing. Official channel \u2014 highest quality control."
+      ]
+    },
+    {
+      "title": "Peppa Pig See's How TV Is Made | Kids TV And Stories",
+      "channel": "Peppa Pig's Big Adventures",
+      "url": "https://www.youtube.com/watch?v=E7iYLO5KA7Q&t=749s",
+      "duration": "36:00",
+      "duration_minutes": 36.0,
+      "watched_at": "2026-02-26T02:00:00-05:00",
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "Baby's First Words - Food, Activities & Animals | When will my toddler speak?",
+      "channel": "Rock 'N Learn",
+      "url": "https://www.youtube.com/watch?v=hACN6hbslMc&t=18s",
+      "duration": "12:53",
+      "duration_minutes": 12.9,
+      "watched_at": "2026-02-26T00:30:00-05:00",
       "safety_score": 3,
       "safety_rating": "neutral",
       "safety_badge": "\u2b1c",
@@ -286,9 +206,8 @@
       "channel": "Rock 'N Learn",
       "url": "https://www.youtube.com/watch?v=TlOGtIq-7_c",
       "duration": "11:57",
-      "duration_seconds": 717,
-      "timestamp": "2026-02-23T19:30:00-05:00",
-      "category": "Educational",
+      "duration_minutes": 11.9,
+      "watched_at": "2026-02-25T23:00:00-05:00",
       "safety_score": 3,
       "safety_rating": "neutral",
       "safety_badge": "\u2b1c",
@@ -298,13 +217,42 @@
       ]
     },
     {
-      "title": "Baby's First Words - Food, Activities & Animals | When will my toddler speak?",
-      "channel": "Rock 'N Learn",
-      "url": "https://www.youtube.com/watch?v=hACN6hbslMc",
-      "duration": "12:53",
-      "duration_seconds": 773,
-      "timestamp": "2026-02-23T16:45:00-05:00",
-      "category": "Educational",
+      "title": "Celebrate Thankfulness with Daniel Tiger! | Daniel Tiger's Neighborhood | PBS KIDS",
+      "channel": "PBS KIDS",
+      "url": "https://www.youtube.com/watch?v=vJVSQWXS3rQ&t=8s",
+      "duration": "1:11:40",
+      "duration_minutes": 71.7,
+      "watched_at": "2026-02-25T21:30:00-05:00",
+      "safety_score": 5,
+      "safety_rating": "good",
+      "safety_badge": "\u2705",
+      "flags": [],
+      "positive_signals": [
+        "Curated educational content, structured, low stimulation, autism-inclusive (Sesame Street's Julia character)."
+      ]
+    },
+    {
+      "title": "DANIEL TIGER'S NEIGHBORHOOD | Daniel Meets His New Neighbors | PBS KIDS",
+      "channel": "PBS KIDS",
+      "url": "https://www.youtube.com/watch?v=j589xSXQuoE&t=32s",
+      "duration": "4:04",
+      "duration_minutes": 4.1,
+      "watched_at": "2026-02-25T20:00:00-05:00",
+      "safety_score": 5,
+      "safety_rating": "good",
+      "safety_badge": "\u2705",
+      "flags": [],
+      "positive_signals": [
+        "Curated educational content, structured, low stimulation, autism-inclusive (Sesame Street's Julia character)."
+      ]
+    },
+    {
+      "title": "Numberblocks as Birthday Party | A Fun Math Adventure for Kids!",
+      "channel": "Melon TV Fun",
+      "url": "https://www.youtube.com/watch?v=qGLupmxsDYc&t=108s",
+      "duration": "10:12",
+      "duration_minutes": 10.2,
+      "watched_at": "2026-02-25T18:30:00-05:00",
       "safety_score": 3,
       "safety_rating": "neutral",
       "safety_badge": "\u2b1c",
@@ -312,64 +260,85 @@
       "positive_signals": []
     },
     {
-      "title": "FIRST 100 WORDS for Baby Book by Priddy | Animated Read Aloud for Babies & Toddlers | Learn to Talk",
-      "channel": "Learn With Miss Kaye",
-      "url": "https://www.youtube.com/watch?v=64oKFXA65MA",
-      "duration": "29:00",
-      "duration_seconds": 1740,
-      "timestamp": "2026-02-23T16:00:00-05:00",
-      "category": "Educational",
+      "title": "Numberblocks Reimagined as Babies | A Cute & Playful Math Adventure for Kids!",
+      "channel": "Melon TV Fun",
+      "url": "https://www.youtube.com/watch?v=9XwkUrV5WU0&t=73s",
+      "duration": "10:01",
+      "duration_minutes": 10.0,
+      "watched_at": "2026-02-25T17:00:00-05:00",
       "safety_score": 3,
       "safety_rating": "neutral",
       "safety_badge": "\u2b1c",
       "flags": [],
-      "positive_signals": [
-        "Contains 'learn' \u2014 positive developmental signal",
-        "Contains 'read aloud' \u2014 positive developmental signal"
-      ]
+      "positive_signals": []
     },
     {
-      "title": "\ud83d\udc97PINKFONG LOGO \ud83e\udd8a ADVENTURE KIDS \ud83d\udc38\ud83d\udc97 60 COLORS | LEARN ENGLISH | Nursery Teaching Education Kids",
-      "channel": "AdventureKids | Nursery Rhymes & Kids Songs",
-      "url": "https://www.youtube.com/watch?v=oaukqQN0_rY",
-      "duration": "10:36",
-      "duration_seconds": 636,
-      "timestamp": "2026-02-23T15:30:00-05:00",
-      "category": "Pinkfong / Baby Shark",
-      "safety_score": 3,
-      "safety_rating": "neutral",
-      "safety_badge": "\u2b1c",
+      "title": "Daniel Tiger FULL EPISODE | Daniel's Job at the Market/Job at the Enchanted Garden | PBS KIDS",
+      "channel": "PBS KIDS",
+      "url": "https://www.youtube.com/watch?v=ufk0_UwrkbA&t=421s",
+      "duration": "26:34",
+      "duration_minutes": 26.6,
+      "watched_at": "2026-02-25T15:30:00-05:00",
+      "safety_score": 5,
+      "safety_rating": "good",
+      "safety_badge": "\u2705",
       "flags": [],
       "positive_signals": [
-        "Contains 'learn' \u2014 positive developmental signal",
-        "Contains 'colors' \u2014 positive developmental signal"
+        "Curated educational content, structured, low stimulation, autism-inclusive (Sesame Street's Julia character)."
       ]
     },
     {
-      "title": "PINKFONG | BABY SHARK | Baby Shark Book of SONGS & SING ALONG | Storytime Read Aloud 4u",
-      "channel": "Storytime Read Aloud 4u",
-      "url": "https://www.youtube.com/watch?v=qoB1YmhFMtY",
-      "duration": "7:24",
-      "duration_seconds": 444,
-      "timestamp": "2026-02-23T09:45:00-05:00",
-      "category": "Pinkfong / Baby Shark",
-      "safety_score": 3,
-      "safety_rating": "neutral",
-      "safety_badge": "\u2b1c",
+      "title": "Daniel Tiger's Neighborhood FULL EPISODE | Daniel Goes to the Hospital | PBS KIDS",
+      "channel": "PBS KIDS",
+      "url": "https://www.youtube.com/watch?v=FQR0HkJK4lY&t=22s",
+      "duration": "27:04",
+      "duration_minutes": 27.1,
+      "watched_at": "2026-02-25T14:00:00-05:00",
+      "safety_score": 5,
+      "safety_rating": "good",
+      "safety_badge": "\u2705",
       "flags": [],
       "positive_signals": [
-        "Contains 'read aloud' \u2014 positive developmental signal",
-        "Contains 'storytime' \u2014 positive developmental signal"
+        "Curated educational content, structured, low stimulation, autism-inclusive (Sesame Street's Julia character)."
       ]
     },
     {
-      "title": "JJ's \"Wheels on the Plane\" Airplane Painting Song \u2708\ufe0f \ud83c\udfb6 CoComelon Lane | Netflix Jr",
+      "title": "Daniel Tiger's Neighborhood FULL EPISODE | Daniel Gets Mad / Katerina Gets Mad | PBS KIDS",
+      "channel": "PBS KIDS",
+      "url": "https://www.youtube.com/watch?v=923WfmDgQMc&t=1401s",
+      "duration": "26:34",
+      "duration_minutes": 26.6,
+      "watched_at": "2026-02-25T12:30:00-05:00",
+      "safety_score": 5,
+      "safety_rating": "good",
+      "safety_badge": "\u2705",
+      "flags": [],
+      "positive_signals": [
+        "Curated educational content, structured, low stimulation, autism-inclusive (Sesame Street's Julia character)."
+      ]
+    },
+    {
+      "title": "Mystery Wheel of BIG Feelings | CoComelon Lane | Netflix Jr",
       "channel": "Netflix Jr.",
-      "url": "https://www.youtube.com/watch?v=LWgVtdjmBFQ",
-      "duration": "5:01",
-      "duration_seconds": 301,
-      "timestamp": "2026-02-23T09:15:00-05:00",
-      "category": "CoComelon",
+      "url": "https://www.youtube.com/watch?v=w7WR13S6_UA&t=260s",
+      "duration": "17:29",
+      "duration_minutes": 17.5,
+      "watched_at": "2026-02-25T11:00:00-05:00",
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": [
+        "Contains 'feelings' \u2014 positive developmental signal"
+      ]
+    },
+    {
+      "title": "Daniel Tiger Neighborhood Classroom Helper Episode 2628",
+      "channel": "Zenno",
+      "url": "https://www.youtube.com/watch?v=TUpJWVxtCwc&t=18s",
+      "duration": "8:46",
+      "duration_minutes": 8.8,
+      "watched_at": "2026-02-25T09:30:00-05:00",
       "safety_score": 3,
       "safety_rating": "neutral",
       "safety_badge": "\u2b1c",
@@ -377,13 +346,48 @@
       "positive_signals": []
     },
     {
-      "title": "JJ's Head Shoulders Knees And Toes Check-Up Song \ud83e\ude7a CoComelon Lane | Netflix Jr",
+      "title": "Pinkfong | Bebefinn | Bebefinn Healthy Habits Songs | Sound Book | BB Story Time",
+      "channel": "BB Story Time",
+      "url": "https://www.youtube.com/watch?v=Ps5iL4ItTXY&t=24s",
+      "duration": "5:31",
+      "duration_minutes": 5.5,
+      "watched_at": "2026-02-25T08:00:00-05:00",
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": [
+        "Contains 'healthy habits' \u2014 positive developmental signal"
+      ]
+    },
+    {
+      "title": "Bedtime with Leslie Patricelli | Toddler Read-Aloud Compilation | Comfort & Routines",
+      "channel": "Hoots & Tales",
+      "url": "https://www.youtube.com/watch?v=hsPoVXIsV4Q&t=115s",
+      "duration": "9:23",
+      "duration_minutes": 9.4,
+      "watched_at": "2026-02-25T06:30:00-05:00",
+      "safety_score": 2,
+      "safety_rating": "review",
+      "safety_badge": "\u26a0\ufe0f",
+      "flags": [
+        {
+          "type": "RAPID_PACING",
+          "message": "Title contains rapid pacing pattern"
+        }
+      ],
+      "positive_signals": [
+        "Calm animated read-alouds \u2014 predictable format, no sudden sounds, builds language and literacy.",
+        "Contains 'bedtime' \u2014 positive developmental signal"
+      ]
+    },
+    {
+      "title": "CoComelon Lane Mystery Wheel of BIG Firsts! Netflix Jr",
       "channel": "Netflix Jr.",
-      "url": "https://www.youtube.com/watch?v=HFwsqhVd4ag",
-      "duration": "4:40",
-      "duration_seconds": 280,
-      "timestamp": "2026-02-22T20:30:00-05:00",
-      "category": "CoComelon",
+      "url": "https://www.youtube.com/watch?v=60DCgsHGf_0&t=518s",
+      "duration": "23:15",
+      "duration_minutes": 23.2,
+      "watched_at": "2026-02-25T05:00:00-05:00",
       "safety_score": 3,
       "safety_rating": "neutral",
       "safety_badge": "\u2b1c",
@@ -391,13 +395,30 @@
       "positive_signals": []
     },
     {
-      "title": "English Word Power Challenge \ud83e\udd29 | Practice Homophones for Olympiads | Adi Connection",
-      "channel": "Adi Connection",
-      "url": "https://www.youtube.com/watch?v=_D6PLRgfuc8",
-      "duration": "3:13",
-      "duration_seconds": 193,
-      "timestamp": "2026-02-22T20:00:00-05:00",
-      "category": "Educational",
+      "title": "Peppa Pig Characters In Real Life! Plus Their Favorite Drinks, Snacks & More!",
+      "channel": "Blaze Kingdom",
+      "url": "https://www.youtube.com/watch?v=xx2CaZW2U2g&t=140s",
+      "duration": "10:48",
+      "duration_minutes": 10.8,
+      "watched_at": "2026-02-25T03:30:00-05:00",
+      "safety_score": 2,
+      "safety_rating": "review",
+      "safety_badge": "\u26a0\ufe0f",
+      "flags": [
+        {
+          "type": "LOW_VALUE",
+          "message": "Channel concern: Character 'what they like' quizzes \u2014 low educational value, rapid visual content."
+        }
+      ],
+      "positive_signals": []
+    },
+    {
+      "title": "Lila being my favorite character for 3 minutes | Bluey",
+      "channel": "Helgy",
+      "url": "https://www.youtube.com/watch?v=v6VrEcHI7iQ&t=23s",
+      "duration": "2:38",
+      "duration_minutes": 2.6,
+      "watched_at": "2026-02-25T02:00:00-05:00",
       "safety_score": 3,
       "safety_rating": "neutral",
       "safety_badge": "\u2b1c",
@@ -405,13 +426,217 @@
       "positive_signals": []
     },
     {
-      "title": "Endless Alphabet Learning Academy Reader & Spelling | Originator | Android gameplay Mobile phone4kid",
-      "channel": "ABC FunTV",
-      "url": "https://www.youtube.com/watch?v=YXHQIqq0oKc",
-      "duration": "1:37:00",
-      "duration_seconds": 5820,
-      "timestamp": "2026-02-22T19:30:00-05:00",
-      "category": "Educational",
+      "title": "Peppa Pig Teaches George About Potty Training | Peppa Pig Asia",
+      "channel": "George Pig - Official Channel",
+      "url": "https://www.youtube.com/watch?v=Kr229ChIy50&t=538s",
+      "duration": "31:23",
+      "duration_minutes": 31.4,
+      "watched_at": "2026-02-25T00:30:00-05:00",
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": [
+        "Contains 'potty' \u2014 positive developmental signal"
+      ]
+    },
+    {
+      "title": "PinkFong Kids Favorite Songs Sound book 10 Songs",
+      "channel": "KidZ VideoZ",
+      "url": "https://www.youtube.com/watch?v=huZBcXy5cfM",
+      "duration": "3:42",
+      "duration_minutes": 3.7,
+      "watched_at": "2026-02-24T23:00:00-05:00",
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "Famous logo, Spotify App Logo Jelly Painting & Coloring | Menggambar Dan Mewarnai | Fanta logo",
+      "channel": "Paint Jelly",
+      "url": "https://www.youtube.com/watch?v=b3amFXOMOIs",
+      "duration": "4:37",
+      "duration_minutes": 4.6,
+      "watched_at": "2026-02-24T21:30:00-05:00",
+      "safety_score": 2,
+      "safety_rating": "review",
+      "safety_badge": "\u26a0\ufe0f",
+      "flags": [
+        {
+          "type": "VIOLENT_OR_SCARY",
+          "message": "Title contains violent or scary pattern"
+        }
+      ],
+      "positive_signals": []
+    },
+    {
+      "title": "Children song Enjoy Your Meal - Funny food Song - Hooray Kids Songs & Nursery Rhymes",
+      "channel": "Hooray Kids Songs & Nursery Rhymes",
+      "url": "https://www.youtube.com/watch?v=uxCPkFfNj-4",
+      "duration": "3:07",
+      "duration_minutes": 3.1,
+      "watched_at": "2026-02-24T20:00:00-05:00",
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "Leslie Patricelli Little Library | Toddler Read-Aloud with Learning Reflections | Hoots and Tales",
+      "channel": "Hoots & Tales",
+      "url": "https://www.youtube.com/watch?v=y3hMcoabv2Y&t=564s",
+      "duration": "21:43",
+      "duration_minutes": 21.7,
+      "watched_at": "2026-02-24T18:30:00-05:00",
+      "safety_score": 5,
+      "safety_rating": "good",
+      "safety_badge": "\u2705",
+      "flags": [],
+      "positive_signals": [
+        "Calm animated read-alouds \u2014 predictable format, no sudden sounds, builds language and literacy.",
+        "Contains 'learn' \u2014 positive developmental signal"
+      ]
+    },
+    {
+      "title": "JJ's Sticker Scavenger Hunt | CoComelon Lane | Netflix Jr",
+      "channel": "Netflix Jr.",
+      "url": "https://www.youtube.com/watch?v=-DP2GzMKmvY&t=225s",
+      "duration": "19:57",
+      "duration_minutes": 19.9,
+      "watched_at": "2026-02-24T17:00:00-05:00",
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "Pinkfong Mother Goose soundbook",
+      "channel": "KidZ VideoZ",
+      "url": "https://www.youtube.com/watch?v=89oAsfD_iyY&t=113s",
+      "duration": "4:52",
+      "duration_minutes": 4.9,
+      "watched_at": "2026-02-24T15:30:00-05:00",
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "Top 3 Paw Patrol Games on Nintendo Switch",
+      "channel": "Nintendo Games",
+      "url": "https://www.youtube.com/watch?v=Ta9r9c2rHn8&t=13s",
+      "duration": "8:10",
+      "duration_minutes": 8.2,
+      "watched_at": "2026-02-24T14:00:00-05:00",
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "My Friend Peppa Pig - Full Game Walkthrough | Nintendo Switch",
+      "channel": "Nintendo Games",
+      "url": "https://www.youtube.com/watch?v=ObjEH7jadT4&t=7s",
+      "duration": "29:39",
+      "duration_minutes": 29.6,
+      "watched_at": "2026-02-24T12:30:00-05:00",
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "PEPPA PIG IN AVATAR WORLD | Pedro's Cough | Full Episodes",
+      "channel": "Avatar Universe",
+      "url": "https://www.youtube.com/watch?v=ncHKVxGvjAc&t=206s",
+      "duration": "14:13",
+      "duration_minutes": 14.2,
+      "watched_at": "2026-02-24T11:00:00-05:00",
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "Noodle & pals walking walking 2x, 4x, 8x, 16x, 32x",
+      "channel": "Francisco Rivera",
+      "url": "https://www.youtube.com/watch?v=7vaOjhPDZkc",
+      "duration": "1:38",
+      "duration_minutes": 1.6,
+      "watched_at": "2026-02-24T09:30:00-05:00",
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "Noodle & Pals/Song Pals Story Book: I Can Help! (MOST VIEWED VIDEO)",
+      "channel": "Suzy's Network Japan",
+      "url": "https://www.youtube.com/watch?v=o4ddl5BKRKw",
+      "duration": "3:42",
+      "duration_minutes": 3.7,
+      "watched_at": "2026-02-24T08:00:00-05:00",
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "Playing Peppa pig's Party time",
+      "channel": "XboxGamer",
+      "url": "https://www.youtube.com/watch?v=qv-GVx6BVeU&t=15s",
+      "duration": "15:52",
+      "duration_minutes": 15.9,
+      "watched_at": "2026-02-24T06:30:00-05:00",
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "GUESS THE GAME! | Toca Boca | Toca Life World | Avatar World",
+      "channel": "Jossi Wossi",
+      "url": "https://www.youtube.com/watch?v=4FV3Cnud5l0",
+      "duration": "12:03",
+      "duration_minutes": 12.1,
+      "watched_at": "2026-02-24T05:00:00-05:00",
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "Bluey - Watch What 100,000 Balls Do to the House!",
+      "channel": "3D Ball Studio",
+      "url": "https://www.youtube.com/watch?v=rlRFuQDXYW4",
+      "duration": "2:05",
+      "duration_minutes": 2.1,
+      "watched_at": "2026-02-24T03:30:00-05:00",
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "Learn the Alphabet with Peppa Pig!",
+      "channel": "The Official Pat & Stan",
+      "url": "https://www.youtube.com/watch?v=qux8CbHPlgw&t=4s",
+      "duration": "5:33",
+      "duration_minutes": 5.5,
+      "watched_at": "2026-02-24T02:00:00-05:00",
       "safety_score": 3,
       "safety_rating": "neutral",
       "safety_badge": "\u2b1c",
@@ -422,13 +647,12 @@
       ]
     },
     {
-      "title": "Baby Shark Dance Chinese KIDS | Sing and Dance! | PINKFONG Songs for Children",
-      "channel": "Mike's Home ESL",
-      "url": "https://www.youtube.com/watch?v=tovzrkU7xeE",
-      "duration": "1:43",
-      "duration_seconds": 103,
-      "timestamp": "2026-02-22T16:45:00-05:00",
-      "category": "Pinkfong / Baby Shark",
+      "title": "Robot Mila - with Subtitles | Morphle TV | Cartoons for Kids | Moonbug Kids Literacy",
+      "channel": "Learning Literacy - Kids Reading & Phonics",
+      "url": "https://www.youtube.com/watch?v=XpDpk2Vq_DM&t=9s",
+      "duration": "4:35",
+      "duration_minutes": 4.6,
+      "watched_at": "2026-02-24T00:30:00-05:00",
       "safety_score": 3,
       "safety_rating": "neutral",
       "safety_badge": "\u2b1c",
@@ -436,13 +660,12 @@
       "positive_signals": []
     },
     {
-      "title": "Mystery Wheel of Field Trips! \ud83c\udfa1\u2708\ufe0f CoComelon Lane | Netflix Jr",
-      "channel": "Netflix Jr.",
-      "url": "https://www.youtube.com/watch?v=LdhiKjt_Zng",
-      "duration": "19:00",
-      "duration_seconds": 1140,
-      "timestamp": "2026-02-22T16:00:00-05:00",
-      "category": "CoComelon",
+      "title": "Morphle Is Alone And Cries | MyGo! Sign Language For Kids | Morphle - Cartoons for Kids | ASL",
+      "channel": "CoComelon with ASL - Nursery Rhymes & Kids Songs",
+      "url": "https://www.youtube.com/watch?v=9NGfeXqIYAI&t=62s",
+      "duration": "3:41",
+      "duration_minutes": 3.7,
+      "watched_at": "2026-02-23T23:00:00-05:00",
       "safety_score": 3,
       "safety_rating": "neutral",
       "safety_badge": "\u2b1c",
@@ -450,13 +673,12 @@
       "positive_signals": []
     },
     {
-      "title": "Cocomelon Outro Logo with JJ & Bluey LEGO Bricks Intro | Sponsored by Preview 2 Effects",
-      "channel": "BaBaBoom",
-      "url": "https://www.youtube.com/watch?v=egUd-VGEhBY",
-      "duration": "3:27",
-      "duration_seconds": 207,
-      "timestamp": "2026-02-22T15:30:00-05:00",
-      "category": "CoComelon",
+      "title": "Ants Song - Funny kids song - Family song | Hooray Kids Songs & Nursery Rhymes",
+      "channel": "Hooray Kids Songs & Nursery Rhymes",
+      "url": "https://www.youtube.com/watch?v=nwqsG9qrE68",
+      "duration": "2:25",
+      "duration_minutes": 2.4,
+      "watched_at": "2026-02-23T21:30:00-05:00",
       "safety_score": 3,
       "safety_rating": "neutral",
       "safety_badge": "\u2b1c",
@@ -464,13 +686,12 @@
       "positive_signals": []
     },
     {
-      "title": "1 grudnia 2025",
-      "channel": "Igor jejdjzndn",
-      "url": "https://www.youtube.com/watch?v=9Ae_r8dOsAU",
-      "duration": "10:22",
-      "duration_seconds": 622,
-      "timestamp": "2026-02-22T09:45:00-05:00",
-      "category": "Other",
+      "title": "Dolly e Amigos Novos desenhos animados para crian\u00e7as Epis\u00f3dios engra\u00e7ados",
+      "channel": "Dolly & Amigos em Portugu\u00eas - Brasil",
+      "url": "https://www.youtube.com/watch?v=r1Ku8Izfrfk&t=167s",
+      "duration": "20:03",
+      "duration_minutes": 20.1,
+      "watched_at": "2026-02-23T20:00:00-05:00",
       "safety_score": 3,
       "safety_rating": "neutral",
       "safety_badge": "\u2b1c",
@@ -478,13 +699,12 @@
       "positive_signals": []
     },
     {
-      "title": "Super Simple App Review 8",
-      "channel": "KRISTA EDWARDS",
-      "url": "https://www.youtube.com/watch?v=D-ttI6nMklU",
-      "duration": "2:34",
-      "duration_seconds": 154,
-      "timestamp": "2026-02-22T09:15:00-05:00",
-      "category": "Other",
+      "title": "Grocery shopping children's song - I am shopping on my own | Hooray Kids Songs & Nursery Rhymes",
+      "channel": "Hooray Kids Songs & Nursery Rhymes",
+      "url": "https://www.youtube.com/watch?v=bGphUrmHjH4",
+      "duration": "2:03",
+      "duration_minutes": 2.0,
+      "watched_at": "2026-02-23T18:30:00-05:00",
       "safety_score": 3,
       "safety_rating": "neutral",
       "safety_badge": "\u2b1c",
@@ -492,13 +712,12 @@
       "positive_signals": []
     },
     {
-      "title": "Pinkfong Logo Effects Sponsored By Klaskcy Csupo 2001 Effects",
-      "channel": "Hey K Pro Editor",
-      "url": "https://www.youtube.com/watch?v=UuF3lGjRVW0",
-      "duration": "2:13",
-      "duration_seconds": 133,
-      "timestamp": "2026-02-21T20:30:00-05:00",
-      "category": "Pinkfong / Baby Shark",
+      "title": "Funny Cat Song \u2013 Cat Toilet | Hooray Kids Songs & Nursery Rhymes | Funny Animal Songs",
+      "channel": "Hooray Kids Songs & Nursery Rhymes",
+      "url": "https://www.youtube.com/watch?v=k9QP8-tkDvY",
+      "duration": "2:23",
+      "duration_minutes": 2.4,
+      "watched_at": "2026-02-23T17:00:00-05:00",
       "safety_score": 3,
       "safety_rating": "neutral",
       "safety_badge": "\u2b1c",
@@ -506,13 +725,202 @@
       "positive_signals": []
     },
     {
-      "title": "Guess the Logo Sound Quiz \ud83c\udfb5\ud83e\udde9 | Fun & Educational Kids Sound Challenge \ud83c\udfaf\ud83d\udd25",
+      "title": "Peppa Pig game video - Baby game - Peppa Pig Fun With Peppa",
+      "channel": "Game for kids",
+      "url": "https://www.youtube.com/watch?v=owWhtTHx3Eg&t=45s",
+      "duration": "12:05",
+      "duration_minutes": 12.1,
+      "watched_at": "2026-02-23T15:30:00-05:00",
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "Brush Your Teeth Song \u2013 Here Comes The Toothbrush | Tooth Monster Hacky Smacky | Healthy Habits",
+      "channel": "Hooray Kids Songs & Nursery Rhymes",
+      "url": "https://www.youtube.com/watch?v=3rEWczrCqVk",
+      "duration": "2:21",
+      "duration_minutes": 2.4,
+      "watched_at": "2026-02-23T14:00:00-05:00",
+      "safety_score": 2,
+      "safety_rating": "review",
+      "safety_badge": "\u26a0\ufe0f",
+      "flags": [
+        {
+          "type": "VIOLENT_OR_SCARY",
+          "message": "Title contains violent or scary pattern"
+        }
+      ],
+      "positive_signals": [
+        "Contains 'healthy habits' \u2014 positive developmental signal"
+      ]
+    },
+    {
+      "title": "The Polar Bear Asked the Ice Cream Man - Children's Song | Funny ice cream song | Hooray Kids Songs",
+      "channel": "Hooray Kids Songs & Nursery Rhymes",
+      "url": "https://www.youtube.com/watch?v=Vg0URVQYJM8",
+      "duration": "2:46",
+      "duration_minutes": 2.8,
+      "watched_at": "2026-02-23T12:30:00-05:00",
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "Clear Up Flash - Funny kids song - Clean your room - Hooray Kids Songs & Nursery Rhymes",
+      "channel": "Hooray Kids Songs & Nursery Rhymes",
+      "url": "https://www.youtube.com/watch?v=TmMdZd35g_8",
+      "duration": "2:03",
+      "duration_minutes": 2.0,
+      "watched_at": "2026-02-23T11:00:00-05:00",
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "Bubble Pudding Stop! - Funny kids song | Hooray Kids Songs & Nursery Rhymes",
+      "channel": "Hooray Kids Songs & Nursery Rhymes",
+      "url": "https://www.youtube.com/watch?v=sumbwjn5Yfc",
+      "duration": "2:01",
+      "duration_minutes": 2.0,
+      "watched_at": "2026-02-23T09:30:00-05:00",
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "Guess The Eggs | Children's Song Guessing Game - Quiz Song | Hooray Kids Songs & Nursery Rhymes",
+      "channel": "Hooray Kids Songs & Nursery Rhymes",
+      "url": "https://www.youtube.com/watch?v=oG3epnEih28",
+      "duration": "5:50",
+      "duration_minutes": 5.8,
+      "watched_at": "2026-02-23T08:00:00-05:00",
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "Children's Feelings and Emotions Song - Hooray Kids Songs - Healthy Habits | Sharing is caring song",
+      "channel": "Hooray Kids Songs & Nursery Rhymes",
+      "url": "https://www.youtube.com/watch?v=wInmY6PyYxU",
+      "duration": "6:37",
+      "duration_minutes": 6.6,
+      "watched_at": "2026-02-23T06:30:00-05:00",
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": [
+        "Contains 'feelings' \u2014 positive developmental signal",
+        "Contains 'emotions' \u2014 positive developmental signal"
+      ]
+    },
+    {
+      "title": "Get well soon children's song | Soon you will be fit again - Hooray kids songs & nursery rhymes",
+      "channel": "Hooray Kids Songs & Nursery Rhymes",
+      "url": "https://www.youtube.com/watch?v=7GtxhRH4FEo",
+      "duration": "2:11",
+      "duration_minutes": 2.2,
+      "watched_at": "2026-02-23T05:00:00-05:00",
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "Vegetable Children's Song - Catch the Vegetables Song | healthy habits & eating | Hooray Kids Songs",
+      "channel": "Hooray Kids Songs & Nursery Rhymes",
+      "url": "https://www.youtube.com/watch?v=vPM3ATjTzLw",
+      "duration": "2:23",
+      "duration_minutes": 2.4,
+      "watched_at": "2026-02-23T03:30:00-05:00",
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": [
+        "Contains 'healthy habits' \u2014 positive developmental signal"
+      ]
+    },
+    {
+      "title": "Children's bath song | Hooray we take a bath - Hooray kids songs & nursery rhymes",
+      "channel": "Hooray Kids Songs & Nursery Rhymes",
+      "url": "https://www.youtube.com/watch?v=4GoJYsXCqyk",
+      "duration": "2:00",
+      "duration_minutes": 2.0,
+      "watched_at": "2026-02-23T02:00:00-05:00",
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "Boo-boo Song - Put A Plaster On Children's Song | Hooray Kids Songs & Nursery Rhymes",
+      "channel": "Hooray Kids Songs & Nursery Rhymes",
+      "url": "https://www.youtube.com/watch?v=njsydqB99mY",
+      "duration": "2:33",
+      "duration_minutes": 2.5,
+      "watched_at": "2026-02-23T00:30:00-05:00",
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "Healthy habits kids songs compilation | Hooray Kids Songs | Hacky Smacky - Wash us - Boo-boo Song",
+      "channel": "Hooray Kids Songs & Nursery Rhymes",
+      "url": "https://www.youtube.com/watch?v=vCMNOiQlnD0",
+      "duration": "6:59",
+      "duration_minutes": 7.0,
+      "watched_at": "2026-02-22T23:00:00-05:00",
+      "safety_score": 2,
+      "safety_rating": "review",
+      "safety_badge": "\u26a0\ufe0f",
+      "flags": [
+        {
+          "type": "RAPID_PACING",
+          "message": "Title contains rapid pacing pattern"
+        }
+      ],
+      "positive_signals": [
+        "Contains 'healthy habits' \u2014 positive developmental signal"
+      ]
+    },
+    {
+      "title": "Book showing Pinkfong Baby shark Bedtime songs",
+      "channel": "Umbrella",
+      "url": "https://www.youtube.com/watch?v=Ud8aYWuagWY&t=48s",
+      "duration": "5:49",
+      "duration_minutes": 5.8,
+      "watched_at": "2026-02-22T21:30:00-05:00",
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": [
+        "Contains 'bedtime' \u2014 positive developmental signal"
+      ]
+    },
+    {
+      "title": "Guess The Kids TV Logo Sound | BabyTV, CBeebies, PBS Kids, YouTube Kids & Preschool Quiz 2026",
       "channel": "ZIZOQUIZ",
-      "url": "https://www.youtube.com/watch?v=Nf6LNBALDBw",
-      "duration": "8:27",
-      "duration_seconds": 507,
-      "timestamp": "2026-02-21T20:00:00-05:00",
-      "category": "Logo Effects / Quizzes",
+      "url": "https://www.youtube.com/watch?v=m_jj1MhILNA",
+      "duration": "8:16",
+      "duration_minutes": 8.3,
+      "watched_at": "2026-02-22T20:00:00-05:00",
       "safety_score": 2,
       "safety_rating": "review",
       "safety_badge": "\u26a0\ufe0f",
@@ -522,34 +930,333 @@
           "message": "Title contains sensory overload pattern"
         }
       ],
-      "positive_signals": [
-        "Contains 'educational' \u2014 positive developmental signal"
-      ]
+      "positive_signals": []
     },
     {
-      "title": "Guess The Kids Channel Sounds \ud83d\udd0a | Fun Cartoon & Educational Logo Quiz for Children",
-      "channel": "ZIZOQUIZ",
-      "url": "https://www.youtube.com/watch?v=hurjI2oOf20",
-      "duration": "8:21",
-      "duration_seconds": 501,
-      "timestamp": "2026-02-21T19:30:00-05:00",
-      "category": "Logo Effects / Quizzes",
+      "title": "Kid's, Make a Toy Pizza for the Paw Patrol!",
+      "channel": "Genevieve's Playhouse - Learning Videos for Kids",
+      "url": "https://www.youtube.com/watch?v=MdClLhoH9tc&t=29s",
+      "duration": "4:49",
+      "duration_minutes": 4.8,
+      "watched_at": "2026-02-22T18:30:00-05:00",
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "DANIEL TIGER'S Neighbourhood Family Figures Toy Opening!",
+      "channel": "Tiny Treasures and Toys",
+      "url": "https://www.youtube.com/watch?v=EnLxI2LH_44",
+      "duration": "4:11",
+      "duration_minutes": 4.2,
+      "watched_at": "2026-02-22T17:00:00-05:00",
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "Rare MCDONALD'S Fisher Price Restaurant Play Place with DANIEL Tiger Toys!",
+      "channel": "Tiny Treasures and Toys",
+      "url": "https://www.youtube.com/watch?v=h5-pZE3umzE",
+      "duration": "3:41",
+      "duration_minutes": 3.7,
+      "watched_at": "2026-02-22T15:30:00-05:00",
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "Book showing Pinkfong sing alongs",
+      "channel": "Umbrella",
+      "url": "https://www.youtube.com/watch?v=XIhPuvef-as",
+      "duration": "6:16",
+      "duration_minutes": 6.3,
+      "watched_at": "2026-02-22T14:00:00-05:00",
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "Learn Colors with Crayon SURPRISES and Peppa Pig & Friends Play Doh | Toy Video for Kids & Toddlers",
+      "channel": "ChupiChapa - Learning Videos for Kids",
+      "url": "https://www.youtube.com/watch?v=HtbPe41Tf2w&t=7s",
+      "duration": "9:22",
+      "duration_minutes": 9.4,
+      "watched_at": "2026-02-22T12:30:00-05:00",
       "safety_score": 3,
       "safety_rating": "neutral",
       "safety_badge": "\u2b1c",
       "flags": [],
       "positive_signals": [
-        "Contains 'educational' \u2014 positive developmental signal"
+        "Contains 'learn' \u2014 positive developmental signal",
+        "Contains 'colors' \u2014 positive developmental signal"
       ]
     },
     {
-      "title": "Cocomelon Intro Logo Mega Peppa Pig Compilation Sponsored By Preview 2 Effects",
-      "channel": "Maizrobo",
-      "url": "https://www.youtube.com/watch?v=UubCo7xwmw8",
-      "duration": "4:05",
-      "duration_seconds": 245,
-      "timestamp": "2026-02-21T16:45:00-05:00",
-      "category": "Peppa Pig",
+      "title": "Best Toy Food Videos for Kids - Let's Have Fun in the Kitchen!",
+      "channel": "Genevieve's Playhouse - Learning Videos for Kids",
+      "url": "https://www.youtube.com/watch?v=aq2TEynHNDU&t=353s",
+      "duration": "34:54",
+      "duration_minutes": 34.9,
+      "watched_at": "2026-02-22T11:00:00-05:00",
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "Lets Create a Birthday Dinner Party in our Toy Kitchen",
+      "channel": "Rainybow Kids",
+      "url": "https://www.youtube.com/watch?v=hqzbdR0FaUw&t=147s",
+      "duration": "16:54",
+      "duration_minutes": 16.9,
+      "watched_at": "2026-02-22T09:30:00-05:00",
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "Numberblocks and Their Favorite Snacks, Drinks, Movies & More! | One, Two, Three",
+      "channel": "Blaze Kingdom",
+      "url": "https://www.youtube.com/watch?v=mMeYuHS8UM8&t=20s",
+      "duration": "9:01",
+      "duration_minutes": 9.0,
+      "watched_at": "2026-02-22T08:00:00-05:00",
+      "safety_score": 2,
+      "safety_rating": "review",
+      "safety_badge": "\u26a0\ufe0f",
+      "flags": [
+        {
+          "type": "LOW_VALUE",
+          "message": "Channel concern: Character 'what they like' quizzes \u2014 low educational value, rapid visual content."
+        }
+      ],
+      "positive_signals": []
+    },
+    {
+      "title": "NUMBER BLOCKS CHARACTERS AND THEIR FAVORITE YOUTUBE SERIES!",
+      "channel": "Blaze Toon",
+      "url": "https://www.youtube.com/watch?v=wQPivCaYqmI",
+      "duration": "2:13",
+      "duration_minutes": 2.2,
+      "watched_at": "2026-02-22T06:30:00-05:00",
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "Peppa Pig Characters And Their Favorite Snacks Drinks & More! | Evie Pig, Peppa Pig, Mummy Pig",
+      "channel": "Blaze Kingdom",
+      "url": "https://www.youtube.com/watch?v=Z6m-F05pyZI&t=663s",
+      "duration": "18:03",
+      "duration_minutes": 18.1,
+      "watched_at": "2026-02-22T05:00:00-05:00",
+      "safety_score": 2,
+      "safety_rating": "review",
+      "safety_badge": "\u26a0\ufe0f",
+      "flags": [
+        {
+          "type": "LOW_VALUE",
+          "message": "Channel concern: Character 'what they like' quizzes \u2014 low educational value, rapid visual content."
+        }
+      ],
+      "positive_signals": []
+    },
+    {
+      "title": "How To Draw Cocomelon Watermelon | Draw with Blippi! | Kids Art Videos | Drawing Tutorial",
+      "channel": "How to Draw with Blippi",
+      "url": "https://www.youtube.com/watch?v=0CgGubRBqpI",
+      "duration": "2:51",
+      "duration_minutes": 2.9,
+      "watched_at": "2026-02-22T03:30:00-05:00",
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "Adi Made a Cute Penguin! | Cotton Candy Food Art | DIY for Kids | Adi Connection",
+      "channel": "Adi Connection",
+      "url": "https://www.youtube.com/watch?v=SH-o6M8G8hk",
+      "duration": "15:19",
+      "duration_minutes": 15.3,
+      "watched_at": "2026-02-22T02:00:00-05:00",
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "Peppa Pig - Learn Vehicles with Peppa Pig - Learning with Peppa Pig",
+      "channel": "Peppa Pig's Pretend Play",
+      "url": "https://www.youtube.com/watch?v=_o8U0chjWuA&t=10s",
+      "duration": "30:06",
+      "duration_minutes": 30.1,
+      "watched_at": "2026-02-22T00:30:00-05:00",
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": [
+        "Contains 'learn' \u2014 positive developmental signal"
+      ]
+    },
+    {
+      "title": "Bella's FIRST Beach Day! | CoComelon Lane | Netflix Jr",
+      "channel": "Netflix Jr.",
+      "url": "https://www.youtube.com/watch?v=C79D2wt251w",
+      "duration": "4:34",
+      "duration_minutes": 4.6,
+      "watched_at": "2026-02-21T23:00:00-05:00",
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "WEATHER SONG | HELLO THERE SUN SUN SUN | Lingokids",
+      "channel": "Lingokids Official Channel",
+      "url": "https://www.youtube.com/watch?v=CGMZXZa5LvA",
+      "duration": "2:22",
+      "duration_minutes": 2.4,
+      "watched_at": "2026-02-21T21:30:00-05:00",
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "IT'S A BEAUTIFUL DAY IN OUR NEIGHBORHOOD | Dad Tiger's Models | PBS KIDS",
+      "channel": "PBS KIDS",
+      "url": "https://www.youtube.com/watch?v=Btz408bPsEw",
+      "duration": "2:14",
+      "duration_minutes": 2.2,
+      "watched_at": "2026-02-21T20:00:00-05:00",
+      "safety_score": 5,
+      "safety_rating": "good",
+      "safety_badge": "\u2705",
+      "flags": [],
+      "positive_signals": [
+        "Curated educational content, structured, low stimulation, autism-inclusive (Sesame Street's Julia character)."
+      ]
+    },
+    {
+      "title": "IT'S A BEAUTIFUL DAY IN MY NEIGHBORHOOD | Mom Tiger's Swingset | PBS KIDS",
+      "channel": "PBS KIDS",
+      "url": "https://www.youtube.com/watch?v=Ril3YXBcTCo",
+      "duration": "2:14",
+      "duration_minutes": 2.2,
+      "watched_at": "2026-02-21T18:30:00-05:00",
+      "safety_score": 5,
+      "safety_rating": "good",
+      "safety_badge": "\u2705",
+      "flags": [],
+      "positive_signals": [
+        "Curated educational content, structured, low stimulation, autism-inclusive (Sesame Street's Julia character)."
+      ]
+    },
+    {
+      "title": "Daniel Tiger Neighborhood Drive Trolley Episode 2629",
+      "channel": "Zenno",
+      "url": "https://www.youtube.com/watch?v=rz6ODIbR3ac&t=17s",
+      "duration": "8:30",
+      "duration_minutes": 8.5,
+      "watched_at": "2026-02-21T17:00:00-05:00",
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "Cocomelon Outro with a Twist",
+      "channel": "B's Channel",
+      "url": "https://www.youtube.com/watch?v=hLIHTuEkIoU",
+      "duration": "1:09",
+      "duration_minutes": 1.1,
+      "watched_at": "2026-02-21T15:30:00-05:00",
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "Peppa Pig Scene Sticker So Cute",
+      "channel": "Valerie Toys and Play",
+      "url": "https://www.youtube.com/watch?v=uWmShtC_Rzw&t=23s",
+      "duration": "5:31",
+      "duration_minutes": 5.5,
+      "watched_at": "2026-02-21T14:00:00-05:00",
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "Collect Stickers with JJ! | CoComelon Lane Sticker Scavenger Hunt | Netflix Jr",
+      "channel": "Netflix Jr.",
+      "url": "https://www.youtube.com/watch?v=E2fAoOM4lVw&t=13s",
+      "duration": "22:17",
+      "duration_minutes": 22.3,
+      "watched_at": "2026-02-21T12:30:00-05:00",
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "BC MB ABTNS STSK PDP BG DTN SW DT B&F and DTE Credits Remix!",
+      "channel": "Mavbandx",
+      "url": "https://www.youtube.com/watch?v=vkkIeNw4OX0&t=12s",
+      "duration": "6:05",
+      "duration_minutes": 6.1,
+      "watched_at": "2026-02-21T11:00:00-05:00",
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "Lingokids versi\u00f3n 2019",
+      "channel": "Duolingo",
+      "url": "https://www.youtube.com/watch?v=yaIK_T1ntRU&t=19s",
+      "duration": "4:51",
+      "duration_minutes": 4.8,
+      "watched_at": "2026-02-21T09:30:00-05:00",
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "Logo Effects Pixel Art Minecraft Compilation 2024 V12",
+      "channel": "BritishEdits",
+      "url": "https://www.youtube.com/watch?v=tgcL2r4ukSw",
+      "duration": "1:45",
+      "duration_minutes": 1.8,
+      "watched_at": "2026-02-21T08:00:00-05:00",
       "safety_score": 2,
       "safety_rating": "review",
       "safety_badge": "\u26a0\ufe0f",
@@ -562,13 +1269,48 @@
       "positive_signals": []
     },
     {
-      "title": "Adivina el PERSONAJE INFANTIL por la VOZ | Reino infantil \ud83d\udc14 Guerreras Kpop \ud83c\udfa4 Bluey \ud83e\ude75 Paw Patrol",
-      "channel": "INTENTA ADIVINAR",
-      "url": "https://www.youtube.com/watch?v=euxTkrw2dh0",
-      "duration": "9:48",
-      "duration_seconds": 588,
-      "timestamp": "2026-02-21T16:00:00-05:00",
-      "category": "Quizzes / Trivia",
+      "title": "Logo Effects Pixel Art Minecraft Compilation 2024 V8",
+      "channel": "Ikigai Effects",
+      "url": "https://www.youtube.com/watch?v=uH5svWnv9_0",
+      "duration": "2:45",
+      "duration_minutes": 2.8,
+      "watched_at": "2026-02-21T06:30:00-05:00",
+      "safety_score": 2,
+      "safety_rating": "review",
+      "safety_badge": "\u26a0\ufe0f",
+      "flags": [
+        {
+          "type": "RAPID_PACING",
+          "message": "Title contains rapid pacing pattern"
+        }
+      ],
+      "positive_signals": []
+    },
+    {
+      "title": "Logo Effects Pixel Art Minecraft Compilation 2025",
+      "channel": "UK Edits",
+      "url": "https://www.youtube.com/watch?v=pg6PcyJrQow",
+      "duration": "2:07",
+      "duration_minutes": 2.1,
+      "watched_at": "2026-02-21T05:00:00-05:00",
+      "safety_score": 2,
+      "safety_rating": "review",
+      "safety_badge": "\u26a0\ufe0f",
+      "flags": [
+        {
+          "type": "RAPID_PACING",
+          "message": "Title contains rapid pacing pattern"
+        }
+      ],
+      "positive_signals": []
+    },
+    {
+      "title": "SING 2 MOVIE CHARACTERS AND THEIR FAVORITE YOUTUBE SERIES!",
+      "channel": "Blaze Toon",
+      "url": "https://www.youtube.com/watch?v=VY0ODgnLHn4",
+      "duration": "1:48",
+      "duration_minutes": 1.8,
+      "watched_at": "2026-02-21T03:30:00-05:00",
       "safety_score": 3,
       "safety_rating": "neutral",
       "safety_badge": "\u2b1c",
@@ -576,13 +1318,178 @@
       "positive_signals": []
     },
     {
-      "title": "\u00a1Adivina 40 CANCIONES INFANTILES! \ud83d\ude0d\ud83c\udfb6Bartolito\ud83d\udc13Bluey\ud83d\udc99\ud83d\ude4bBlippi\ud83d\udc67Plim Plim\ud83e\udd21 \u00bfComo se llama la Canci\u00f3n?\ud83c\udfb5",
-      "channel": "Chiko Quiz - Trivia",
-      "url": "https://www.youtube.com/watch?v=w5UFKE8FhHs",
+      "title": "INSIDE OUT 2 CHARACTERS AND THEIR FAVORITE YOUTUBE SERIES!",
+      "channel": "Blaze Fandom",
+      "url": "https://www.youtube.com/watch?v=4_f2Ro-FunI",
+      "duration": "1:48",
+      "duration_minutes": 1.8,
+      "watched_at": "2026-02-21T02:00:00-05:00",
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "CoComelon: Play with JJ | Gameplay | Nintendo Switch",
+      "channel": "Nintendo Games",
+      "url": "https://www.youtube.com/watch?v=ZWBNJVFMcU8&t=724s",
+      "duration": "15:32",
+      "duration_minutes": 15.5,
+      "watched_at": "2026-02-21T00:30:00-05:00",
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "Jgjfhjdnbghbchghjsgkdfg",
+      "channel": "Danilo Tayaojr",
+      "url": "https://www.youtube.com/watch?v=K1TIBif-lPM&t=62s",
+      "duration": "5:08",
+      "duration_minutes": 5.1,
+      "watched_at": "2026-02-20T23:00:00-05:00",
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "Super Simple App Review 4",
+      "channel": "Krista Edwards",
+      "url": "https://www.youtube.com/watch?v=XpGT1nQYNl4",
+      "duration": "3:29",
+      "duration_minutes": 3.5,
+      "watched_at": "2026-02-20T21:30:00-05:00",
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "Super Simple App Review 8",
+      "channel": "KRISTA EDWARDS",
+      "url": "https://www.youtube.com/watch?v=D-ttI6nMklU&t=6s",
+      "duration": "2:34",
+      "duration_minutes": 2.6,
+      "watched_at": "2026-02-20T20:00:00-05:00",
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "Noodle And Pals Gameplay Music Video",
+      "channel": "BIAZER06 ARCHIVE",
+      "url": "https://www.youtube.com/watch?v=9pgqyQx5q0M",
+      "duration": "6:30",
+      "duration_minutes": 6.5,
+      "watched_at": "2026-02-20T18:30:00-05:00",
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "PEPPA PIG INVADE AVATAR WORLD | Juanvi Gameplays",
+      "channel": "Juanvi Gameplays",
+      "url": "https://www.youtube.com/watch?v=6Fo8gFFMw4o&t=18s",
+      "duration": "15:39",
+      "duration_minutes": 15.7,
+      "watched_at": "2026-02-20T17:00:00-05:00",
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "October 23, 2025",
+      "channel": "Himank Chauhan",
+      "url": "https://www.youtube.com/watch?v=EGppbG1ABik&t=14s",
+      "duration": "4:14",
+      "duration_minutes": 4.2,
+      "watched_at": "2026-02-20T15:30:00-05:00",
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "Cocomelon Outro Logo with JJ's Animals Peppa Pig Style Logo Sponsored By Preview 2 Effects",
+      "channel": "BaBaBoom",
+      "url": "https://www.youtube.com/watch?v=olJS4EmMJT0&t=37s",
+      "duration": "4:12",
+      "duration_minutes": 4.2,
+      "watched_at": "2026-02-20T14:00:00-05:00",
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "Cocomelon Cody and Animals Crying LEGO Bricks intro Logo Sponsored By Preview 2",
+      "channel": "BaBaBoom",
+      "url": "https://www.youtube.com/watch?v=3ImhH6IHecE&t=45s",
+      "duration": "4:02",
+      "duration_minutes": 4.0,
+      "watched_at": "2026-02-20T12:30:00-05:00",
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "Guess The Logo Sound | McDonald's, Tiktok, Netflix, Pepsi | Logo Quiz 2025",
+      "channel": "Quiz Diver",
+      "url": "https://www.youtube.com/watch?v=bgXlPxob08E",
+      "duration": "21:18",
+      "duration_minutes": 21.3,
+      "watched_at": "2026-02-20T11:00:00-05:00",
+      "safety_score": 2,
+      "safety_rating": "review",
+      "safety_badge": "\u26a0\ufe0f",
+      "flags": [
+        {
+          "type": "SENSORY_OVERLOAD",
+          "message": "Title contains sensory overload pattern"
+        }
+      ],
+      "positive_signals": []
+    },
+    {
+      "title": "Logo Compilation (RJ Kumar's G-Major 14) - Netflix, YouTube, McDonalds, Coca Cola",
+      "channel": "Ikigai Effects",
+      "url": "https://www.youtube.com/watch?v=Z3Hz1b4yzu8&t=36s",
+      "duration": "10:22",
+      "duration_minutes": 10.4,
+      "watched_at": "2026-02-20T09:30:00-05:00",
+      "safety_score": 2,
+      "safety_rating": "review",
+      "safety_badge": "\u26a0\ufe0f",
+      "flags": [
+        {
+          "type": "RAPID_PACING",
+          "message": "Title contains rapid pacing pattern"
+        }
+      ],
+      "positive_signals": []
+    },
+    {
+      "title": "Peppa Pig Drives NEW Toy Car | Electric Cars Soft Play Centre | Full Episodes Cartoon",
+      "channel": "Toys and Colours",
+      "url": "https://www.youtube.com/watch?v=1YDo9IYHouw&t=349s",
       "duration": "18:00",
-      "duration_seconds": 1080,
-      "timestamp": "2026-02-21T15:30:00-05:00",
-      "category": "Quizzes / Trivia",
+      "duration_minutes": 18.0,
+      "watched_at": "2026-02-20T08:00:00-05:00",
       "safety_score": 3,
       "safety_rating": "neutral",
       "safety_badge": "\u2b1c",
@@ -590,13 +1497,12 @@
       "positive_signals": []
     },
     {
-      "title": "\ud83e\udd55\ud83d\udd22 Numberblocks Reimagined as Vegetables \ud83c\udf3d\u2728 | A Fun Healthy Learning Adventure for Kids!",
-      "channel": "Melon TV Fun",
-      "url": "https://www.youtube.com/watch?v=J8y2L6igV80",
-      "duration": "10:14",
-      "duration_seconds": 614,
-      "timestamp": "2026-02-21T09:45:00-05:00",
-      "category": "Numberblocks",
+      "title": "Kids, let's learn common words with Pororo's fun Toy Dollhouse!",
+      "channel": "Genevieve's Playhouse - Learning Videos for Kids",
+      "url": "https://www.youtube.com/watch?v=hGnMSib9Fuw&t=52s",
+      "duration": "10:07",
+      "duration_minutes": 10.1,
+      "watched_at": "2026-02-20T06:30:00-05:00",
       "safety_score": 3,
       "safety_rating": "neutral",
       "safety_badge": "\u2b1c",
@@ -606,13 +1512,27 @@
       ]
     },
     {
-      "title": "Dolly e Amigos Em Portugu\u00eas Brasil Completo #1",
+      "title": "Learn Common Household Words with Woodzeez and Bluey for Kids!",
+      "channel": "Genevieve's Playhouse - Learning Videos for Kids",
+      "url": "https://www.youtube.com/watch?v=Tuw2fu5_zPI&t=356s",
+      "duration": "21:37",
+      "duration_minutes": 21.6,
+      "watched_at": "2026-02-20T05:00:00-05:00",
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": [
+        "Contains 'learn' \u2014 positive developmental signal"
+      ]
+    },
+    {
+      "title": "Dolly e Amigos Em Portugu\u00eas Brasil Completo",
       "channel": "Dolly's Stories KIDS",
-      "url": "https://www.youtube.com/watch?v=sb_LrzfFb8U",
+      "url": "https://www.youtube.com/watch?v=sb_LrzfFb8U&t=253s",
       "duration": "10:14",
-      "duration_seconds": 614,
-      "timestamp": "2026-02-21T09:15:00-05:00",
-      "category": "Other",
+      "duration_minutes": 10.2,
+      "watched_at": "2026-02-20T03:30:00-05:00",
       "safety_score": 3,
       "safety_rating": "neutral",
       "safety_badge": "\u2b1c",
@@ -620,13 +1540,12 @@
       "positive_signals": []
     },
     {
-      "title": "Peppa Pig Full Episodes | Potato City \ud83e\udd54 | Cartoons for Children",
-      "channel": "Peppa Videos",
-      "url": "https://www.youtube.com/watch?v=CDOyIvI6F0w",
-      "duration": "1:03:00",
-      "duration_seconds": 3780,
-      "timestamp": "2026-02-20T20:30:00-05:00",
-      "category": "Peppa Pig",
+      "title": "Every Ride at Peppa Pig Theme Park! Daddy Pig's Roller Coaster POV! Orlando Florida",
+      "channel": "Theme Park Review",
+      "url": "https://www.youtube.com/watch?v=Kxmaya3Bbug",
+      "duration": "6:05",
+      "duration_minutes": 6.1,
+      "watched_at": "2026-02-20T02:00:00-05:00",
       "safety_score": 3,
       "safety_rating": "neutral",
       "safety_badge": "\u2b1c",
@@ -634,13 +1553,12 @@
       "positive_signals": []
     },
     {
-      "title": "JJ's Sticker Scavenger Hunt \ud83d\udd0d\ud83d\udc1e CoComelon Lane | Netflix Jr",
-      "channel": "Netflix Jr.",
-      "url": "https://www.youtube.com/watch?v=-DP2GzMKmvY",
-      "duration": "19:00",
-      "duration_seconds": 1140,
-      "timestamp": "2026-02-20T20:00:00-05:00",
-      "category": "CoComelon",
+      "title": "Cocomelon Outro Logo Random Effects Sponsored By Klasky Csupo 2001 Effects| Inverted",
+      "channel": "NagLogos Edit Effects",
+      "url": "https://www.youtube.com/watch?v=9OiOd6xvfPU",
+      "duration": "3:02",
+      "duration_minutes": 3.0,
+      "watched_at": "2026-02-20T00:30:00-05:00",
       "safety_score": 3,
       "safety_rating": "neutral",
       "safety_badge": "\u2b1c",
@@ -648,13 +1566,12 @@
       "positive_signals": []
     },
     {
-      "title": "Peppa Pig Scene Sticker So Cute \u5c0f\u8c6c\u4f69\u5947\u5834\u666f\u8cbc\u7d19\u66f8\u73a9\u5177",
-      "channel": "Valerie Toys and Play",
-      "url": "https://www.youtube.com/watch?v=uWmShtC_Rzw",
-      "duration": "5:31",
-      "duration_seconds": 331,
-      "timestamp": "2026-02-20T19:30:00-05:00",
-      "category": "Peppa Pig",
+      "title": "Pinkfong Logo Effects",
+      "channel": "Mac Waltz (Boholano) Rosales",
+      "url": "https://www.youtube.com/watch?v=FneQB5dEV4w&t=31s",
+      "duration": "14:56",
+      "duration_minutes": 14.9,
+      "watched_at": "2026-02-19T23:00:00-05:00",
       "safety_score": 3,
       "safety_rating": "neutral",
       "safety_badge": "\u2b1c",
@@ -662,13 +1579,12 @@
       "positive_signals": []
     },
     {
-      "title": "\u00a1Adivina CANCIONES INFANTILES Por La INTRO \ud83d\ude00\ud83c\udfb6\ud83c\udf75SOY una taza \ud83d\udc2eVaca LOLA \ud83d\udc25Pollito amarillo \ud83e\udeb3CUCARACHITA",
-      "channel": "Chiko Quiz - Trivia",
-      "url": "https://www.youtube.com/watch?v=3rzPWnOR5Ik",
-      "duration": "18:00",
-      "duration_seconds": 1080,
-      "timestamp": "2026-02-20T16:45:00-05:00",
-      "category": "Quizzes / Trivia",
+      "title": "Peppa Pig: World Adventures - Full Game - Nintendo Switch Gameplay",
+      "channel": "Best Game Videos",
+      "url": "https://www.youtube.com/watch?v=GIcGjEDkvIs&t=5809s",
+      "duration": "2:41:39",
+      "duration_minutes": 161.7,
+      "watched_at": "2026-02-19T21:30:00-05:00",
       "safety_score": 3,
       "safety_rating": "neutral",
       "safety_badge": "\u2b1c",
@@ -676,13 +1592,12 @@
       "positive_signals": []
     },
     {
-      "title": "Pinkfong In \ud83c\udf55ITALY\ud83c\udf55 Logo Effects\u2757\u2757",
+      "title": "Pinkfong In Italy Logo Effects!",
       "channel": "TheDutchLogoEditor",
-      "url": "https://www.youtube.com/watch?v=JA9SRldy_lw",
+      "url": "https://www.youtube.com/watch?v=JA9SRldy_lw&t=25s",
       "duration": "8:15",
-      "duration_seconds": 495,
-      "timestamp": "2026-02-20T16:00:00-05:00",
-      "category": "Pinkfong / Baby Shark",
+      "duration_minutes": 8.2,
+      "watched_at": "2026-02-19T20:00:00-05:00",
       "safety_score": 3,
       "safety_rating": "neutral",
       "safety_badge": "\u2b1c",
@@ -690,13 +1605,30 @@
       "positive_signals": []
     },
     {
-      "title": "\ud83d\udd22Numberblocks Reimagined as Shoes \ud83d\udc5f\u2728 | A Fun Fashion Learning Adventure for Kids!",
-      "channel": "Melon TV Fun",
-      "url": "https://www.youtube.com/watch?v=e59co9_M-IU",
-      "duration": "10:14",
-      "duration_seconds": 614,
-      "timestamp": "2026-02-20T15:30:00-05:00",
-      "category": "Numberblocks",
+      "title": "2022 UPDATE! PBS KIDS ID / Logo Compilation (90s-Now)",
+      "channel": "Peeebs",
+      "url": "https://www.youtube.com/watch?v=uVH8eGKHFbE&t=45s",
+      "duration": "8:16",
+      "duration_minutes": 8.3,
+      "watched_at": "2026-02-19T18:30:00-05:00",
+      "safety_score": 2,
+      "safety_rating": "review",
+      "safety_badge": "\u26a0\ufe0f",
+      "flags": [
+        {
+          "type": "RAPID_PACING",
+          "message": "Title contains rapid pacing pattern"
+        }
+      ],
+      "positive_signals": []
+    },
+    {
+      "title": "Peppa Pig - Dress up Peppa Pig - Learn Colouring - Learning with Peppa Pig",
+      "channel": "Peppa Pig's Pretend Play",
+      "url": "https://www.youtube.com/watch?v=yi56hE8fQD4&t=17s",
+      "duration": "10:50",
+      "duration_minutes": 10.8,
+      "watched_at": "2026-02-19T17:00:00-05:00",
       "safety_score": 3,
       "safety_rating": "neutral",
       "safety_badge": "\u2b1c",
@@ -706,32 +1638,167 @@
       ]
     },
     {
-      "title": "Guess The Kids TV Logo Sound \ud83c\udfb5\ud83e\udde9 | BabyTV, CBeebies, PBS Kids, YouTube Kids & Preschool Quiz 2026",
-      "channel": "ZIZOQUIZ",
-      "url": "https://www.youtube.com/watch?v=m_jj1MhILNA",
-      "duration": "8:16",
-      "duration_seconds": 496,
-      "timestamp": "2026-02-20T09:45:00-05:00",
-      "category": "PBS Kids",
+      "title": "Logo Effects Pixel Art Minecraft Compilation Preview 2 Warner Home Video (1997) Effects",
+      "channel": "BritishEdits",
+      "url": "https://www.youtube.com/watch?v=YyNrQyUjwFk",
+      "duration": "2:21",
+      "duration_minutes": 2.4,
+      "watched_at": "2026-02-19T15:30:00-05:00",
       "safety_score": 2,
       "safety_rating": "review",
       "safety_badge": "\u26a0\ufe0f",
       "flags": [
         {
-          "type": "SENSORY_OVERLOAD",
-          "message": "Title contains sensory overload pattern"
+          "type": "VIOLENT_OR_SCARY",
+          "message": "Title contains violent or scary pattern"
+        },
+        {
+          "type": "RAPID_PACING",
+          "message": "Title contains rapid pacing pattern"
         }
       ],
       "positive_signals": []
     },
     {
-      "title": "NUMBER BLOCKS CHARACTERS AND THEIR FAVORITE YOUTUBE SERIES!",
-      "channel": "Blaze Toon",
-      "url": "https://www.youtube.com/watch?v=wQPivCaYqmI",
-      "duration": "2:13",
-      "duration_seconds": 133,
-      "timestamp": "2026-02-20T09:15:00-05:00",
-      "category": "Numberblocks",
+      "title": "Logo Effects Pixel Art Minecraft Compilation 3",
+      "channel": "Ikigai Effects",
+      "url": "https://www.youtube.com/watch?v=eaQi2b4HFjs&t=22s",
+      "duration": "2:50",
+      "duration_minutes": 2.8,
+      "watched_at": "2026-02-19T14:00:00-05:00",
+      "safety_score": 2,
+      "safety_rating": "review",
+      "safety_badge": "\u26a0\ufe0f",
+      "flags": [
+        {
+          "type": "RAPID_PACING",
+          "message": "Title contains rapid pacing pattern"
+        }
+      ],
+      "positive_signals": []
+    },
+    {
+      "title": "Logo Effects Pixel Art Minecraft Compilation 2025",
+      "channel": "UK Edits",
+      "url": "https://www.youtube.com/watch?v=PqmOeHX_g7Y",
+      "duration": "2:16",
+      "duration_minutes": 2.3,
+      "watched_at": "2026-02-19T12:30:00-05:00",
+      "safety_score": 2,
+      "safety_rating": "review",
+      "safety_badge": "\u26a0\ufe0f",
+      "flags": [
+        {
+          "type": "RAPID_PACING",
+          "message": "Title contains rapid pacing pattern"
+        }
+      ],
+      "positive_signals": []
+    },
+    {
+      "title": "Logo Effects Pixel Art Minecraft Compilation 2024 V14",
+      "channel": "BritishEdits",
+      "url": "https://www.youtube.com/watch?v=8r2mrUBweUc&t=43s",
+      "duration": "2:55",
+      "duration_minutes": 2.9,
+      "watched_at": "2026-02-19T11:00:00-05:00",
+      "safety_score": 2,
+      "safety_rating": "review",
+      "safety_badge": "\u26a0\ufe0f",
+      "flags": [
+        {
+          "type": "RAPID_PACING",
+          "message": "Title contains rapid pacing pattern"
+        }
+      ],
+      "positive_signals": []
+    },
+    {
+      "title": "Logo Effects Pixel Art Minecraft Compilation 2025",
+      "channel": "BritishEdits",
+      "url": "https://www.youtube.com/watch?v=364S6DQzKEo&t=31s",
+      "duration": "2:49",
+      "duration_minutes": 2.8,
+      "watched_at": "2026-02-19T09:30:00-05:00",
+      "safety_score": 2,
+      "safety_rating": "review",
+      "safety_badge": "\u26a0\ufe0f",
+      "flags": [
+        {
+          "type": "RAPID_PACING",
+          "message": "Title contains rapid pacing pattern"
+        }
+      ],
+      "positive_signals": []
+    },
+    {
+      "title": "CoComelon Pocket Library, 6 books and a jigsaw to complete with the backcovers | 6 read aloud books",
+      "channel": "Il mondo dei piccoli: libri e giocattoli",
+      "url": "https://www.youtube.com/watch?v=Qz6yK9z5M34",
+      "duration": "6:37",
+      "duration_minutes": 6.6,
+      "watched_at": "2026-02-19T08:00:00-05:00",
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": [
+        "Contains 'read aloud' \u2014 positive developmental signal"
+      ]
+    },
+    {
+      "title": "Cocomelon Pocket Library | 6 Read Aloud Books For Children and Toddlers | Routines & Learning",
+      "channel": "Hoots & Tales",
+      "url": "https://www.youtube.com/watch?v=YU3KS5zkDug&t=38s",
+      "duration": "4:38",
+      "duration_minutes": 4.6,
+      "watched_at": "2026-02-19T06:30:00-05:00",
+      "safety_score": 5,
+      "safety_rating": "good",
+      "safety_badge": "\u2705",
+      "flags": [],
+      "positive_signals": [
+        "Calm animated read-alouds \u2014 predictable format, no sudden sounds, builds language and literacy.",
+        "Contains 'learn' \u2014 positive developmental signal"
+      ]
+    },
+    {
+      "title": "Cocomelon Little Pocket Library: Read Aloud 6 Book Collection for Children and Toddlers",
+      "channel": "Shall We Read A Book?",
+      "url": "https://www.youtube.com/watch?v=NL3AZ57hqh8&t=84s",
+      "duration": "5:48",
+      "duration_minutes": 5.8,
+      "watched_at": "2026-02-19T05:00:00-05:00",
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": [
+        "Contains 'read aloud' \u2014 positive developmental signal"
+      ]
+    },
+    {
+      "title": "Peppa Pig: A Big Box of Little Books - Read Aloud Peppa Pig Books for Children and Toddlers",
+      "channel": "Shall We Read A Book?",
+      "url": "https://www.youtube.com/watch?v=5DioWB_7r1E&t=116s",
+      "duration": "6:30",
+      "duration_minutes": 6.5,
+      "watched_at": "2026-02-19T03:30:00-05:00",
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": [
+        "Contains 'read aloud' \u2014 positive developmental signal"
+      ]
+    },
+    {
+      "title": "Cody's First Trip to the Dentist Song | CoComelon Lane | Netflix Jr",
+      "channel": "Netflix Jr.",
+      "url": "https://www.youtube.com/watch?v=fwnguItNrw8",
+      "duration": "6:12",
+      "duration_minutes": 6.2,
+      "watched_at": "2026-02-19T02:00:00-05:00",
       "safety_score": 3,
       "safety_rating": "neutral",
       "safety_badge": "\u2b1c",
@@ -739,32 +1806,51 @@
       "positive_signals": []
     },
     {
-      "title": "Guess The Kids TV Logo Sound \ud83d\udd0a | BabyTV, CBeebies, PBS Kids, YouTube Kids & More Preschool Quiz 2026",
-      "channel": "ZIZOQUIZ",
-      "url": "https://www.youtube.com/watch?v=GYNPa7gpDNA",
-      "duration": "8:03",
-      "duration_seconds": 483,
-      "timestamp": "2026-02-19T20:30:00-05:00",
-      "category": "PBS Kids",
-      "safety_score": 2,
-      "safety_rating": "review",
-      "safety_badge": "\u26a0\ufe0f",
-      "flags": [
-        {
-          "type": "SENSORY_OVERLOAD",
-          "message": "Title contains sensory overload pattern"
-        }
-      ],
+      "title": "Fun With Peppa Pig! 2 Episodes - Free Games on Nick Jr",
+      "channel": "WonderBrain - Learning Videos For Kids",
+      "url": "https://www.youtube.com/watch?v=r9plvMc9Do8&t=181s",
+      "duration": "6:56",
+      "duration_minutes": 6.9,
+      "watched_at": "2026-02-19T00:30:00-05:00",
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
       "positive_signals": []
     },
     {
-      "title": "INSIDE OUT 2 CHARACTERS AND THEIR FAVORITE PEPPA PIG CHARACTES!",
-      "channel": "Blaze Toon",
-      "url": "https://www.youtube.com/watch?v=_QLdPVZ5GRo",
-      "duration": "1:53",
-      "duration_seconds": 113,
-      "timestamp": "2026-02-19T20:00:00-05:00",
-      "category": "Peppa Pig",
+      "title": "Pinkfong sound book Car songs",
+      "channel": "Umbrella",
+      "url": "https://www.youtube.com/watch?v=WTBJNCIiHjc&t=17s",
+      "duration": "4:54",
+      "duration_minutes": 4.9,
+      "watched_at": "2026-02-18T23:00:00-05:00",
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "Guess Correct Logo - Logo Challenge | 30 Levels Quiz 2023",
+      "channel": "QUIZ CAKE",
+      "url": "https://www.youtube.com/watch?v=Bm-1zEfEg5k",
+      "duration": "11:16",
+      "duration_minutes": 11.3,
+      "watched_at": "2026-02-18T21:30:00-05:00",
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "Guess The Logo In 3 Seconds | RAINBOW Edition | 100 Famous Logos | Logo Quiz 2025",
+      "channel": "Quiz Dino",
+      "url": "https://www.youtube.com/watch?v=u4KCCXn-CjQ",
+      "duration": "23:23",
+      "duration_minutes": 23.4,
+      "watched_at": "2026-02-18T20:00:00-05:00",
       "safety_score": 3,
       "safety_rating": "neutral",
       "safety_badge": "\u2b1c",
@@ -774,15 +1860,51 @@
   ],
   "top_channels": [
     {
+      "channel": "Hooray Kids Songs & Nursery Rhymes",
+      "count": 15
+    },
+    {
+      "channel": "PBS KIDS",
+      "count": 7
+    },
+    {
       "channel": "Netflix Jr.",
       "count": 6
     },
     {
-      "channel": "ZIZOQUIZ",
+      "channel": "Peppa Pig's Big Adventures",
+      "count": 5
+    },
+    {
+      "channel": "Genevieve's Playhouse - Learning Videos for Kids",
       "count": 4
     },
     {
-      "channel": "Maizrobo",
+      "channel": "BritishEdits",
+      "count": 4
+    },
+    {
+      "channel": "Hoots & Tales",
+      "count": 3
+    },
+    {
+      "channel": "Blaze Kingdom",
+      "count": 3
+    },
+    {
+      "channel": "Nintendo Games",
+      "count": 3
+    },
+    {
+      "channel": "Umbrella",
+      "count": 3
+    },
+    {
+      "channel": "Ikigai Effects",
+      "count": 3
+    },
+    {
+      "channel": "Peppa Pig - Official Channel",
       "count": 2
     },
     {
@@ -790,119 +1912,109 @@
       "count": 2
     },
     {
-      "channel": "Chiko Quiz - Trivia",
-      "count": 2
-    },
-    {
       "channel": "Melon TV Fun",
       "count": 2
     },
     {
-      "channel": "Blaze Toon",
+      "channel": "Zenno",
       "count": 2
-    },
-    {
-      "channel": "Dino Avatar",
-      "count": 1
-    },
-    {
-      "channel": "Gerrard",
-      "count": 1
-    },
-    {
-      "channel": "Peeebs",
-      "count": 1
     }
   ],
   "top_categories": [
     {
-      "category": "CoComelon",
+      "category": "Kids Entertainment",
+      "count": 46
+    },
+    {
+      "category": "Kids Educational TV",
+      "count": 18
+    },
+    {
+      "category": "Toy Play Videos",
+      "count": 14
+    },
+    {
+      "category": "Nursery Rhymes & Songs",
+      "count": 14
+    },
+    {
+      "category": "Logo/Effects Videos",
+      "count": 12
+    },
+    {
+      "category": "Gameplay Videos",
+      "count": 11
+    },
+    {
+      "category": "Logo Quizzes",
       "count": 9
     },
     {
-      "category": "Peppa Pig",
-      "count": 8
-    },
-    {
-      "category": "Pinkfong / Baby Shark",
-      "count": 7
-    },
-    {
-      "category": "Logo Effects / Quizzes",
-      "count": 6
-    },
-    {
-      "category": "Educational",
+      "category": "Read Aloud Books",
       "count": 5
-    },
-    {
-      "category": "PBS Kids",
-      "count": 4
-    },
-    {
-      "category": "Other",
-      "count": 3
-    },
-    {
-      "category": "Quizzes / Trivia",
-      "count": 3
-    },
-    {
-      "category": "Numberblocks",
-      "count": 3
-    },
-    {
-      "category": "Sago Mini",
-      "count": 2
     }
   ],
   "hourly_counts": {
-    "0": 0,
+    "0": 8,
     "1": 0,
-    "2": 0,
-    "3": 0,
+    "2": 8,
+    "3": 8,
     "4": 0,
-    "5": 0,
-    "6": 0,
+    "5": 8,
+    "6": 8,
     "7": 0,
-    "8": 0,
-    "9": 12,
+    "8": 8,
+    "9": 8,
     "10": 0,
-    "11": 0,
-    "12": 0,
+    "11": 8,
+    "12": 8,
     "13": 0,
-    "14": 0,
-    "15": 6,
-    "16": 12,
-    "17": 0,
-    "18": 0,
-    "19": 6,
-    "20": 14,
-    "21": 0,
+    "14": 8,
+    "15": 8,
+    "16": 0,
+    "17": 8,
+    "18": 8,
+    "19": 0,
+    "20": 9,
+    "21": 8,
     "22": 0,
-    "23": 0
+    "23": 8
   },
   "daily_counts": {
-    "Mon": 8,
-    "Tue": 8,
-    "Wed": 8,
-    "Thu": 2,
-    "Fri": 8,
-    "Sat": 8,
-    "Sun": 8
+    "Mon": 16,
+    "Tue": 16,
+    "Wed": 19,
+    "Thu": 30,
+    "Fri": 16,
+    "Sat": 16,
+    "Sun": 16
   },
   "safety": {
-    "generated": "2026-02-25T20:05:24.858322",
-    "total_scored": 50,
-    "good_count": 0,
-    "neutral_count": 43,
-    "review_count": 7,
+    "generated": "2026-02-26T20:05:31.789243",
+    "total_scored": 129,
+    "good_count": 12,
+    "neutral_count": 98,
+    "review_count": 19,
     "flag_count": 0,
     "concern_breakdown": {
-      "RAPID_PACING": 4,
-      "SENSORY_OVERLOAD": 3
+      "RAPID_PACING": 12,
+      "LOW_VALUE": 3,
+      "VIOLENT_OR_SCARY": 3,
+      "SENSORY_OVERLOAD": 2
     },
     "channel_summary": [
+      {
+        "channel": "Hooray Kids Songs & Nursery Rhymes",
+        "video_count": 15,
+        "avg_score": 2.9,
+        "badge": "\u26a0\ufe0f"
+      },
+      {
+        "channel": "PBS KIDS",
+        "video_count": 7,
+        "avg_score": 5.0,
+        "badge": "\u2705"
+      },
       {
         "channel": "Netflix Jr.",
         "video_count": 6,
@@ -910,25 +2022,61 @@
         "badge": "\u2b1c"
       },
       {
-        "channel": "ZIZOQUIZ",
-        "video_count": 4,
-        "avg_score": 2.2,
-        "badge": "\u26a0\ufe0f"
-      },
-      {
-        "channel": "Maizrobo",
-        "video_count": 2,
-        "avg_score": 2.5,
-        "badge": "\u26a0\ufe0f"
-      },
-      {
-        "channel": "Rock 'N Learn",
-        "video_count": 2,
+        "channel": "Peppa Pig's Big Adventures",
+        "video_count": 5,
         "avg_score": 3.0,
         "badge": "\u2b1c"
       },
       {
-        "channel": "Chiko Quiz - Trivia",
+        "channel": "Genevieve's Playhouse - Learning Videos for Kids",
+        "video_count": 4,
+        "avg_score": 3.0,
+        "badge": "\u2b1c"
+      },
+      {
+        "channel": "BritishEdits",
+        "video_count": 4,
+        "avg_score": 2.0,
+        "badge": "\ud83d\udea9"
+      },
+      {
+        "channel": "Hoots & Tales",
+        "video_count": 3,
+        "avg_score": 4.0,
+        "badge": "\u2705"
+      },
+      {
+        "channel": "Blaze Kingdom",
+        "video_count": 3,
+        "avg_score": 2.0,
+        "badge": "\ud83d\udea9"
+      },
+      {
+        "channel": "Nintendo Games",
+        "video_count": 3,
+        "avg_score": 3.0,
+        "badge": "\u2b1c"
+      },
+      {
+        "channel": "Umbrella",
+        "video_count": 3,
+        "avg_score": 3.0,
+        "badge": "\u2b1c"
+      },
+      {
+        "channel": "Ikigai Effects",
+        "video_count": 3,
+        "avg_score": 2.0,
+        "badge": "\ud83d\udea9"
+      },
+      {
+        "channel": "Peppa Pig - Official Channel",
+        "video_count": 2,
+        "avg_score": 4.0,
+        "badge": "\u2705"
+      },
+      {
+        "channel": "Rock 'N Learn",
         "video_count": 2,
         "avg_score": 3.0,
         "badge": "\u2b1c"
@@ -940,94 +2088,46 @@
         "badge": "\u2b1c"
       },
       {
+        "channel": "Zenno",
+        "video_count": 2,
+        "avg_score": 3.0,
+        "badge": "\u2b1c"
+      },
+      {
+        "channel": "KidZ VideoZ",
+        "video_count": 2,
+        "avg_score": 3.0,
+        "badge": "\u2b1c"
+      },
+      {
+        "channel": "Tiny Treasures and Toys",
+        "video_count": 2,
+        "avg_score": 3.0,
+        "badge": "\u2b1c"
+      },
+      {
         "channel": "Blaze Toon",
         "video_count": 2,
         "avg_score": 3.0,
         "badge": "\u2b1c"
       },
       {
-        "channel": "Dino Avatar",
-        "video_count": 1,
+        "channel": "Peppa Pig's Pretend Play",
+        "video_count": 2,
         "avg_score": 3.0,
         "badge": "\u2b1c"
       },
       {
-        "channel": "Gerrard",
-        "video_count": 1,
-        "avg_score": 3.0,
-        "badge": "\u2b1c"
-      },
-      {
-        "channel": "Peeebs",
-        "video_count": 1,
+        "channel": "UK Edits",
+        "video_count": 2,
         "avg_score": 2.0,
         "badge": "\ud83d\udea9"
-      },
-      {
-        "channel": "Quiz Dino",
-        "video_count": 1,
-        "avg_score": 2.0,
-        "badge": "\ud83d\udea9"
-      },
-      {
-        "channel": "QUIZ CAKE",
-        "video_count": 1,
-        "avg_score": 3.0,
-        "badge": "\u2b1c"
-      },
-      {
-        "channel": "Spoir",
-        "video_count": 1,
-        "avg_score": 3.0,
-        "badge": "\u2b1c"
-      },
-      {
-        "channel": "Ikigai Effects",
-        "video_count": 1,
-        "avg_score": 2.0,
-        "badge": "\ud83d\udea9"
-      },
-      {
-        "channel": "Shall We Read A Book?",
-        "video_count": 1,
-        "avg_score": 3.0,
-        "badge": "\u2b1c"
-      },
-      {
-        "channel": "Best Game Videos",
-        "video_count": 1,
-        "avg_score": 3.0,
-        "badge": "\u2b1c"
-      },
-      {
-        "channel": "BB Story Time \ud83d\udcda",
-        "video_count": 1,
-        "avg_score": 3.0,
-        "badge": "\u2b1c"
-      },
-      {
-        "channel": "Umbrella \u2602",
-        "video_count": 1,
-        "avg_score": 3.0,
-        "badge": "\u2b1c"
-      },
-      {
-        "channel": "The Best Family Show Ever",
-        "video_count": 1,
-        "avg_score": 3.0,
-        "badge": "\u2b1c"
-      },
-      {
-        "channel": "Sago Fun Games for Kids",
-        "video_count": 1,
-        "avg_score": 3.0,
-        "badge": "\u2b1c"
       }
     ],
     "flagged_videos": [
       {
-        "title": "PBS Kids ID / System Cue Compilation (1999-2022)",
-        "channel": "Peeebs",
+        "title": "Bedtime with Leslie Patricelli | Toddler Read-Aloud Compilation | Comfort & Routines",
+        "channel": "Hoots & Tales",
         "badge": "\u26a0\ufe0f",
         "flags": [
           {
@@ -1037,8 +2137,85 @@
         ]
       },
       {
-        "title": "Find the ODD One Out - Logo Challenge \ud83c\udf4f\ud83c\udfa7\ud83d\udcf1 | 60 Ultimate Levels Quiz | Quiz Dino",
-        "channel": "Quiz Dino",
+        "title": "Peppa Pig Characters In Real Life! Plus Their Favorite Drinks, Snacks & More!",
+        "channel": "Blaze Kingdom",
+        "badge": "\u26a0\ufe0f",
+        "flags": [
+          {
+            "type": "LOW_VALUE",
+            "message": "Channel concern: Character 'what they like' quizzes \u2014 low educational value, rapid visual content."
+          }
+        ]
+      },
+      {
+        "title": "Famous logo, Spotify App Logo Jelly Painting & Coloring | Menggambar Dan Mewarnai | Fanta logo",
+        "channel": "Paint Jelly",
+        "badge": "\u26a0\ufe0f",
+        "flags": [
+          {
+            "type": "VIOLENT_OR_SCARY",
+            "message": "Title contains violent or scary pattern"
+          }
+        ]
+      },
+      {
+        "title": "Brush Your Teeth Song \u2013 Here Comes The Toothbrush | Tooth Monster Hacky Smacky | Healthy Habits",
+        "channel": "Hooray Kids Songs & Nursery Rhymes",
+        "badge": "\u26a0\ufe0f",
+        "flags": [
+          {
+            "type": "VIOLENT_OR_SCARY",
+            "message": "Title contains violent or scary pattern"
+          }
+        ]
+      },
+      {
+        "title": "Healthy habits kids songs compilation | Hooray Kids Songs | Hacky Smacky - Wash us - Boo-boo Song",
+        "channel": "Hooray Kids Songs & Nursery Rhymes",
+        "badge": "\u26a0\ufe0f",
+        "flags": [
+          {
+            "type": "RAPID_PACING",
+            "message": "Title contains rapid pacing pattern"
+          }
+        ]
+      },
+      {
+        "title": "Guess The Kids TV Logo Sound | BabyTV, CBeebies, PBS Kids, YouTube Kids & Preschool Quiz 2026",
+        "channel": "ZIZOQUIZ",
+        "badge": "\u26a0\ufe0f",
+        "flags": [
+          {
+            "type": "SENSORY_OVERLOAD",
+            "message": "Title contains sensory overload pattern"
+          }
+        ]
+      },
+      {
+        "title": "Numberblocks and Their Favorite Snacks, Drinks, Movies & More! | One, Two, Three",
+        "channel": "Blaze Kingdom",
+        "badge": "\u26a0\ufe0f",
+        "flags": [
+          {
+            "type": "LOW_VALUE",
+            "message": "Channel concern: Character 'what they like' quizzes \u2014 low educational value, rapid visual content."
+          }
+        ]
+      },
+      {
+        "title": "Peppa Pig Characters And Their Favorite Snacks Drinks & More! | Evie Pig, Peppa Pig, Mummy Pig",
+        "channel": "Blaze Kingdom",
+        "badge": "\u26a0\ufe0f",
+        "flags": [
+          {
+            "type": "LOW_VALUE",
+            "message": "Channel concern: Character 'what they like' quizzes \u2014 low educational value, rapid visual content."
+          }
+        ]
+      },
+      {
+        "title": "Logo Effects Pixel Art Minecraft Compilation 2024 V12",
+        "channel": "BritishEdits",
         "badge": "\u26a0\ufe0f",
         "flags": [
           {
@@ -1059,19 +2236,8 @@
         ]
       },
       {
-        "title": "Guess the Logo Sound Quiz \ud83c\udfb5\ud83e\udde9 | Fun & Educational Kids Sound Challenge \ud83c\udfaf\ud83d\udd25",
-        "channel": "ZIZOQUIZ",
-        "badge": "\u26a0\ufe0f",
-        "flags": [
-          {
-            "type": "SENSORY_OVERLOAD",
-            "message": "Title contains sensory overload pattern"
-          }
-        ]
-      },
-      {
-        "title": "Cocomelon Intro Logo Mega Peppa Pig Compilation Sponsored By Preview 2 Effects",
-        "channel": "Maizrobo",
+        "title": "Logo Effects Pixel Art Minecraft Compilation 2025",
+        "channel": "UK Edits",
         "badge": "\u26a0\ufe0f",
         "flags": [
           {
@@ -1081,8 +2247,8 @@
         ]
       },
       {
-        "title": "Guess The Kids TV Logo Sound \ud83c\udfb5\ud83e\udde9 | BabyTV, CBeebies, PBS Kids, YouTube Kids & Preschool Quiz 2026",
-        "channel": "ZIZOQUIZ",
+        "title": "Guess The Logo Sound | McDonald's, Tiktok, Netflix, Pepsi | Logo Quiz 2025",
+        "channel": "Quiz Diver",
         "badge": "\u26a0\ufe0f",
         "flags": [
           {
@@ -1092,13 +2258,83 @@
         ]
       },
       {
-        "title": "Guess The Kids TV Logo Sound \ud83d\udd0a | BabyTV, CBeebies, PBS Kids, YouTube Kids & More Preschool Quiz 2026",
-        "channel": "ZIZOQUIZ",
+        "title": "Logo Compilation (RJ Kumar's G-Major 14) - Netflix, YouTube, McDonalds, Coca Cola",
+        "channel": "Ikigai Effects",
         "badge": "\u26a0\ufe0f",
         "flags": [
           {
-            "type": "SENSORY_OVERLOAD",
-            "message": "Title contains sensory overload pattern"
+            "type": "RAPID_PACING",
+            "message": "Title contains rapid pacing pattern"
+          }
+        ]
+      },
+      {
+        "title": "2022 UPDATE! PBS KIDS ID / Logo Compilation (90s-Now)",
+        "channel": "Peeebs",
+        "badge": "\u26a0\ufe0f",
+        "flags": [
+          {
+            "type": "RAPID_PACING",
+            "message": "Title contains rapid pacing pattern"
+          }
+        ]
+      },
+      {
+        "title": "Logo Effects Pixel Art Minecraft Compilation Preview 2 Warner Home Video (1997) Effects",
+        "channel": "BritishEdits",
+        "badge": "\u26a0\ufe0f",
+        "flags": [
+          {
+            "type": "VIOLENT_OR_SCARY",
+            "message": "Title contains violent or scary pattern"
+          },
+          {
+            "type": "RAPID_PACING",
+            "message": "Title contains rapid pacing pattern"
+          }
+        ]
+      },
+      {
+        "title": "Logo Effects Pixel Art Minecraft Compilation 3",
+        "channel": "Ikigai Effects",
+        "badge": "\u26a0\ufe0f",
+        "flags": [
+          {
+            "type": "RAPID_PACING",
+            "message": "Title contains rapid pacing pattern"
+          }
+        ]
+      },
+      {
+        "title": "Logo Effects Pixel Art Minecraft Compilation 2025",
+        "channel": "UK Edits",
+        "badge": "\u26a0\ufe0f",
+        "flags": [
+          {
+            "type": "RAPID_PACING",
+            "message": "Title contains rapid pacing pattern"
+          }
+        ]
+      },
+      {
+        "title": "Logo Effects Pixel Art Minecraft Compilation 2024 V14",
+        "channel": "BritishEdits",
+        "badge": "\u26a0\ufe0f",
+        "flags": [
+          {
+            "type": "RAPID_PACING",
+            "message": "Title contains rapid pacing pattern"
+          }
+        ]
+      },
+      {
+        "title": "Logo Effects Pixel Art Minecraft Compilation 2025",
+        "channel": "BritishEdits",
+        "badge": "\u26a0\ufe0f",
+        "flags": [
+          {
+            "type": "RAPID_PACING",
+            "message": "Title contains rapid pacing pattern"
           }
         ]
       }
