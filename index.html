@@ -3,599 +3,562 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>KidWatch</title>
+<title>KidWatch 👧</title>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
 <style>
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-  body { font-family: system-ui, -apple-system, sans-serif; background: #F8FAFC; color: #1E293B; min-height: 100vh; }
+  body { font-family: 'Inter', system-ui, -apple-system, sans-serif; background: #f8fafc; color: #1e293b; min-height: 100vh; }
 
   /* Header */
-  .header { background: white; border-bottom: 1px solid #E2E8F0; padding: 0 24px; position: sticky; top: 0; z-index: 100; }
-  .header-top { display: flex; align-items: center; justify-content: space-between; padding: 14px 0 0; }
-  .header-top h1 { font-size: 1.1rem; font-weight: 700; color: #1E293B; }
-  .data-status { display: flex; align-items: center; gap: 6px; }
-  .ds-dot { width: 8px; height: 8px; border-radius: 50%; background: #CBD5E1; flex-shrink: 0; transition: background .3s, box-shadow .3s; }
-  .ds-dot.connected { background: #10B981; box-shadow: 0 0 5px #10B98188; }
-  .ds-dot.offline   { background: #EF4444; box-shadow: 0 0 5px #EF444466; }
-  .ds-meta { display: flex; flex-direction: column; gap: 1px; line-height: 1.2; }
-  .ds-label { font-size: 0.6rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; color: #94A3B8; }
-  .ds-label.connected { color: #10B981; }
-  .ds-label.offline   { color: #EF4444; }
-  .ds-time { font-size: 0.7rem; color: #94A3B8; font-variant-numeric: tabular-nums; }
-  .tabs { display: flex; gap: 0; margin-top: 12px; }
-  .tab { padding: 10px 20px; font-size: 0.875rem; font-weight: 500; color: #64748B; cursor: pointer; border-bottom: 3px solid transparent; transition: all .15s; white-space: nowrap; }
-  .tab:hover { color: #6366F1; }
-  .tab.active { color: #6366F1; border-bottom-color: #6366F1; font-weight: 700; }
+  header { background: #fff; border-bottom: 2px solid #e2e8f0; padding: 16px 20px; display: flex; align-items: center; justify-content: space-between; position: sticky; top: 0; z-index: 100; box-shadow: 0 1px 4px rgba(0,0,0,0.06); }
+  header h1 { font-size: 1.5rem; font-weight: 700; color: #0f172a; }
+  header .meta { font-size: 0.8rem; color: #64748b; text-align: right; }
 
-  /* Layout */
-  .page { display: none; max-width: 960px; margin: 0 auto; padding: 24px 16px; }
-  .page.active { display: block; }
+  /* Tabs */
+  nav { background: #fff; border-bottom: 1px solid #e2e8f0; padding: 0 20px; display: flex; gap: 4px; overflow-x: auto; }
+  nav button { padding: 12px 18px; border: none; background: none; cursor: pointer; font-size: 0.9rem; font-weight: 500; color: #64748b; border-bottom: 3px solid transparent; transition: all 0.15s; white-space: nowrap; }
+  nav button:hover { color: #3b82f6; }
+  nav button.active { color: #3b82f6; border-bottom-color: #3b82f6; }
 
-  /* Cards */
-  .card { background: white; border-radius: 10px; border: 1px solid #E2E8F0; padding: 20px; box-shadow: 0 1px 3px rgba(0,0,0,.06); }
-  .card + .card, .card + .section, .section + .card, .section + .section { margin-top: 16px; }
+  /* Content */
+  main { padding: 20px; max-width: 900px; margin: 0 auto; }
+  .tab-content { display: none; }
+  .tab-content.active { display: block; }
 
-  /* Stat row */
-  .stat-row { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; }
-  .stat-card { background: white; border: 1px solid #E2E8F0; border-radius: 10px; padding: 16px; text-align: center; box-shadow: 0 1px 3px rgba(0,0,0,.06); }
-  .stat-card .value { font-size: 1.75rem; font-weight: 800; color: #1E293B; line-height: 1; }
-  .stat-card .label { font-size: 0.7rem; color: #94A3B8; margin-top: 4px; text-transform: uppercase; letter-spacing: .05em; }
-  .stat-card.flagged .value { color: #EF4444; }
-  .stat-card.safe .value { color: #22C55E; }
+  /* Summary cards */
+  .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 12px; margin-bottom: 24px; }
+  .card { background: #fff; border-radius: 12px; padding: 16px; border: 1px solid #e2e8f0; text-align: center; }
+  .card .val { font-size: 1.8rem; font-weight: 700; }
+  .card .lbl { font-size: 0.75rem; color: #64748b; margin-top: 4px; text-transform: uppercase; letter-spacing: 0.05em; }
+  .card.good .val { color: #22c55e; }
+  .card.neutral .val { color: #94a3b8; }
+  .card.review .val { color: #f59e0b; }
+  .card.flag .val { color: #ef4444; }
 
-  /* Safety bar */
-  .safety-bar-wrap { margin-top: 16px; }
-  .safety-bar-wrap label { font-size: 0.75rem; color: #64748B; margin-bottom: 6px; display: block; font-weight: 600; text-transform: uppercase; letter-spacing: .05em; }
-  .safety-bar { display: flex; height: 10px; border-radius: 99px; overflow: hidden; background: #E2E8F0; }
-  .safety-bar .seg-good { background: #22C55E; }
-  .safety-bar .seg-neutral { background: #D1D5DB; }
-  .safety-bar .seg-review { background: #F59E0B; }
-  .safety-bar .seg-flag { background: #EF4444; }
-  .safety-legend { display: flex; gap: 12px; margin-top: 8px; flex-wrap: wrap; }
-  .safety-legend span { font-size: 0.72rem; color: #64748B; display: flex; align-items: center; gap: 4px; }
-  .safety-legend .dot { width: 8px; height: 8px; border-radius: 50%; display: inline-block; }
+  /* Safety badge */
+  .badge { display: inline-block; padding: 2px 8px; border-radius: 20px; font-size: 0.72rem; font-weight: 600; text-transform: uppercase; }
+  .badge.good { background: #dcfce7; color: #15803d; }
+  .badge.neutral { background: #f1f5f9; color: #475569; }
+  .badge.review { background: #fef3c7; color: #b45309; }
+  .badge.flag { background: #fee2e2; color: #dc2626; }
 
-  /* Section title */
-  .section-title { font-size: 0.8rem; font-weight: 700; color: #64748B; text-transform: uppercase; letter-spacing: .06em; margin-bottom: 10px; }
+  /* Section header */
+  .section-title { font-size: 1rem; font-weight: 600; color: #374151; margin: 20px 0 12px; }
 
-  /* Channel rows */
-  .channel-list { display: flex; flex-direction: column; gap: 8px; }
-  .channel-row { display: flex; align-items: flex-start; gap: 12px; padding: 12px; background: #FAFAFA; border: 1px solid #F1F5F9; border-radius: 8px; }
-  .channel-row .badge { font-size: 1.1rem; flex-shrink: 0; }
-  .channel-row .ch-info { flex: 1; min-width: 0; }
-  .channel-row .ch-name { font-size: 0.875rem; font-weight: 600; color: #1E293B; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-  .channel-row .ch-flags { font-size: 0.72rem; color: #94A3B8; margin-top: 2px; }
-  .channel-row .ch-count { font-size: 0.8rem; font-weight: 700; color: #64748B; flex-shrink: 0; padding: 2px 8px; border-radius: 99px; background: #F1F5F9; }
-  .channel-row.flag-row { border-color: #FEE2E2; background: #FFF8F8; }
-  .channel-row.review-row { border-color: #FEF3C7; background: #FFFBF0; }
+  /* Channel list */
+  .channel-item { background: #fff; border: 1px solid #e2e8f0; border-radius: 10px; margin-bottom: 8px; overflow: hidden; }
+  .channel-header { display: flex; align-items: center; gap: 10px; padding: 12px 16px; cursor: pointer; transition: background 0.1s; }
+  .channel-header:hover { background: #f8fafc; }
+  .channel-name { font-weight: 600; flex: 1; font-size: 0.95rem; }
+  .channel-count { font-size: 0.85rem; color: #64748b; }
+  .channel-chevron { font-size: 0.75rem; color: #94a3b8; transition: transform 0.2s; }
+  .channel-item.open .channel-chevron { transform: rotate(90deg); }
+  .channel-videos { display: none; border-top: 1px solid #f1f5f9; padding: 8px 16px; background: #fafbfc; }
+  .channel-item.open .channel-videos { display: block; }
+  .video-entry { padding: 5px 0; font-size: 0.83rem; color: #475569; border-bottom: 1px solid #f1f5f9; }
+  .video-entry:last-child { border-bottom: none; }
 
-  /* Content tab */
-  .filter-bar { display: flex; gap: 8px; margin-bottom: 16px; flex-wrap: wrap; }
-  .filter-btn { padding: 6px 14px; border-radius: 99px; border: 1.5px solid #E2E8F0; background: white; font-size: 0.8rem; font-weight: 500; color: #64748B; cursor: pointer; transition: all .15s; }
-  .filter-btn:hover { border-color: #6366F1; color: #6366F1; }
-  .filter-btn.active { background: #6366F1; border-color: #6366F1; color: white; }
-  .count-label { font-size: 0.78rem; color: #94A3B8; margin-bottom: 12px; }
-  .video-list { display: flex; flex-direction: column; gap: 2px; }
-  .video-row { border: 1px solid #F1F5F9; border-radius: 8px; overflow: hidden; background: white; cursor: pointer; }
-  .video-summary { display: flex; align-items: center; gap: 10px; padding: 10px 12px; }
-  .video-summary:hover { background: #F8FAFF; }
-  .video-badge { font-size: 1rem; flex-shrink: 0; width: 22px; text-align: center; }
-  .video-title { flex: 1; font-size: 0.82rem; font-weight: 500; color: #1E293B; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-  .video-meta { font-size: 0.72rem; color: #94A3B8; flex-shrink: 0; text-align: right; }
-  .video-detail { display: none; padding: 10px 14px 14px; border-top: 1px solid #F1F5F9; background: #FAFAFE; }
-  .video-detail.open { display: block; }
-  .video-detail .full-title { font-size: 0.82rem; color: #1E293B; margin-bottom: 8px; font-weight: 600; }
-  .video-detail .tag-row { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 8px; }
-  .tag { font-size: 0.7rem; padding: 2px 8px; border-radius: 99px; font-weight: 500; }
-  .tag.flag { background: #FEE2E2; color: #B91C1C; }
-  .tag.positive { background: #DCFCE7; color: #15803D; }
-  .video-detail a { font-size: 0.75rem; color: #6366F1; text-decoration: none; }
-  .video-detail a:hover { text-decoration: underline; }
+  /* Override controls */
+  .override-row { display: flex; align-items: center; gap: 8px; padding: 8px 0 4px; }
+  .override-btn { background: #f1f5f9; border: 1px solid #e2e8f0; border-radius: 6px; padding: 4px 10px; font-size: 0.78rem; cursor: pointer; color: #475569; transition: background 0.1s; }
+  .override-btn:hover { background: #e2e8f0; }
+  .override-select { font-size: 0.8rem; padding: 4px 8px; border: 1px solid #e2e8f0; border-radius: 6px; background: #fff; display: none; }
+  .override-select.visible { display: inline-block; }
 
-  /* Analytics */
-  .charts-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
-  .chart-card { background: white; border: 1px solid #E2E8F0; border-radius: 10px; padding: 16px; box-shadow: 0 1px 3px rgba(0,0,0,.06); }
-  .chart-card.full { grid-column: 1 / -1; }
-  .chart-card h3 { font-size: 0.78rem; font-weight: 700; color: #64748B; text-transform: uppercase; letter-spacing: .05em; margin-bottom: 14px; }
-  .chart-card canvas { max-height: 240px; }
+  /* Chart */
+  .chart-wrap { background: #fff; border: 1px solid #e2e8f0; border-radius: 12px; padding: 20px; margin-bottom: 20px; }
+  canvas { max-height: 300px; }
 
-  /* History */
-  .history-empty { text-align: center; padding: 60px 24px; color: #94A3B8; }
-  .history-empty .icon { font-size: 2.5rem; margin-bottom: 12px; }
-  .history-empty p { font-size: 0.875rem; }
-  .history-list { display: flex; flex-direction: column; gap: 10px; }
-  .history-card { background: white; border: 1px solid #E2E8F0; border-radius: 10px; padding: 16px; box-shadow: 0 1px 3px rgba(0,0,0,.06); cursor: pointer; }
-  .history-card:hover { border-color: #C7D2FE; }
-  .history-card .hc-top { display: flex; align-items: center; justify-content: space-between; margin-bottom: 10px; }
-  .history-card .hc-date { font-weight: 700; font-size: 0.9rem; color: #1E293B; }
-  .history-card .hc-meta { font-size: 0.75rem; color: #94A3B8; }
-  .history-card .hc-detail { display: none; margin-top: 12px; border-top: 1px solid #F1F5F9; padding-top: 12px; }
-  .history-card .hc-detail.open { display: block; }
+  /* Table */
+  table { width: 100%; border-collapse: collapse; background: #fff; border-radius: 10px; overflow: hidden; border: 1px solid #e2e8f0; font-size: 0.85rem; }
+  th { background: #f8fafc; padding: 10px 14px; text-align: left; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em; color: #64748b; }
+  td { padding: 10px 14px; border-top: 1px solid #f1f5f9; }
+  tr:hover td { background: #f8fafc; }
 
-  /* Responsive */
-  @media (max-width: 600px) {
-    .stat-row { grid-template-columns: repeat(2, 1fr); }
-    .charts-grid { grid-template-columns: 1fr; }
-    .chart-card.full { grid-column: 1; }
-    .tabs { overflow-x: auto; }
-    .tab { padding: 10px 14px; }
+  /* Sort buttons */
+  .sort-row { display: flex; gap: 8px; margin-bottom: 14px; flex-wrap: wrap; }
+  .sort-btn { padding: 6px 14px; border: 1px solid #e2e8f0; border-radius: 20px; background: #fff; font-size: 0.8rem; cursor: pointer; color: #475569; transition: all 0.1s; }
+  .sort-btn.active, .sort-btn:hover { background: #3b82f6; color: #fff; border-color: #3b82f6; }
+
+  /* Settings */
+  .setting-item { background: #fff; border: 1px solid #e2e8f0; border-radius: 10px; padding: 12px 16px; margin-bottom: 8px; display: flex; align-items: center; justify-content: space-between; }
+  .setting-item .label { font-size: 0.9rem; }
+  .setting-item .val { font-size: 0.85rem; color: #64748b; }
+  .btn-danger { background: #fee2e2; color: #dc2626; border: 1px solid #fca5a5; border-radius: 6px; padding: 4px 12px; font-size: 0.8rem; cursor: pointer; }
+  .btn-danger:hover { background: #fca5a5; }
+  .btn-primary { background: #3b82f6; color: #fff; border: none; border-radius: 6px; padding: 8px 18px; font-size: 0.85rem; cursor: pointer; margin-top: 8px; }
+  .btn-primary:hover { background: #2563eb; }
+
+  /* Empty state */
+  .empty { text-align: center; padding: 40px; color: #94a3b8; font-size: 0.9rem; }
+
+  /* Loading */
+  .loading { text-align: center; padding: 30px; color: #94a3b8; }
+
+  @media (max-width: 480px) {
+    main { padding: 12px; }
+    .cards { grid-template-columns: repeat(2, 1fr); }
+    header h1 { font-size: 1.2rem; }
   }
-
-  .empty-state { text-align: center; padding: 32px; color: #94A3B8; font-size: 0.875rem; }
 </style>
 </head>
 <body>
 
-<div class="header">
-  <div class="header-top">
-    <h1>👧 KidWatch</h1>
-    <div class="data-status" id="dataStatus">
-      <span class="ds-dot" id="dsDot"></span>
-      <div class="ds-meta">
-        <span class="ds-label" id="dsLabel">Connecting...</span>
-        <span class="ds-time" id="updated-time">–</span>
-      </div>
-    </div>
-  </div>
-  <div class="tabs">
-    <div class="tab active" onclick="switchTab('today', this)">Today</div>
-    <div class="tab" onclick="switchTab('content', this)">Content</div>
-    <div class="tab" onclick="switchTab('analytics', this)">Analytics</div>
-    <div class="tab" onclick="switchTab('history', this)">History</div>
-  </div>
-</div>
+<header>
+  <h1>KidWatch 👧</h1>
+  <div class="meta" id="lastUpdated">Loading…</div>
+</header>
 
-<!-- TODAY -->
-<div id="tab-today" class="page active">
-  <div class="stat-row" id="stat-row"></div>
-  <div class="card" style="margin-top:16px">
-    <div class="safety-bar-wrap">
-      <label>Safety Breakdown</label>
-      <div class="safety-bar" id="safety-bar"></div>
-      <div class="safety-legend">
-        <span><span class="dot" style="background:#22C55E"></span> Good (<span id="leg-good">0</span>)</span>
-        <span><span class="dot" style="background:#D1D5DB"></span> Neutral (<span id="leg-neutral">0</span>)</span>
-        <span><span class="dot" style="background:#F59E0B"></span> Review (<span id="leg-review">0</span>)</span>
-        <span><span class="dot" style="background:#EF4444"></span> Flagged (<span id="leg-flag">0</span>)</span>
-      </div>
-    </div>
-  </div>
-  <div class="card" style="margin-top:16px" id="flagged-section"></div>
-  <div class="card" style="margin-top:16px" id="good-section"></div>
-</div>
+<nav>
+  <button class="active" onclick="switchTab('today', this)">📅 Today</button>
+  <button onclick="switchTab('history', this)">📈 History</button>
+  <button onclick="switchTab('channels', this)">📺 Channels</button>
+  <button onclick="switchTab('settings', this)">⚙️ Settings</button>
+</nav>
 
-<!-- CONTENT -->
-<div id="tab-content" class="page">
-  <div class="filter-bar">
-    <button class="filter-btn active" onclick="filterContent('all', this)">All</button>
-    <button class="filter-btn" onclick="filterContent('good', this)">✅ Good</button>
-    <button class="filter-btn" onclick="filterContent('neutral', this)">⬜ Neutral</button>
-    <button class="filter-btn" onclick="filterContent('review', this)">⚠️ Review</button>
-    <button class="filter-btn" onclick="filterContent('flag', this)">🚩 Flagged</button>
+<main>
+  <!-- TODAY -->
+  <div id="tab-today" class="tab-content active">
+    <div class="cards" id="todayCards">
+      <div class="loading">Loading today's data…</div>
+    </div>
+    <div class="section-title">Channels Watched Today</div>
+    <div id="todayChannels"><div class="loading">Loading channels…</div></div>
   </div>
-  <div class="count-label" id="content-count"></div>
-  <div class="video-list" id="video-list"></div>
-</div>
 
-<!-- ANALYTICS -->
-<div id="tab-analytics" class="page">
-  <div class="charts-grid">
-    <div class="chart-card full">
-      <h3>Top Channels by Video Count</h3>
-      <canvas id="chart-channels"></canvas>
+  <!-- HISTORY -->
+  <div id="tab-history" class="tab-content">
+    <div class="chart-wrap">
+      <canvas id="histChart"></canvas>
     </div>
-    <div class="chart-card">
-      <h3>Safety Distribution</h3>
-      <canvas id="chart-safety"></canvas>
-    </div>
-    <div class="chart-card">
-      <h3>Safety Score Distribution</h3>
-      <canvas id="chart-scores"></canvas>
-    </div>
+    <div id="histTable"><div class="loading">Loading history…</div></div>
   </div>
-</div>
 
-<!-- HISTORY -->
-<div id="tab-history" class="page">
-  <div id="history-content">
-    <div class="history-empty">
-      <div class="icon">📅</div>
-      <p>Loading history...</p>
+  <!-- CHANNELS (all-time) -->
+  <div id="tab-channels" class="tab-content">
+    <div class="sort-row">
+      <button class="sort-btn active" onclick="sortChannels('count', this)">Most Watched</button>
+      <button class="sort-btn" onclick="sortChannels('review', this)">Highest Review</button>
+      <button class="sort-btn" onclick="sortChannels('alpha', this)">A–Z</button>
     </div>
+    <div id="allChannels"><div class="loading">Loading all channels…</div></div>
   </div>
-</div>
+
+  <!-- SETTINGS -->
+  <div id="tab-settings" class="tab-content">
+    <div class="section-title">Category Overrides</div>
+    <div id="settingsOverrides"></div>
+    <button class="btn-danger" onclick="clearAllOverrides()" style="margin-top:12px">🗑️ Clear All Overrides</button>
+    <div class="section-title" style="margin-top:24px">Info</div>
+    <div class="setting-item"><span class="label">Last data update</span><span class="val" id="settingsTs">—</span></div>
+    <button class="btn-primary" onclick="location.reload()">🔄 Refresh Data</button>
+  </div>
+</main>
 
 <script>
-// ── Google Sheets Config ──────────────────────────────────────────────────
-// To use Google Sheets as the data backend:
-//   1. Deploy KidWatch/appsscript/Code.gs as a Web App in Google Apps Script UI
-//   2. Copy the deployment URL and paste it below
-//   3. Set access to "Anyone" when deploying
-const APPS_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbwvEUyLu99ie-VVZaJwM9RLAm6WRTj5ywNg1Sa2kRgrfHr3RkH7c5MHxhlCzpG1swV2qg/exec';
-const USE_SHEETS = APPS_SCRIPT_URL !== '';
+// ──────────────────────────────────────────────
+// State
+// ──────────────────────────────────────────────
+let todayData = null;       // history.json
+let allChannels = {};       // aggregated from daily files
+let histChartInst = null;
+let currentSort = 'count';
 
-let allVideos = [];
-let currentFilter = 'all';
-let chartsBuilt = false;
+const COLORS = {
+  good:    '#22c55e',
+  neutral: '#94a3b8',
+  review:  '#f59e0b',
+  flag:    '#ef4444',
+};
 
+function getOverrides() {
+  return JSON.parse(localStorage.getItem('kidwatch_overrides') || '{}');
+}
+function setOverride(ch, rating) {
+  const o = getOverrides();
+  o[ch] = rating;
+  localStorage.setItem('kidwatch_overrides', JSON.stringify(o));
+}
+function clearOverride(ch) {
+  const o = getOverrides();
+  delete o[ch];
+  localStorage.setItem('kidwatch_overrides', JSON.stringify(o));
+}
+function clearAllOverrides() {
+  if (confirm('Clear all channel overrides?')) {
+    localStorage.removeItem('kidwatch_overrides');
+    location.reload();
+  }
+}
+
+// ──────────────────────────────────────────────
 // Tab switching
-function switchTab(name, el) {
-  document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
-  document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
-  el.classList.add('active');
-  document.getElementById('tab-' + name).classList.add('active');
-  if (name === 'analytics' && !chartsBuilt) buildCharts();
-}
-
-// Format seconds to h:mm
-function fmtTime(s) {
-  if (!s) return '—';
-  const h = Math.floor(s / 3600);
-  const m = Math.floor((s % 3600) / 60);
-  if (h > 0) return `${h}h ${m}m`;
-  return `${m}m`;
-}
-
-// Format date
-function fmtDate(iso) {
-  if (!iso) return '—';
-  const d = new Date(iso);
-  return d.toLocaleDateString('en-US', { weekday:'short', month:'short', day:'numeric', hour:'2-digit', minute:'2-digit' });
-}
-
-// ── Load from Google Sheets ───────────────────────────────────────────────
-// Sets the data source indicator (green dot + push time vs red dot + offline)
-function setDataStatus(connected, pushedAt) {
-  const dot   = document.getElementById('dsDot');
-  const label = document.getElementById('dsLabel');
-  const time  = document.getElementById('updated-time');
-  if (!dot) return;
-  if (connected) {
-    dot.className   = 'ds-dot connected';
-    label.className = 'ds-label connected';
-    label.textContent = 'Live';
-    if (pushedAt) {
-      try {
-        const d = new Date(pushedAt);
-        const isDateOnly = !String(pushedAt).includes('T');
-        time.textContent = isDateOnly
-          ? `Pushed ${d.toLocaleDateString('en-US', { timeZone: 'UTC', month: 'short', day: 'numeric' })}`
-          : `Pushed ${d.toLocaleString('en-US', { timeZone: 'America/New_York', month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit', hour12: true })} ET`;
-      } catch (e) { time.textContent = `Pushed ${pushedAt}`; }
-    } else {
-      time.textContent = 'Push time unavailable';
-    }
-  } else {
-    dot.className   = 'ds-dot offline';
-    label.className = 'ds-label offline';
-    label.textContent = 'Offline';
-    time.textContent = 'Using cached data';
-  }
-}
-
-async function loadFromSheets() {
-  try {
-    console.log('[KidWatch] Loading data from Google Sheets...');
-    const resp = await fetch(APPS_SCRIPT_URL);
-    if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
-    const d = await resp.json();
-    if (d.error) throw new Error(d.error);
-
-    // Map Sheets response to history.json format
-    const videos = (d.videos || []).map(v => ({
-      title: v.title || '',
-      channel: v.channel || '',
-      url: v.url || '',
-      duration: v.duration || '',
-      duration_seconds: v.durationSeconds || 0,
-      timestamp: v.watchedAt || '',
-      category: v.categories ? (Array.isArray(v.categories) ? v.categories[0] : v.categories) : '',
-      safety_score: v.safetyScore || 3,
-      safety_rating: v.safetyRating || 'neutral',
-      safety_badge: v.safetyBadge || '⬜',
-      flags: v.flags ? (typeof v.flags === 'string' ? JSON.parse(v.flags) : v.flags) : [],
-      positive_signals: []
-    }));
-
-    // Get the actual pipeline push time — use most recent DailySummary date
-    // (this is when the pipeline last ran and wrote to Sheets, not when the page loaded)
-    let data_pushed_at = null;
-    if (d.dailySummary && d.dailySummary.length > 0) {
-      const sorted = [...d.dailySummary].sort((a, b) => String(b.date).localeCompare(String(a.date)));
-      data_pushed_at = sorted[0].date || null;
-    } else if (videos.length > 0 && videos[0].timestamp) {
-      data_pushed_at = videos[0].timestamp; // fallback: most recent video
-    }
-
-    const data = {
-      generated: d.generated || new Date().toISOString(),
-      generated_at: d.generated || new Date().toISOString(),
-      total_videos: videos.length,
-      total_watch_minutes: videos.reduce((a, v) => a + (v.duration_seconds || 0), 0) / 60,
-      videos,
-      summary: {
-        good: videos.filter(v => v.safety_rating === 'good').length,
-        neutral: videos.filter(v => v.safety_rating === 'neutral').length,
-        review: videos.filter(v => v.safety_rating === 'review').length,
-        flag: videos.filter(v => v.safety_rating === 'flag').length,
-        total_watch_time_seconds: videos.reduce((a, v) => a + (v.duration_seconds || 0), 0)
-      },
-      data_pushed_at,
-      source: 'sheets'
-    };
-    console.log('[KidWatch] Sheets data loaded:', videos.length, 'videos. Push time:', data_pushed_at);
-    return data;
-  } catch (e) {
-    console.warn('[KidWatch] Sheets load failed, falling back to JSON:', e.message);
-    return null;
-  }
-}
-
-// Load main data
-async function loadMainData() {
-  let data = null;
-  let sheetsOk = false;
-
-  if (USE_SHEETS) {
-    data = await loadFromSheets();
-    if (data) sheetsOk = true;
-  }
-
-  if (!data) {
-    // Fallback: load from JSON file (original behavior)
-    try {
-      const resp = await fetch('data/history.json');
-      data = await resp.json();
-    } catch (e) {
-      document.getElementById('stat-row').innerHTML = '<div style="color:#EF4444;padding:20px">Failed to load data</div>';
-      setDataStatus(false, null);
-      return;
-    }
-  }
-
-  // Set connection indicator: green = Sheets live, red = offline/cached
-  setDataStatus(sheetsOk, data.data_pushed_at || null);
-
-  return data;
-}
-
-loadMainData().then(data => {
-  if (!data) return;
-    allVideos = data.videos || [];
-    const s = data.summary || {};
-    const total = data.total_videos || allVideos.length;
-    const totalSec = s.total_watch_time_seconds || allVideos.reduce((a,v) => a + (v.duration_seconds||0), 0);
-
-    // Stat cards
-    const statsEl = document.getElementById('stat-row');
-    statsEl.innerHTML = `
-      <div class="stat-card"><div class="value">${total}</div><div class="label">Videos</div></div>
-      <div class="stat-card"><div class="value">${fmtTime(totalSec)}</div><div class="label">Watch Time</div></div>
-      <div class="stat-card flagged"><div class="value">${(s.flag||0) + (s.review||0)}</div><div class="label">Need Review</div></div>
-      <div class="stat-card safe"><div class="value">${s.good||0}</div><div class="label">Safe</div></div>
-    `;
-
-    // Safety bar
-    const good = s.good||0, neutral = s.neutral||0, review = s.review||0, flag = s.flag||0;
-    const tot = good + neutral + review + flag || 1;
-    document.getElementById('safety-bar').innerHTML = `
-      <div class="seg-good" style="width:${good/tot*100}%"></div>
-      <div class="seg-neutral" style="width:${neutral/tot*100}%"></div>
-      <div class="seg-review" style="width:${review/tot*100}%"></div>
-      <div class="seg-flag" style="width:${flag/tot*100}%"></div>
-    `;
-    document.getElementById('leg-good').textContent = good;
-    document.getElementById('leg-neutral').textContent = neutral;
-    document.getElementById('leg-review').textContent = review;
-    document.getElementById('leg-flag').textContent = flag;
-
-    // Channel analysis
-    const channelMap = {};
-    allVideos.forEach(v => {
-      if (!channelMap[v.channel]) channelMap[v.channel] = { flag:[], review:[], good:[], neutral:[], flags:new Set() };
-      const c = channelMap[v.channel];
-      c[v.safety_rating]?.push(v);
-      (v.flags||[]).forEach(f => c.flags.add(f));
-    });
-
-    // Flagged/review channels
-    const flaggedChannels = Object.entries(channelMap)
-      .filter(([, c]) => c.flag.length > 0 || c.review.length > 0)
-      .sort((a,b) => (b[1].flag.length + b[1].review.length) - (a[1].flag.length + a[1].review.length));
-
-    const flaggedEl = document.getElementById('flagged-section');
-    if (flaggedChannels.length === 0) {
-      flaggedEl.innerHTML = '<div class="section-title">⚠️ Channels to Review</div><div class="empty-state">Nothing flagged today 🎉</div>';
-    } else {
-      flaggedEl.innerHTML = '<div class="section-title">⚠️ Channels to Review</div><div class="channel-list" id="flag-list"></div>';
-      const fl = document.getElementById('flag-list');
-      flaggedChannels.forEach(([name, c]) => {
-        const isFlagged = c.flag.length > 0;
-        const count = c.flag.length + c.review.length;
-        const flagsText = [...c.flags].slice(0,3).join(', ') || 'unusual content';
-        const badge = isFlagged ? '🚩' : '⚠️';
-        const cls = isFlagged ? 'flag-row' : 'review-row';
-        fl.innerHTML += `
-          <div class="channel-row ${cls}">
-            <span class="badge">${badge}</span>
-            <div class="ch-info">
-              <div class="ch-name">${name}</div>
-              <div class="ch-flags">${flagsText}</div>
-            </div>
-            <span class="ch-count">${count} vid${count>1?'s':''}</span>
-          </div>`;
-      });
-    }
-
-    // Good channels
-    const goodChannels = Object.entries(channelMap)
-      .filter(([, c]) => c.flag.length === 0 && c.review.length === 0 && c.good.length > 0)
-      .sort((a,b) => b[1].good.length - a[1].good.length)
-      .slice(0, 5);
-
-    const goodEl = document.getElementById('good-section');
-    goodEl.innerHTML = '<div class="section-title">✅ Good Channels Today</div><div class="channel-list" id="good-list"></div>';
-    const gl = document.getElementById('good-list');
-    if (goodChannels.length === 0) {
-      gl.innerHTML = '<div class="empty-state">No all-good channels today</div>';
-    } else {
-      goodChannels.forEach(([name, c]) => {
-        const count = c.good.length + c.neutral.length;
-        gl.innerHTML += `
-          <div class="channel-row">
-            <span class="badge">✅</span>
-            <div class="ch-info"><div class="ch-name">${name}</div></div>
-            <span class="ch-count">${count} vid${count>1?'s':''}</span>
-          </div>`;
-      });
-    }
-
-    // Build content list
-    buildContentList();
-  })
-  .catch(e => {
-    console.error(e);
-    document.getElementById('stat-row').innerHTML = '<div style="color:#EF4444;padding:20px">Failed to load data</div>';
-  });
-
-// Content list
-function buildContentList() {
-  const filtered = currentFilter === 'all' ? allVideos : allVideos.filter(v => v.safety_rating === currentFilter);
-  const countEl = document.getElementById('content-count');
-  countEl.textContent = `Showing ${filtered.length} of ${allVideos.length} videos`;
-  const listEl = document.getElementById('video-list');
-  listEl.innerHTML = '';
-  filtered.forEach((v, i) => {
-    const title = (v.title||'Unknown').substring(0, 55) + ((v.title||'').length > 55 ? '…' : '');
-    const flags = (v.flags||[]).map(f => `<span class="tag flag">${f}</span>`).join('');
-    const pos = (v.positive_signals||[]).map(p => `<span class="tag positive">${p}</span>`).join('');
-    const div = document.createElement('div');
-    div.className = 'video-row';
-    div.innerHTML = `
-      <div class="video-summary" onclick="toggleVideo(this)">
-        <span class="video-badge">${v.safety_badge||'⬜'}</span>
-        <span class="video-title">${title}</span>
-        <span class="video-meta">${v.channel||''}<br>${v.duration_raw||''}</span>
-      </div>
-      <div class="video-detail">
-        <div class="full-title">${v.title||''}</div>
-        ${(flags||pos) ? `<div class="tag-row">${flags}${pos}</div>` : ''}
-        <a href="${v.url||'#'}" target="_blank" rel="noopener">Open on YouTube ↗</a>
-      </div>`;
-    listEl.appendChild(div);
-  });
-  if (filtered.length === 0) listEl.innerHTML = '<div class="empty-state">No videos in this category</div>';
-}
-
-function toggleVideo(el) {
-  const detail = el.nextElementSibling;
-  detail.classList.toggle('open');
-}
-
-function filterContent(filter, btn) {
-  currentFilter = filter;
-  document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+// ──────────────────────────────────────────────
+function switchTab(id, btn) {
+  document.querySelectorAll('.tab-content').forEach(el => el.classList.remove('active'));
+  document.querySelectorAll('nav button').forEach(el => el.classList.remove('active'));
+  document.getElementById('tab-' + id).classList.add('active');
   btn.classList.add('active');
-  buildContentList();
+  if (id === 'history') loadHistory();
+  if (id === 'channels') renderAllChannels();
+  if (id === 'settings') renderSettings();
 }
 
-// Charts
-function buildCharts() {
-  chartsBuilt = true;
-  if (!allVideos.length) return;
-
-  // Channel counts
-  const channelCounts = {};
-  allVideos.forEach(v => { channelCounts[v.channel] = (channelCounts[v.channel]||0) + 1; });
-  const sorted = Object.entries(channelCounts).sort((a,b) => b[1]-a[1]).slice(0,10);
-  new Chart(document.getElementById('chart-channels'), {
-    type: 'bar',
-    data: {
-      labels: sorted.map(([c]) => c.length > 22 ? c.substring(0,22)+'…' : c),
-      datasets: [{ data: sorted.map(([,n]) => n), backgroundColor: '#6366F1', borderRadius: 4 }]
-    },
-    options: { indexAxis:'y', plugins:{legend:{display:false}}, scales:{x:{grid:{display:false}},y:{grid:{display:false}}}, responsive:true, maintainAspectRatio:true }
-  });
-
-  // Safety doughnut
-  const s = { good:0, neutral:0, review:0, flag:0 };
-  allVideos.forEach(v => { s[v.safety_rating] = (s[v.safety_rating]||0) + 1; });
-  new Chart(document.getElementById('chart-safety'), {
-    type: 'doughnut',
-    data: {
-      labels: ['Good','Neutral','Review','Flagged'],
-      datasets: [{ data: [s.good, s.neutral, s.review, s.flag], backgroundColor: ['#22C55E','#D1D5DB','#F59E0B','#EF4444'], borderWidth: 0 }]
-    },
-    options: { plugins:{legend:{position:'bottom', labels:{boxWidth:12,font:{size:11}}}}, responsive:true, maintainAspectRatio:true }
-  });
-
-  // Score histogram
-  const buckets = new Array(10).fill(0);
-  allVideos.forEach(v => { const b = Math.min(9, Math.floor((v.safety_score||50)/10)); buckets[b]++; });
-  new Chart(document.getElementById('chart-scores'), {
-    type: 'bar',
-    data: {
-      labels: ['0-9','10-19','20-29','30-39','40-49','50-59','60-69','70-79','80-89','90-100'],
-      datasets: [{ data: buckets, backgroundColor: '#818CF8', borderRadius: 4 }]
-    },
-    options: { plugins:{legend:{display:false}}, scales:{x:{grid:{display:false},ticks:{font:{size:10}}},y:{grid:{color:'#F1F5F9'}}}, responsive:true, maintainAspectRatio:true }
-  });
+// ──────────────────────────────────────────────
+// Helpers
+// ──────────────────────────────────────────────
+function fmtMinutes(mins) {
+  if (!mins) return '0m';
+  const h = Math.floor(mins / 60), m = Math.round(mins % 60);
+  return h ? `${h}h ${m}m` : `${m}m`;
 }
 
-// History
-fetch('data/daily/manifest.json')
-  .then(r => { if (!r.ok) throw new Error('no manifest'); return r.json(); })
-  .then(async manifest => {
-    const el = document.getElementById('history-content');
-    if (!manifest || manifest.length === 0) {
-      el.innerHTML = `<div class="history-empty"><div class="icon">📅</div><p>History builds up over time — check back tomorrow.</p></div>`;
-      return;
+function buildBadge(rating) {
+  const r = (rating || 'neutral').toLowerCase();
+  return `<span class="badge ${r}">${r}</span>`;
+}
+
+function buildChannelMap(videos) {
+  const overrides = getOverrides();
+  const channels = {};
+  for (const v of videos) {
+    const ch = v.channel || 'Unknown';
+    if (!channels[ch]) {
+      channels[ch] = { name: ch, videos: [], rating: (v.safety_rating || 'neutral').toLowerCase(), counts: { good: 0, neutral: 0, review: 0, flag: 0 } };
     }
-    el.innerHTML = '<div class="history-list" id="history-list"></div>';
-    const listEl = document.getElementById('history-list');
-    for (const date of manifest.slice().reverse()) {
-      try {
-        const r = await fetch(`data/daily/${date}.json`);
-        const d = await r.json();
-        const s = d.summary || {};
-        const tot = (s.good||0)+(s.neutral||0)+(s.review||0)+(s.flag||0)||1;
-        const card = document.createElement('div');
-        card.className = 'history-card';
-        const dateLabel = new Date(date).toLocaleDateString('en-US',{weekday:'long',month:'long',day:'numeric'});
-        const wt = fmtTime(s.total_watch_time_seconds || 0);
-        card.innerHTML = `
-          <div class="hc-top">
-            <span class="hc-date">${dateLabel}</span>
-            <span class="hc-meta">${d.total_videos||0} videos · ${wt}</span>
-          </div>
-          <div class="safety-bar">
-            <div class="seg-good" style="width:${(s.good||0)/tot*100}%"></div>
-            <div class="seg-neutral" style="width:${(s.neutral||0)/tot*100}%"></div>
-            <div class="seg-review" style="width:${(s.review||0)/tot*100}%"></div>
-            <div class="seg-flag" style="width:${(s.flag||0)/tot*100}%"></div>
-          </div>
-          <div class="hc-detail" id="hd-${date}"></div>`;
-        card.querySelector('.hc-top').addEventListener('click', () => toggleHistory(date, d));
-        listEl.appendChild(card);
-      } catch(e) { /* skip bad dates */ }
+    channels[ch].videos.push(v);
+    const r = (v.safety_rating || 'neutral').toLowerCase();
+    if (channels[ch].counts[r] !== undefined) channels[ch].counts[r]++;
+  }
+  // Apply overrides + recompute effective rating
+  for (const [ch, rating] of Object.entries(overrides)) {
+    if (channels[ch]) channels[ch].rating = rating;
+  }
+  return channels;
+}
+
+// Worst rating wins for display
+function worstRating(counts) {
+  if (counts.flag > 0) return 'flag';
+  if (counts.review > 0) return 'review';
+  if (counts.neutral > 0) return 'neutral';
+  return 'good';
+}
+
+// ──────────────────────────────────────────────
+// Channel card renderer (shared)
+// ──────────────────────────────────────────────
+function renderChannelItem(ch, containerId) {
+  const overrides = getOverrides();
+  const effectiveRating = overrides[ch.name] || ch.rating || worstRating(ch.counts);
+  const videoList = (ch.videos || []).map(v =>
+    `<div class="video-entry">▸ ${escHtml(v.title || 'Untitled')} <span style="color:#94a3b8">(${v.duration || '?'})</span></div>`
+  ).join('');
+
+  const el = document.createElement('div');
+  el.className = 'channel-item';
+  el.innerHTML = `
+    <div class="channel-header" onclick="toggleChannel(this)">
+      <span class="channel-name">${escHtml(ch.name)}</span>
+      ${buildBadge(effectiveRating)}
+      <span class="channel-count">${ch.videos.length} video${ch.videos.length !== 1 ? 's' : ''}</span>
+      <span class="channel-chevron">▶</span>
+    </div>
+    <div class="channel-videos">
+      ${videoList || '<div class="video-entry" style="color:#94a3b8">No videos</div>'}
+      <div class="override-row">
+        <button class="override-btn" onclick="showOverride(this, '${escAttr(ch.name)}')">🏷️ Recategorize</button>
+        <select class="override-select" onchange="applyOverride(this, '${escAttr(ch.name)}', '${containerId}')">
+          <option value="">-- pick --</option>
+          <option value="good" ${effectiveRating==='good'?'selected':''}>✅ Good</option>
+          <option value="neutral" ${effectiveRating==='neutral'?'selected':''}>⬜ Neutral</option>
+          <option value="review" ${effectiveRating==='review'?'selected':''}>⚠️ Review</option>
+          <option value="flag" ${effectiveRating==='flag'?'selected':''}>🚨 Flag</option>
+        </select>
+      </div>
+    </div>
+  `;
+  return el;
+}
+
+function toggleChannel(header) {
+  header.parentElement.classList.toggle('open');
+}
+
+function showOverride(btn, chName) {
+  const sel = btn.nextElementSibling;
+  sel.classList.toggle('visible');
+}
+
+function applyOverride(sel, chName, containerId) {
+  if (!sel.value) return;
+  setOverride(chName, sel.value);
+  // Re-render the relevant container
+  if (containerId === 'todayChannels') renderToday();
+  else if (containerId === 'allChannels') renderAllChannels();
+}
+
+function escHtml(s) { return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
+function escAttr(s) { return String(s).replace(/'/g,"\\'"); }
+
+// ──────────────────────────────────────────────
+// TODAY tab
+// ──────────────────────────────────────────────
+async function loadToday() {
+  try {
+    const res = await fetch('data/history.json?_=' + Date.now());
+    todayData = await res.json();
+  } catch (e) {
+    document.getElementById('todayCards').innerHTML = '<div class="empty">Could not load history.json</div>';
+    return;
+  }
+  renderToday();
+  // Last updated
+  const ts = todayData.generated ? new Date(todayData.generated).toLocaleString() : '?';
+  document.getElementById('lastUpdated').textContent = 'Updated: ' + ts;
+  document.getElementById('settingsTs').textContent = ts;
+}
+
+function renderToday() {
+  if (!todayData) return;
+  const overrides = getOverrides();
+  const videos = todayData.videos || [];
+  const channels = buildChannelMap(videos);
+
+  // Recalculate counts with overrides
+  const counts = { good: 0, neutral: 0, review: 0, flag: 0 };
+  for (const ch of Object.values(channels)) {
+    const r = (overrides[ch.name] || ch.rating || 'neutral').toLowerCase();
+    for (const v of ch.videos) {
+      const vr = overrides[ch.name] ? overrides[ch.name] : (v.safety_rating || 'neutral').toLowerCase();
+      if (counts[vr] !== undefined) counts[vr]++;
     }
-  })
-  .catch(() => {
-    document.getElementById('history-content').innerHTML =
-      `<div class="history-empty"><div class="icon">📅</div><p>History builds up over time — check back tomorrow.</p></div>`;
+  }
+
+  // Cards
+  document.getElementById('todayCards').innerHTML = `
+    <div class="card"><div class="val">${videos.length}</div><div class="lbl">Videos</div></div>
+    <div class="card"><div class="val">${fmtMinutes(todayData.total_watch_minutes)}</div><div class="lbl">Watch Time</div></div>
+    <div class="card good"><div class="val">${counts.good}</div><div class="lbl">Good</div></div>
+    <div class="card neutral"><div class="val">${counts.neutral}</div><div class="lbl">Neutral</div></div>
+    <div class="card review"><div class="val">${counts.review}</div><div class="lbl">Review</div></div>
+    <div class="card flag"><div class="val">${counts.flag}</div><div class="lbl">Flag</div></div>
+  `;
+
+  // Channel list sorted by worst rating then count
+  const sorted = Object.values(channels).sort((a, b) => {
+    const order = { flag: 0, review: 1, neutral: 2, good: 3 };
+    const ra = overrides[a.name] || a.rating || 'neutral';
+    const rb = overrides[b.name] || b.rating || 'neutral';
+    return (order[ra] - order[rb]) || (b.videos.length - a.videos.length);
   });
 
-function toggleHistory(date, data) {
-  const el = document.getElementById('hd-' + date);
-  if (el.classList.toggle('open')) {
-    const ch = {};
-    (data.videos||[]).forEach(v => { ch[v.channel] = (ch[v.channel]||0)+1; });
-    const top = Object.entries(ch).sort((a,b)=>b[1]-a[1]).slice(0,8);
-    el.innerHTML = '<div class="channel-list">' + top.map(([n,c]) =>
-      `<div class="channel-row"><div class="ch-info"><div class="ch-name">${n}</div></div><span class="ch-count">${c}</span></div>`
-    ).join('') + '</div>';
+  const container = document.getElementById('todayChannels');
+  container.innerHTML = '';
+  if (sorted.length === 0) {
+    container.innerHTML = '<div class="empty">No videos today</div>';
+    return;
+  }
+  for (const ch of sorted) {
+    container.appendChild(renderChannelItem(ch, 'todayChannels'));
   }
 }
+
+// ──────────────────────────────────────────────
+// HISTORY tab
+// ──────────────────────────────────────────────
+let historyLoaded = false;
+let dailyData = {}; // date -> parsed JSON
+
+async function loadHistory() {
+  if (historyLoaded) return;
+  historyLoaded = true;
+
+  let manifest;
+  try {
+    const res = await fetch('data/daily/manifest.json?_=' + Date.now());
+    manifest = await res.json();
+  } catch (e) {
+    document.getElementById('histTable').innerHTML = '<div class="empty">No history available yet</div>';
+    return;
+  }
+
+  const dates = (manifest.dates || []).slice(-30); // last 30 days
+  if (dates.length === 0) {
+    document.getElementById('histTable').innerHTML = '<div class="empty">No daily snapshots yet. Check back tomorrow!</div>';
+    return;
+  }
+
+  // Load each daily file
+  await Promise.all(dates.map(async d => {
+    try {
+      const r = await fetch(`data/daily/${d}.json?_=` + Date.now());
+      dailyData[d] = await r.json();
+    } catch (e) { dailyData[d] = null; }
+  }));
+
+  renderHistChart(dates);
+  renderHistTable(dates);
+
+  // Also aggregate for all-channels tab
+  buildAllChannels(dates);
+}
+
+function countsByDate(date) {
+  const raw = dailyData[date];
+  if (!raw) return { good: 0, neutral: 0, review: 0, flag: 0, total: 0, mins: 0 };
+  const counts = { good: 0, neutral: 0, review: 0, flag: 0 };
+  const overrides = getOverrides();
+  const vids = raw.videos || [];
+  for (const v of vids) {
+    const ch = v.channel || 'Unknown';
+    const r = (overrides[ch] || v.safety_rating || 'neutral').toLowerCase();
+    if (counts[r] !== undefined) counts[r]++;
+  }
+  return { ...counts, total: vids.length, mins: raw.total_watch_minutes || 0 };
+}
+
+function renderHistChart(dates) {
+  const ctx = document.getElementById('histChart').getContext('2d');
+  const labels = dates.map(d => d.slice(5)); // MM-DD
+  const good = dates.map(d => countsByDate(d).good);
+  const neutral = dates.map(d => countsByDate(d).neutral);
+  const review = dates.map(d => countsByDate(d).review);
+  const flag = dates.map(d => countsByDate(d).flag);
+
+  if (histChartInst) histChartInst.destroy();
+  histChartInst = new Chart(ctx, {
+    type: 'bar',
+    data: {
+      labels,
+      datasets: [
+        { label: 'Good',    data: good,    backgroundColor: COLORS.good,    stack: 'a' },
+        { label: 'Neutral', data: neutral, backgroundColor: COLORS.neutral, stack: 'a' },
+        { label: 'Review',  data: review,  backgroundColor: COLORS.review,  stack: 'a' },
+        { label: 'Flag',    data: flag,    backgroundColor: COLORS.flag,    stack: 'a' },
+      ]
+    },
+    options: {
+      responsive: true,
+      plugins: { legend: { position: 'top' }, title: { display: true, text: 'Videos per Day by Safety Rating' } },
+      scales: { x: { stacked: true }, y: { stacked: true, beginAtZero: true, ticks: { stepSize: 1 } } }
+    }
+  });
+}
+
+function renderHistTable(dates) {
+  const rows = dates.map(d => {
+    const c = countsByDate(d);
+    return `<tr>
+      <td>${d}</td>
+      <td>${c.total}</td>
+      <td>${fmtMinutes(c.mins)}</td>
+      <td style="color:${COLORS.good}">${c.good}</td>
+      <td style="color:${COLORS.neutral}">${c.neutral}</td>
+      <td style="color:${COLORS.review}">${c.review}</td>
+      <td style="color:${COLORS.flag}">${c.flag}</td>
+    </tr>`;
+  }).reverse().join('');
+
+  document.getElementById('histTable').innerHTML = `
+    <table>
+      <thead><tr><th>Date</th><th>Total</th><th>Time</th><th>✅ Good</th><th>⬜ Neutral</th><th>⚠️ Review</th><th>🚨 Flag</th></tr></thead>
+      <tbody>${rows}</tbody>
+    </table>
+  `;
+}
+
+// ──────────────────────────────────────────────
+// CHANNELS tab (all-time)
+// ──────────────────────────────────────────────
+let allChannelsMap = {}; // chName -> {name, videos[], counts{}}
+
+function buildAllChannels(dates) {
+  const map = {};
+  const overrides = getOverrides();
+  for (const d of dates) {
+    const raw = dailyData[d];
+    if (!raw) continue;
+    for (const v of (raw.videos || [])) {
+      const ch = v.channel || 'Unknown';
+      if (!map[ch]) map[ch] = { name: ch, videos: [], counts: { good: 0, neutral: 0, review: 0, flag: 0 }, rating: (v.safety_rating || 'neutral').toLowerCase() };
+      map[ch].videos.push(v);
+      const r = (overrides[ch] || v.safety_rating || 'neutral').toLowerCase();
+      if (map[ch].counts[r] !== undefined) map[ch].counts[r]++;
+    }
+  }
+  for (const [ch, rating] of Object.entries(overrides)) {
+    if (map[ch]) map[ch].rating = rating;
+  }
+  allChannelsMap = map;
+}
+
+function sortChannels(mode, btn) {
+  currentSort = mode;
+  document.querySelectorAll('.sort-btn').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  renderAllChannels();
+}
+
+function renderAllChannels() {
+  // If history not loaded yet, trigger load
+  if (!historyLoaded) {
+    loadHistory().then(() => renderAllChannels());
+    return;
+  }
+
+  // If allChannelsMap is empty, build from today's data at minimum
+  if (Object.keys(allChannelsMap).length === 0 && todayData) {
+    const channels = buildChannelMap(todayData.videos || []);
+    for (const [name, ch] of Object.entries(channels)) {
+      allChannelsMap[name] = ch;
+    }
+  }
+
+  const overrides = getOverrides();
+  let sorted = Object.values(allChannelsMap);
+
+  if (currentSort === 'count') sorted.sort((a, b) => b.videos.length - a.videos.length);
+  else if (currentSort === 'review') sorted.sort((a, b) => (b.counts.review + b.counts.flag) - (a.counts.review + a.counts.flag));
+  else sorted.sort((a, b) => a.name.localeCompare(b.name));
+
+  const container = document.getElementById('allChannels');
+  container.innerHTML = '';
+  if (sorted.length === 0) {
+    container.innerHTML = '<div class="empty">No channel data yet</div>';
+    return;
+  }
+  for (const ch of sorted) {
+    container.appendChild(renderChannelItem(ch, 'allChannels'));
+  }
+}
+
+// ──────────────────────────────────────────────
+// SETTINGS tab
+// ──────────────────────────────────────────────
+function renderSettings() {
+  const overrides = getOverrides();
+  const container = document.getElementById('settingsOverrides');
+  const entries = Object.entries(overrides);
+  if (entries.length === 0) {
+    container.innerHTML = '<div class="empty">No overrides set</div>';
+    return;
+  }
+  container.innerHTML = entries.map(([ch, rating]) => `
+    <div class="setting-item">
+      <span class="label">${escHtml(ch)}</span>
+      <span style="display:flex;align-items:center;gap:10px">
+        ${buildBadge(rating)}
+        <button class="btn-danger" onclick="clearOverride('${escAttr(ch)}'); renderSettings();">✕</button>
+      </span>
+    </div>
+  `).join('');
+}
+
+// ──────────────────────────────────────────────
+// Init
+// ──────────────────────────────────────────────
+loadToday();
 </script>
 </body>
 </html>
