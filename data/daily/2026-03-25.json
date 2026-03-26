@@ -1,0 +1,3120 @@
+{
+  "generated": "2026-03-24T20:00:00-05:00",
+  "account": "jigar.us.af@gmail.com",
+  "period_days": 7,
+  "note": "Daily update",
+  "total_videos": 200,
+  "total_watch_minutes": 2680.9,
+  "videos": [
+    {
+      "title": "We are in the car Song | Nursery Rhymes & Children's Song",
+      "channel": "Kids TV - Tim and Essy Show",
+      "url": "https://www.youtube.com/watch?v=O5lruCPRcts",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "2:03",
+      "duration_seconds": 123,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "Diana and Roma playing in cafe",
+      "channel": "\u273f Kids Diana Show",
+      "url": "https://www.youtube.com/watch?v=gHxyPsn9xjQ",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "6:16",
+      "duration_seconds": 376,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "Gaga Baby Goes Grocery Shopping Through Portal!",
+      "channel": "Goo Goo Colors",
+      "url": "https://www.youtube.com/watch?v=gQPP2CuuMl4",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "4:10",
+      "duration_seconds": 250,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "\ud83d\udc12 Five Little Monkeys Jumping on the Bed \ud83c\udfb6 [3 MIN LOOP REMIX] | Funny Sound Variations & Kids Songs",
+      "channel": "ToonyMonka",
+      "url": "https://www.youtube.com/watch?v=UVLDrlXz_ns",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "3:34",
+      "duration_seconds": 214,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "\ud83d\udc12 Five Little Monkeys Jumping on the Bed \ud83c\udfb6 [3 MIN LOOP REMIX] | Funny Sound Variations + Kids Songs",
+      "channel": "ToonyMonka",
+      "url": "https://www.youtube.com/watch?v=UqHbTWl39nw",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "3:28",
+      "duration_seconds": 208,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "Let's Go To The Library | Caitie's Classroom Field Trip | Virtual Visit for Kids!",
+      "channel": "Super Simple Play with Caitie!",
+      "url": "https://www.youtube.com/watch?v=UNDVGzQ0KCI",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "10:38",
+      "duration_seconds": 638,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "I Like To Ride My Bicycle | Songs from Caitie's Classroom",
+      "channel": "Super Simple Play with Caitie!",
+      "url": "https://www.youtube.com/watch?v=-FST-CqbqUY",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "2:58",
+      "duration_seconds": 178,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "Hello Around The World \ud83c\udf0e | Learn To Say Hello In Different Languages | Super Simple Play",
+      "channel": "Super Simple Play with Caitie!",
+      "url": "https://www.youtube.com/watch?v=2PagKPg4m-4",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "2:00",
+      "duration_seconds": 120,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": [
+        "Contains 'learn' \u2014 positive developmental signal"
+      ]
+    },
+    {
+      "title": "Baby Shark | Songs from Caitie's Classroom",
+      "channel": "Super Simple Play with Caitie!",
+      "url": "https://www.youtube.com/watch?v=T2dSe2uTAWQ",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "3:00",
+      "duration_seconds": 180,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "Eating Colorful Donuts \ud83c\udf69 | 15 min | Learn Colors for Children | Compilation | Hogi & Pinkfong",
+      "channel": "Hogi! Pinkfong - Learn & Play",
+      "url": "https://www.youtube.com/watch?v=fZVXEBPEtyo",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "15:00",
+      "duration_seconds": 900,
+      "safety_score": 2,
+      "safety_rating": "review",
+      "safety_badge": "\u26a0\ufe0f",
+      "flags": [
+        {
+          "type": "RAPID_PACING",
+          "message": "Title contains rapid pacing pattern"
+        }
+      ],
+      "positive_signals": [
+        "Contains 'learn' \u2014 positive developmental signal",
+        "Contains 'colors' \u2014 positive developmental signal"
+      ]
+    },
+    {
+      "title": "Happy Halloween, Finny! | Finny The Shark | Cartoon For Kids",
+      "channel": "Finny The Shark",
+      "url": "https://www.youtube.com/watch?v=d5RiwUyR5eM",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "11:30",
+      "duration_seconds": 690,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "CoComelon 5-Minute Stories: Hello, New Friend! - Read Aloud for Children and Toddlers",
+      "channel": "Conductor Jack - Kids Songs and Learning",
+      "url": "https://www.youtube.com/watch?v=ZZbu0epvCZ0",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "3:44",
+      "duration_seconds": 224,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": [
+        "Contains 'read aloud' \u2014 positive developmental signal"
+      ]
+    },
+    {
+      "title": "Hello My Friends + More | Kids Halloween Songs Plus Classroom Fun | Finny The Shark",
+      "channel": "Finny The Shark",
+      "url": "https://www.youtube.com/watch?v=1RBd3lxjcaI",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "1:09:18",
+      "duration_seconds": 4158,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "Let's Go For A Walk Outside | A Storybook For Kids | Rhymington Square",
+      "channel": "Super Simple Storytime",
+      "url": "https://www.youtube.com/watch?v=J2l5xJ21UVU",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "8:21",
+      "duration_seconds": 501,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "Bumble Nums Running Game & Bubble Pop Walkthrough iPad App Toddler Preschool Kids Games",
+      "channel": "\ud83d\udc96 Pink Mermaid Girlies",
+      "url": "https://www.youtube.com/watch?v=zPSUHdLFFLo",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "14:47",
+      "duration_seconds": 887,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "Real World Ramen | Featuring The Bumble Nums Plushies! | Cartoons For Kids",
+      "channel": "The Bumble Nums",
+      "url": "https://www.youtube.com/watch?v=sICUewwtmbU",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "7:11",
+      "duration_seconds": 431,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "Noodle & Pals Line Up | Noodle & Pals | Songs For Children",
+      "channel": "AND Love NEVER ENDS Remake",
+      "url": "https://www.youtube.com/watch?v=ccMXqQmfmS8",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "2:10",
+      "duration_seconds": 130,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "Super Simple App Review 11",
+      "channel": "Krista Edwards",
+      "url": "https://www.youtube.com/watch?v=dtXAg7kYA5Q",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "4:44",
+      "duration_seconds": 284,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "Which Pool Would You Jump Into From a Helicopter? | Oddly Satisfying AI ASMR",
+      "channel": "Noeva",
+      "url": "https://www.youtube.com/watch?v=46NadYRpXf8",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "9:36",
+      "duration_seconds": 576,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "Super Simple App Review 9",
+      "channel": "Krista Edwards",
+      "url": "https://www.youtube.com/watch?v=cMTkeJyXkak",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "5:57",
+      "duration_seconds": 357,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "Super Simple App Review 2",
+      "channel": "Krista Edwards",
+      "url": "https://www.youtube.com/watch?v=Nyr0ArQXl4k",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "4:48",
+      "duration_seconds": 288,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "Chu Chu Tv New Intro Effects (Sponsored by Preview 2 Effects)",
+      "channel": "TechVid",
+      "url": "https://www.youtube.com/watch?v=IgqWK0oEaYw",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "2:02",
+      "duration_seconds": 122,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "Cussly in the Playground - Good Habits Bedtime Stories & Moral Stories for Kids - ChuChu TV",
+      "channel": "ChuChuTV Storytime for Kids",
+      "url": "https://www.youtube.com/watch?v=fs8hSTwJVO4",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "4:20",
+      "duration_seconds": 260,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": [
+        "Contains 'bedtime' \u2014 positive developmental signal"
+      ]
+    },
+    {
+      "title": "Bluey And Bandit Slime Surprise",
+      "channel": "You N me play",
+      "url": "https://www.youtube.com/watch?v=zS9GncFZwWg",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "9:47",
+      "duration_seconds": 587,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "Learn Spanish Words with Peppa Pig and Friends Driving Toy Cars Around Town!",
+      "channel": "Genevieve's Playhouse - Learning Videos for Kids",
+      "url": "https://www.youtube.com/watch?v=yah5X-wTIpc",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "7:02",
+      "duration_seconds": 422,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": [
+        "Contains 'learn' \u2014 positive developmental signal"
+      ]
+    },
+    {
+      "title": "Peppa Pig Game | Crocodile Hiding in Kids Cereal with Toy Friends",
+      "channel": "Just For Kids",
+      "url": "https://www.youtube.com/watch?v=Gkfyuk-MbNk",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "4:30",
+      "duration_seconds": 270,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "Peppa Pig Gets A Limo Ride \ud83d\udc37 \ud83e\udea9 Playtime With Peppa",
+      "channel": "Peppa Pig's Big Adventures",
+      "url": "https://www.youtube.com/watch?v=iY2Sz_jsBK4",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "21:00",
+      "duration_seconds": 1260,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "Peppa Pig Full Episodes! | Season 5 | Peppa Pig Rides in a Taxi | Peppa Pig Family Kids Cartoons",
+      "channel": "Peppa's Playgroup: Little Learners",
+      "url": "https://www.youtube.com/watch?v=XeDlZ0PkwEo",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "17:00",
+      "duration_seconds": 1020,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "[3 MIN LOOP] Five Little Monkeys Remix \ud83d\udc12\ud83c\udfa7 Fun Beat Variations & Playtime Nursery Rhymes for Children",
+      "channel": "Little Ducks Melody",
+      "url": "https://www.youtube.com/watch?v=QmRhaTJoLyQ",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "3:31",
+      "duration_seconds": 211,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "Drinks - Kids vocabulary - Learn English for kids - English educational video",
+      "channel": "English Singsing",
+      "url": "https://www.youtube.com/watch?v=A_AJrtGtC3Y",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "4:50",
+      "duration_seconds": 290,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": [
+        "Contains 'learn' \u2014 positive developmental signal",
+        "Contains 'educational' \u2014 positive developmental signal"
+      ]
+    },
+    {
+      "title": "Tobee Goes Trick or Treating | Caitie's Classroom",
+      "channel": "Super Simple Play with Caitie!",
+      "url": "https://www.youtube.com/watch?v=Iwqsu29KAUA",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "4:43",
+      "duration_seconds": 283,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "CoComelon: Play with JJ | Gameplay | Nintendo Switch",
+      "channel": "Nintendo Games",
+      "url": "https://www.youtube.com/watch?v=ZWBNJVFMcU8",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "15:32",
+      "duration_seconds": 932,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "Cocomelon Play With JJ Nintendo switch gameplay",
+      "channel": "ALL GAMING AREAS",
+      "url": "https://www.youtube.com/watch?v=Tlfh6NG7-q4",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "5:07",
+      "duration_seconds": 307,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "Super Simple App Gameplay",
+      "channel": "BIAZER06 ARCHIVE",
+      "url": "https://www.youtube.com/watch?v=LO3Egwlquqs",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "10:36",
+      "duration_seconds": 636,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "Super Simple App Review 4",
+      "channel": "Krista Edwards",
+      "url": "https://www.youtube.com/watch?v=XpGT1nQYNl4",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "3:29",
+      "duration_seconds": 209,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "Super Simple Songs Ice Cream Fell Off Intro Logo Sponsored By Klasky Csupo 2001 Effects",
+      "channel": "We Sing in Arabic Tv",
+      "url": "https://www.youtube.com/watch?v=UU8y5Tc6Crw",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "3:50",
+      "duration_seconds": 230,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "No, David Funny Animated Video",
+      "channel": "Storytime with Sonia Panda",
+      "url": "https://www.youtube.com/watch?v=FBumlcEqxJA",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "3:53",
+      "duration_seconds": 233,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "Which Crazy Bed Would You Choose? | Ultimate Oddly Satisfying AI ASMR",
+      "channel": "AI ASMR Satisfait",
+      "url": "https://www.youtube.com/watch?v=Esh87afPKQ8",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "7:03",
+      "duration_seconds": 423,
+      "safety_score": 2,
+      "safety_rating": "review",
+      "safety_badge": "\u26a0\ufe0f",
+      "flags": [
+        {
+          "type": "RAPID_PACING",
+          "message": "Title contains rapid pacing pattern"
+        }
+      ],
+      "positive_signals": []
+    },
+    {
+      "title": "ITS TO SLIPPERY \ud83c\udf85\ud83c\udffb",
+      "channel": "\ud83c\udf4b Lemon Liliana \ud83c\udf4b",
+      "url": "https://www.youtube.com/watch?v=-tUtIm5Q-UA",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "3:40",
+      "duration_seconds": 220,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "\u0421\u0432\u0438\u043d\u043a\u0430 \u041f\u0435\u043f\u043f\u0430 \u0432 \u0420\u043e\u0431\u043b\u043e\u043a\u0441! - \u0421\u0435\u0437\u043e\u043d 2 - \u0421\u0435\u0440\u0438\u044f 1: \u041f\u043e\u0436\u0430\u0440\u043d\u0430\u044f \u0441\u0442\u0430\u043d\u0446\u0438\u044f",
+      "channel": "DudduTV Duddu",
+      "url": "https://www.youtube.com/watch?v=pnW3wCcgo6s",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "8:38",
+      "duration_seconds": 518,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "\u0421\u0432\u0438\u043d\u043a\u0430 \u041f\u0435\u043f\u043f\u0430 \u0432 \u0420\u043e\u0431\u043b\u043e\u043a\u0441! - \u0421\u0435\u0437\u043e\u043d 2 - \u0421\u0435\u0440\u0438\u044f 2: \u041b\u0443\u0447\u0448\u0430\u044f \u043f\u043e\u0434\u0440\u0443\u0436\u043a\u0430 \u041f\u0435\u043f\u043f\u044b",
+      "channel": "DudduTV Duddu",
+      "url": "https://www.youtube.com/watch?v=qoRflt9gSnI",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "6:52",
+      "duration_seconds": 412,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "peppa the fat belly go to the bus \ud83d\ude8c Season 1 episode 1",
+      "channel": "Miss Kandice\ud83d\udc95",
+      "url": "https://www.youtube.com/watch?v=WY8t55anmHk",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "13:06",
+      "duration_seconds": 786,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "(most viewed)Chu Chu Tv Effects (Sponsored by Preview 2 Effects)",
+      "channel": "Dharmendra Pro Editor",
+      "url": "https://www.youtube.com/watch?v=T_A9csA1GSE",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "2:31",
+      "duration_seconds": 151,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "Man In The Park - Bedtime Stories for Kids in English | ChuChu TV Storytime for Children",
+      "channel": "ChuChuTV Storytime for Kids",
+      "url": "https://www.youtube.com/watch?v=ixG-EkxjT9Y",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "6:16",
+      "duration_seconds": 376,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": [
+        "Contains 'storytime' \u2014 positive developmental signal",
+        "Contains 'bedtime' \u2014 positive developmental signal"
+      ]
+    },
+    {
+      "title": "Let's Play Caitie's Pizza | Caitie's Classroom | Pretend Play For Kids",
+      "channel": "Super Simple Play with Caitie!",
+      "url": "https://www.youtube.com/watch?v=YpV5e1GbvE4",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "15:06",
+      "duration_seconds": 906,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "Pizza Party! Songs from Caitie's Classroom | Music Video For Kids",
+      "channel": "Super Simple Play with Caitie!",
+      "url": "https://www.youtube.com/watch?v=KT8EXcf6Ixs",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "2:05",
+      "duration_seconds": 125,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "Make Squishy Squeezy Glow Mask with Gabby! | GABBY'S DOLLHOUSE",
+      "channel": "Gabby's Dollhouse",
+      "url": "https://www.youtube.com/watch?v=oJZuOYwevWA",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "3:51",
+      "duration_seconds": 231,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "Gabby Takes Care of the Baby Kitties! [Full Episode] | GABBY'S DOLLHOUSE | Netflix",
+      "channel": "Gabby's Dollhouse",
+      "url": "https://www.youtube.com/watch?v=HxkAWxAn76M",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "23:07",
+      "duration_seconds": 1387,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "Gabby's Dollhouse Toy Learning Video for Kids!",
+      "channel": "Genevieve's Playhouse - Learning Videos for Kids",
+      "url": "https://www.youtube.com/watch?v=GWSLoT8WnwA",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "13:48",
+      "duration_seconds": 828,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": [
+        "Contains 'learn' \u2014 positive developmental signal"
+      ]
+    },
+    {
+      "title": "Roma and Diana visit Oliver's Cafe",
+      "channel": "\u2605 Kids Roma Show",
+      "url": "https://www.youtube.com/watch?v=FESRSBaXLQ8",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "5:05",
+      "duration_seconds": 305,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "Diana Pretend Play Cooking with Kitchen Toys",
+      "channel": "\u273f Kids Diana Show",
+      "url": "https://www.youtube.com/watch?v=b5J7JYyMk_0",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "5:05",
+      "duration_seconds": 305,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "Let's Make our own Toy Birthday Cake!",
+      "channel": "Genevieve's Playhouse - Learning Videos for Kids",
+      "url": "https://www.youtube.com/watch?v=3Y4fzcwsCH8",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "7:38",
+      "duration_seconds": 458,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "Visit An Ice Cream Shop With Caitie! | Caitie's Classroom Field Trip | Food Video for Kids",
+      "channel": "Super Simple Play with Caitie!",
+      "url": "https://www.youtube.com/watch?v=7e2e77w4cZc",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "3:52",
+      "duration_seconds": 232,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "Let's Go To Kindergarten! | Caitie's Classroom Field Trips | First Day of School Video for Kids!",
+      "channel": "Super Simple Play with Caitie!",
+      "url": "https://www.youtube.com/watch?v=ZcO4KuriDU8",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "10:53",
+      "duration_seconds": 653,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "Come Meet Jessye Norman Students | Caitie's Classroom",
+      "channel": "Super Simple Play with Caitie!",
+      "url": "https://www.youtube.com/watch?v=zLsBMoQPX5I",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "3:59",
+      "duration_seconds": 239,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "Learn Animal Sounds! - Caitie's Classroom",
+      "channel": "Super Simple Play with Caitie!",
+      "url": "https://www.youtube.com/watch?v=Lehj2yvf8QQ",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "6:34",
+      "duration_seconds": 394,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": [
+        "Contains 'learn' \u2014 positive developmental signal"
+      ]
+    },
+    {
+      "title": "Let's Get A Haircut! | Caitie's Classroom Field Trip | Helpful Parenting Video for Kids",
+      "channel": "Super Simple Play with Caitie!",
+      "url": "https://www.youtube.com/watch?v=n_v9qJexGz8",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "4:27",
+      "duration_seconds": 267,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "If You're Happy And You Know It | Sing Along With Tobee",
+      "channel": "Super Simple Play with Caitie!",
+      "url": "https://www.youtube.com/watch?v=If5udKwoHjc",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "4:37",
+      "duration_seconds": 277,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "Pat A Cake | Song For Kids | Sing Along With Tobee",
+      "channel": "Super Simple Play with Caitie!",
+      "url": "https://www.youtube.com/watch?v=Wuy-VEKFJfg",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "5:17",
+      "duration_seconds": 317,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "Tobee Goes Camping | A Caitie and Tobee Adventure | Camping for Kids",
+      "channel": "Super Simple Play with Caitie!",
+      "url": "https://www.youtube.com/watch?v=Dv9fFe-vp6g",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "7:59",
+      "duration_seconds": 479,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "Visit An Amazing After-School Music Program! | Caitie's Classroom Field Trip | Instruments For Kids",
+      "channel": "Super Simple Play with Caitie!",
+      "url": "https://www.youtube.com/watch?v=88eTR4ouT2U",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "6:08",
+      "duration_seconds": 368,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "Visit A Dance Class With Caitie! | Caitie's Classroom Field Trip | Movement Video For Kids",
+      "channel": "Super Simple Play with Caitie!",
+      "url": "https://www.youtube.com/watch?v=q3VOtgNk0rY",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "6:59",
+      "duration_seconds": 419,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "Caitie Visits Backstage At An Emma & Lachy from The Wiggles Concert! | Caitie's Classroom Field Trip",
+      "channel": "Super Simple Play with Caitie!",
+      "url": "https://www.youtube.com/watch?v=t6mBszkU-Xo",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "8:11",
+      "duration_seconds": 491,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "Alarm Clocked Out | Minnie's Bow-Toons | @disneyjr",
+      "channel": "Disney Jr.",
+      "url": "https://www.youtube.com/watch?v=RMP6SsAHxP4",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "3:01",
+      "duration_seconds": 181,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "Pango Story Time! \ud83e\ude7a Pango Goes to the Doctor (Interactive Story for Kids!)",
+      "channel": "Appysmarts",
+      "url": "https://www.youtube.com/watch?v=noCDe82VISk",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "7:01",
+      "duration_seconds": 421,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "Caitie's Classroom Live - Wind! | Preschool Songs and Activities",
+      "channel": "Super Simple Play with Caitie!",
+      "url": "https://www.youtube.com/watch?v=HmfQK88ThsQ",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "1:10:00",
+      "duration_seconds": 4200,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "A Visit To The Dentist | Caitie's Classroom Field Trip | First Dental Visit Video for Kids",
+      "channel": "Super Simple Play with Caitie!",
+      "url": "https://www.youtube.com/watch?v=70loZVsvaqM",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "6:20",
+      "duration_seconds": 380,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "Hello Around the World | Say Hello in 15 Different Languages | Explore World Song | JunyTony",
+      "channel": "JunyTony - Songs and Stories",
+      "url": "https://www.youtube.com/watch?v=472AnCrHYVs",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "1:51",
+      "duration_seconds": 111,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "Let's Find Opposites In The Park | Caitie's Classroom Field Trip | Classroom Activities For Kids",
+      "channel": "Super Simple Play with Caitie!",
+      "url": "https://www.youtube.com/watch?v=pLfD6UzWwiU",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "2:43",
+      "duration_seconds": 163,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "Learn English Words! Follow the Leader with Sign Post Kids! Playground!",
+      "channel": "Sign Post Kids",
+      "url": "https://www.youtube.com/watch?v=aledTo4hX1c",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "7:50",
+      "duration_seconds": 470,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": [
+        "Contains 'learn' \u2014 positive developmental signal"
+      ]
+    },
+    {
+      "title": "Blippi's Has A Fun Day of Color Play | Blippi's Stories and Adventures for Kids | Moonbug Kids",
+      "channel": "It's Storytime",
+      "url": "https://www.youtube.com/watch?v=VZUZGIQhHOI",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "15:00",
+      "duration_seconds": 900,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "Blippi Learns at the Indoor Play Place | Educational Videos for Toddlers",
+      "channel": "Blippi - Educational Videos for Kids",
+      "url": "https://www.youtube.com/watch?v=OayHglz-Wd8",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "18:00",
+      "duration_seconds": 1080,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": [
+        "Contains 'learn' \u2014 positive developmental signal",
+        "Contains 'educational' \u2014 positive developmental signal"
+      ]
+    },
+    {
+      "title": "Car Wash Song | Little Angel & Cocomelon Nursery Rhymes",
+      "channel": "CoComelon and Little Angel Nursery Rhymes",
+      "url": "https://www.youtube.com/watch?v=072X_tVAt9w",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "9:28",
+      "duration_seconds": 568,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "Blippi Visits an Indoor Play Place | @Blippi | Moonbug Literacy",
+      "channel": "Learning Literacy - Kids Reading & Phonics",
+      "url": "https://www.youtube.com/watch?v=qXudsS27kw8",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "10:11",
+      "duration_seconds": 611,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "David Gets in Trouble | David Shannon",
+      "channel": "Read with Scarlett",
+      "url": "https://www.youtube.com/watch?v=GquJvcV7EhM",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "1:27",
+      "duration_seconds": 87,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "No, David! | Animated (Kids Books Read Aloud)",
+      "channel": "Toadstools and Fairy Dust",
+      "url": "https://www.youtube.com/watch?v=AFcMDiDZbws",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "2:26",
+      "duration_seconds": 146,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": [
+        "Contains 'read aloud' \u2014 positive developmental signal"
+      ]
+    },
+    {
+      "title": "No, David! - Animated Read Aloud Book",
+      "channel": "Reading is",
+      "url": "https://www.youtube.com/watch?v=vHUeJCaUjxE",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "4:43",
+      "duration_seconds": 283,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": [
+        "Contains 'read aloud' \u2014 positive developmental signal"
+      ]
+    },
+    {
+      "title": "Diana and Roma show the Safety Rules on board the Airplane",
+      "channel": "\u273f Kids Diana Show",
+      "url": "https://www.youtube.com/watch?v=NifKNSpp0_4",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "9:00",
+      "duration_seconds": 540,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": [
+        "Contains 'safety' \u2014 positive developmental signal"
+      ]
+    },
+    {
+      "title": "Guess the logo by it's sound / logo sound part 2 #logo #logoquiz",
+      "channel": "Quiz Jockey",
+      "url": "https://www.youtube.com/watch?v=MJRL4IkJr2Q",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "1:00",
+      "duration_seconds": 60,
+      "safety_score": 2,
+      "safety_rating": "review",
+      "safety_badge": "\u26a0\ufe0f",
+      "flags": [
+        {
+          "type": "SENSORY_OVERLOAD",
+          "message": "Title contains sensory overload pattern"
+        }
+      ],
+      "positive_signals": []
+    },
+    {
+      "title": "Super simple intrologo effects 2026 | sponsored by gamavision csupo effects",
+      "channel": "EHCTIR FX",
+      "url": "https://www.youtube.com/watch?v=-PpWZv911sw",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "1:10",
+      "duration_seconds": 70,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "Little Caesars, Netflix Jr and Super Simple Songs Logo Intro 2026 Over 1 Million Times",
+      "channel": "Sorry Ear",
+      "url": "https://www.youtube.com/watch?v=hZji5eqUm78",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "4:11",
+      "duration_seconds": 251,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "Walmart do you like",
+      "channel": "Catherine Azez",
+      "url": "https://www.youtube.com/watch?v=Y_gPif9-k3g",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "2:36",
+      "duration_seconds": 156,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "Guess The Logo Sound Challenge | McDonald's, TikTok, Netflix, KFC, Pepsi | Logo Quiz 2024",
+      "channel": "WhizQuizz",
+      "url": "https://www.youtube.com/watch?v=H-uYy69qPcQ",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "11:19",
+      "duration_seconds": 679,
+      "safety_score": 2,
+      "safety_rating": "review",
+      "safety_badge": "\u26a0\ufe0f",
+      "flags": [
+        {
+          "type": "SENSORY_OVERLOAD",
+          "message": "Title contains sensory overload pattern"
+        }
+      ],
+      "positive_signals": []
+    },
+    {
+      "title": "Guess the logo Sound | MacDonald's, Tiktok, Netflix, Pepsi / logoQuiz 2025",
+      "channel": "Empire of Quiz",
+      "url": "https://www.youtube.com/watch?v=RjZmP_ROmJI",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "1:00",
+      "duration_seconds": 60,
+      "safety_score": 2,
+      "safety_rating": "review",
+      "safety_badge": "\u26a0\ufe0f",
+      "flags": [
+        {
+          "type": "SENSORY_OVERLOAD",
+          "message": "Title contains sensory overload pattern"
+        }
+      ],
+      "positive_signals": []
+    },
+    {
+      "title": "Super Simple Songs Let's Count Down! Song Intro Logo | Sponsored By: Klasky Csupo 2001 Effects",
+      "channel": "RichMami",
+      "url": "https://www.youtube.com/watch?v=zct4wLHMfRQ",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "1:00",
+      "duration_seconds": 60,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "Chu Chu TV Outro Effects | Preview 2 I.C Lite And I PBR Effects",
+      "channel": "UK Edits",
+      "url": "https://www.youtube.com/watch?v=CvcjzwrvbyY",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "4:27",
+      "duration_seconds": 267,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "ChuChu Tv Outrologo Effects SoundVibration",
+      "channel": "Yupen Pro Editor",
+      "url": "https://www.youtube.com/watch?v=mz6Ro5_ncrA",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "1:00",
+      "duration_seconds": 60,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "Pancakes | \ud83d\udc37 Adventures With Peppa Pig",
+      "channel": "Adventures With Peppa Pig",
+      "url": "https://www.youtube.com/watch?v=dHAYH6eToeE",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "4:30",
+      "duration_seconds": 270,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "Ballet Lesson | \ud83d\udc37 Adventures With Peppa Pig",
+      "channel": "Adventures With Peppa Pig",
+      "url": "https://www.youtube.com/watch?v=crwZY8YgD6g",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "4:30",
+      "duration_seconds": 270,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "Blippi Visits Whiz Kids Playland | @Blippi | Moonbug Literacy",
+      "channel": "Learning Literacy - Kids Reading & Phonics",
+      "url": "https://www.youtube.com/watch?v=zQYDuij8gL8",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "16:00",
+      "duration_seconds": 960,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "Children's Books Read Aloud - It's Christmas David Animated | By David Shannon",
+      "channel": "Storytime Hullabaloo Hi",
+      "url": "https://www.youtube.com/watch?v=FyXtHPpgapg",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "3:05",
+      "duration_seconds": 185,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": [
+        "Contains 'read aloud' \u2014 positive developmental signal"
+      ]
+    },
+    {
+      "title": "Blippi Visits The Funtastic Playtorium | @Blippi | Moonbug Literacy",
+      "channel": "Learning Literacy - Kids Reading & Phonics",
+      "url": "https://www.youtube.com/watch?v=4xOltDYzOcE",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "14:49",
+      "duration_seconds": 889,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "Children's Books Read Aloud - 5 ANIMATED Davids 12+ Minutes | By David Shannon",
+      "channel": "Storytime Hullabaloo Hi",
+      "url": "https://www.youtube.com/watch?v=kV8RUPtfOLY",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "12:01",
+      "duration_seconds": 721,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": [
+        "Contains 'read aloud' \u2014 positive developmental signal"
+      ]
+    },
+    {
+      "title": "Toddler Learning Video for Kids and Babies - Pororo School Bus and Treehouse!",
+      "channel": "Genevieve's Playhouse - Learning Videos for Kids",
+      "url": "https://www.youtube.com/watch?v=VNuNTIA8xp4",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "9:16",
+      "duration_seconds": 556,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": [
+        "Contains 'learn' \u2014 positive developmental signal"
+      ]
+    },
+    {
+      "title": "Baby Shark Halloween | Kids Song | Finny The Shark",
+      "channel": "Finny The Shark",
+      "url": "https://www.youtube.com/watch?v=6AVQTISKysM",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "3:32",
+      "duration_seconds": 212,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "Bumble Nums LIVE FULL EPISODES 24 Hour Livestream!",
+      "channel": "The Bumble Nums",
+      "url": "https://www.youtube.com/watch?v=qgel_ymciDU",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "10:00",
+      "duration_seconds": 600,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "Blippi Makes Chocolate At A Chocolate Factory! | Educational Videos For Toddlers",
+      "channel": "Blippi Wonders - Educational Cartoons for Kids",
+      "url": "https://www.youtube.com/watch?v=0USRBezOKSc",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "23:00",
+      "duration_seconds": 1380,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": [
+        "Contains 'educational' \u2014 positive developmental signal"
+      ]
+    },
+    {
+      "title": "Blippi Visits An Indoor Play Place! | Learn and Play With Blippi | Educational Videos for Toddlers",
+      "channel": "Let's Get Moving - Kids Activities!",
+      "url": "https://www.youtube.com/watch?v=JNO3g9mcGw4",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "16:00",
+      "duration_seconds": 960,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": [
+        "Contains 'learn' \u2014 positive developmental signal",
+        "Contains 'educational' \u2014 positive developmental signal"
+      ]
+    },
+    {
+      "title": "Peppa Pig - Viaggio in Aereo! | Cartoni per Bambini | WildBrain Laboratorio dello Studio",
+      "channel": "WildBrain Laboratorio dello Studio",
+      "url": "https://www.youtube.com/watch?v=fpEy9m_t0To",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "24:00",
+      "duration_seconds": 1440,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "Blippi Explores an Ice Cream Truck | Learn Numbers For Kids | Educational Videos For Toddlers",
+      "channel": "Blippi Wonders - Educational Cartoons for Kids",
+      "url": "https://www.youtube.com/watch?v=Xuv8QDIQoOI",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "13:47",
+      "duration_seconds": 827,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": [
+        "Contains 'learn' \u2014 positive developmental signal",
+        "Contains 'educational' \u2014 positive developmental signal"
+      ]
+    },
+    {
+      "title": "Visit Adventure City with Blippi x Meekah! | Blippi | Moonbug Kids - Fun Zone",
+      "channel": "School of Play",
+      "url": "https://www.youtube.com/watch?v=NmcaSOcw9xs",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "17:00",
+      "duration_seconds": 1020,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "Blippi Visits an Indoor Play Place! | Blippi Full Episodes | Blippi Toys",
+      "channel": "Blippi Toys",
+      "url": "https://www.youtube.com/watch?v=rZgkDxbEXZs",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "13:51",
+      "duration_seconds": 831,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "Pororo the Little Penguin Colorful Toy Cars Playset!",
+      "channel": "Genevieve's Playhouse - Learning Videos for Kids",
+      "url": "https://www.youtube.com/watch?v=mKFFEuZpQT4",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "5:14",
+      "duration_seconds": 314,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "Learning Video Pororo the Little Penguin Toys for Kids - School Bus and Fire Truck!",
+      "channel": "Genevieve's Playhouse - Learning Videos for Kids",
+      "url": "https://www.youtube.com/watch?v=WWizNDS4vMI",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "14:16",
+      "duration_seconds": 856,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": [
+        "Contains 'learn' \u2014 positive developmental signal"
+      ]
+    },
+    {
+      "title": "Bedtime Story for Kids | Dreamy Dill Pickles | The Bumble Nums Sleepy Adventure",
+      "channel": "The Bumble Nums",
+      "url": "https://www.youtube.com/watch?v=mH_xbeQ1_3s",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "7:09",
+      "duration_seconds": 429,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": [
+        "Contains 'bedtime' \u2014 positive developmental signal"
+      ]
+    },
+    {
+      "title": "The Color Dance Game! | Would You Rather Brain Break | Danny Go! Songs for Kids",
+      "channel": "Danny Go!",
+      "url": "https://www.youtube.com/watch?v=q-6g_viAcIk",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "3:49",
+      "duration_seconds": 229,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "5-in-1 Super Surprise Music Video Mix! | Danny Go! Kids Songs",
+      "channel": "Danny Go!",
+      "url": "https://www.youtube.com/watch?v=etM4E1NFUBA",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "19:00",
+      "duration_seconds": 1140,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "Learn Colors with Peppa Pig and Pororo Musical Toys for Kids!",
+      "channel": "Genevieve's Playhouse - Learning Videos for Kids",
+      "url": "https://www.youtube.com/watch?v=bTEsteUWC8s",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "5:00",
+      "duration_seconds": 300,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": [
+        "Contains 'learn' \u2014 positive developmental signal",
+        "Contains 'colors' \u2014 positive developmental signal"
+      ]
+    },
+    {
+      "title": "Educational Preschool Toys for Kids - Learn Words, Colors, Songs, Animals, and More!",
+      "channel": "Genevieve's Playhouse - Learning Videos for Kids",
+      "url": "https://www.youtube.com/watch?v=lca179N9a30",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "8:26",
+      "duration_seconds": 506,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": [
+        "Contains 'learn' \u2014 positive developmental signal",
+        "Contains 'educational' \u2014 positive developmental signal"
+      ]
+    },
+    {
+      "title": "Learn Common words with Pororo the Little Penguin's Toy house!",
+      "channel": "Genevieve's Playhouse - Learning Videos for Kids",
+      "url": "https://www.youtube.com/watch?v=G-zIQqBE-Jg",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "18:00",
+      "duration_seconds": 1080,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": [
+        "Contains 'learn' \u2014 positive developmental signal"
+      ]
+    },
+    {
+      "title": "Kids, let's learn common words with Pororo's fun Toy Dollhouse!",
+      "channel": "Genevieve's Playhouse - Learning Videos for Kids",
+      "url": "https://www.youtube.com/watch?v=hGnMSib9Fuw",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "10:07",
+      "duration_seconds": 607,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": [
+        "Contains 'learn' \u2014 positive developmental signal"
+      ]
+    },
+    {
+      "title": "20 \u0916\u093f\u0932\u094c\u0928\u094b\u0902 \u0915\u0947 \u0928\u093e\u092e \u0938\u0940\u0916\u0947\u0902 | Toy Names for Kids with Pictures & Sound Effects Fun Learning Video",
+      "channel": "Sweety Mam Ki Class",
+      "url": "https://www.youtube.com/watch?v=6nZGbJQTpkU",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "4:18",
+      "duration_seconds": 258,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": [
+        "Contains 'learn' \u2014 positive developmental signal"
+      ]
+    },
+    {
+      "title": "20 \u0921\u094d\u0930\u0949\u0907\u0902\u0917 \u0911\u092c\u094d\u091c\u0947\u0915\u094d\u091f \u0915\u0947 \u0928\u093e\u092e | Learn 20 Drawing Objects Names with Pictures Easy Learning Video",
+      "channel": "Divya Study Class Hindi",
+      "url": "https://www.youtube.com/watch?v=z1akzxQM8pM",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "4:41",
+      "duration_seconds": 281,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": [
+        "Contains 'learn' \u2014 positive developmental signal"
+      ]
+    },
+    {
+      "title": "Peppa Pig and Bluey Go to School!",
+      "channel": "Genevieve's Playhouse - Learning Videos for Kids",
+      "url": "https://www.youtube.com/watch?v=DknjsopOHLg",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "13:54",
+      "duration_seconds": 834,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "Play Pretend with Ms. Appleberry + Friends | Kid Songs and Learning Videos | The Melon Patch",
+      "channel": "The Melon Patch - Learning Videos for Toddlers",
+      "url": "https://www.youtube.com/watch?v=m6iED64S39s",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "20:00",
+      "duration_seconds": 1200,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": [
+        "Contains 'learn' \u2014 positive developmental signal"
+      ]
+    },
+    {
+      "title": "Baby Learning | Learn Through Play with Ms. Appleberry | Dollhouse Play | The Melon Patch",
+      "channel": "The Melon Patch - Learning Videos for Toddlers",
+      "url": "https://www.youtube.com/watch?v=AZeLByOTudc",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "21:00",
+      "duration_seconds": 1260,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": [
+        "Contains 'learn' \u2014 positive developmental signal"
+      ]
+    },
+    {
+      "title": "Richard Rabbit Comes To Play \ud83d\udc37\ud83d\udc30 Peppa Pig official Channel Family Kids Cartoons",
+      "channel": "Peppa Pig - Official Channel",
+      "url": "https://www.youtube.com/watch?v=dfKBFwg-4BY",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "11:03",
+      "duration_seconds": 663,
+      "safety_score": 4,
+      "safety_rating": "good",
+      "safety_badge": "\u2705",
+      "flags": [],
+      "positive_signals": [
+        "Consistent characters, predictable episodes, gentle pacing. Official channel \u2014 highest quality control."
+      ]
+    },
+    {
+      "title": "PEPPA PIG gets a new toy House in this Kids Learning Video!",
+      "channel": "Genevieve's Playhouse - Learning Videos for Kids",
+      "url": "https://www.youtube.com/watch?v=OoMONAVtcDw",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "11:49",
+      "duration_seconds": 709,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": [
+        "Contains 'learn' \u2014 positive developmental signal"
+      ]
+    },
+    {
+      "title": "Fun Play Time With Blippi at The INDOOR PLAYGROUND! | Learn & Explore | Educational Videos for Kids",
+      "channel": "Blippi World",
+      "url": "https://www.youtube.com/watch?v=45EAjbVnc_A",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "12:25",
+      "duration_seconds": 745,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": [
+        "Contains 'learn' \u2014 positive developmental signal",
+        "Contains 'educational' \u2014 positive developmental signal"
+      ]
+    },
+    {
+      "title": "Down By The Spooky Bay + More | Monster Fun For Kids! | Rhymington Square",
+      "channel": "Rhymington Square - Songs & Rhymes for Kids!",
+      "url": "https://www.youtube.com/watch?v=sqvRJA4Al-s",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "54:00",
+      "duration_seconds": 3240,
+      "safety_score": 2,
+      "safety_rating": "review",
+      "safety_badge": "\u26a0\ufe0f",
+      "flags": [
+        {
+          "type": "VIOLENT_OR_SCARY",
+          "message": "Title contains violent or scary pattern"
+        }
+      ],
+      "positive_signals": []
+    },
+    {
+      "title": "Fun Kids Party Songs! | There's A Monster In My Tummy #2 + More Rhymington Square Songs!",
+      "channel": "Rhymington Square - Songs & Rhymes for Kids!",
+      "url": "https://www.youtube.com/watch?v=IfDQKGMaF1k",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "10:00",
+      "duration_seconds": 600,
+      "safety_score": 2,
+      "safety_rating": "review",
+      "safety_badge": "\u26a0\ufe0f",
+      "flags": [
+        {
+          "type": "VIOLENT_OR_SCARY",
+          "message": "Title contains violent or scary pattern"
+        }
+      ],
+      "positive_signals": []
+    },
+    {
+      "title": "Rhymington Square Livestream | Kids Songs | Rhymington Square",
+      "channel": "Rhymington Square - Songs & Rhymes for Kids!",
+      "url": "https://www.youtube.com/watch?v=u7UwWlPorc4",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "5:00",
+      "duration_seconds": 300,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "Super Spooky Halloween Storm + More | Top Monster Kids Songs Compilation | Rhymington Square",
+      "channel": "Rhymington Square - Songs & Rhymes for Kids!",
+      "url": "https://www.youtube.com/watch?v=h0s54sbRw6k",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "1:08:00",
+      "duration_seconds": 4080,
+      "safety_score": 2,
+      "safety_rating": "review",
+      "safety_badge": "\u26a0\ufe0f",
+      "flags": [
+        {
+          "type": "VIOLENT_OR_SCARY",
+          "message": "Title contains violent or scary pattern"
+        },
+        {
+          "type": "RAPID_PACING",
+          "message": "Title contains rapid pacing pattern"
+        }
+      ],
+      "positive_signals": []
+    },
+    {
+      "title": "Super Spooky Halloween Storm | Rain Song For Kids | Rhymington Square",
+      "channel": "Rhymington Square - Songs & Rhymes for Kids!",
+      "url": "https://www.youtube.com/watch?v=-ga6NqOXJWE",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "3:43",
+      "duration_seconds": 223,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "I Have A Toy + More I Noodle & Pals Sing Super Simple Songs! | 1 Hour",
+      "channel": "Noodle & Pals",
+      "url": "https://www.youtube.com/watch?v=funZFRia5Qs",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "1:01:00",
+      "duration_seconds": 3660,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "What Do you Want For Christmas + More Christmas Songs | Noodle & Pals | Preschool Music",
+      "channel": "Noodle & Pals",
+      "url": "https://www.youtube.com/watch?v=_n-oWk6VRE8",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "1:01:00",
+      "duration_seconds": 3660,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "Playhouse for Pigs and Kids",
+      "channel": "Kidibli (Kinder Spielzeug Kanal)",
+      "url": "https://www.youtube.com/watch?v=IJHjmKw4Who",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "11:04",
+      "duration_seconds": 664,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "Halloween + Classroom Songs With Noodle & Pals | Happy Halloween!",
+      "channel": "Noodle & Pals",
+      "url": "https://www.youtube.com/watch?v=O1YohX-1KXc",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "1:07:00",
+      "duration_seconds": 4020,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "How's The Weather + More | Sing and Learn Super Simple Songs With Noodle & Pals",
+      "channel": "Noodle & Pals",
+      "url": "https://www.youtube.com/watch?v=2D3-VRtLZmw",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "1:00:00",
+      "duration_seconds": 3600,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": [
+        "Contains 'learn' \u2014 positive developmental signal"
+      ]
+    },
+    {
+      "title": "Cocomelon JJ's Morning Routine Before a Road Trip!",
+      "channel": "AWESMR pop",
+      "url": "https://www.youtube.com/watch?v=jeUT8xtkloI",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "9:26",
+      "duration_seconds": 566,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "Let's Take Turns + More | 1 Hour | Kids Songs for Language Learning and Preschool | Noodle & Pals",
+      "channel": "Noodle & Pals",
+      "url": "https://www.youtube.com/watch?v=npgoG8kF_zk",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "1:00:00",
+      "duration_seconds": 3600,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": [
+        "Contains 'learn' \u2014 positive developmental signal"
+      ]
+    },
+    {
+      "title": "Daily Learning Lessons With Noodle & Pals! | Preschool Activities | Kids Songs",
+      "channel": "Noodle & Pals",
+      "url": "https://www.youtube.com/watch?v=QI5wQGyP3Nk",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "58:00",
+      "duration_seconds": 3480,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": [
+        "Contains 'learn' \u2014 positive developmental signal"
+      ]
+    },
+    {
+      "title": "We're Walking Down The Street + More | Super Fun Kids Songs | Noodle & Pals",
+      "channel": "Noodle & Pals",
+      "url": "https://www.youtube.com/watch?v=N3Z3SLmiZ0U",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "1:09:00",
+      "duration_seconds": 4140,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "Hide and Seek #2 + More | Preschool Hit Songs! | Noodle & Pals",
+      "channel": "Noodle & Pals",
+      "url": "https://www.youtube.com/watch?v=bUUVkAcFajs",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "30:00",
+      "duration_seconds": 1800,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "Before I Go To School | Back To School Songs for Kids | Morning Routines | The Mik Maks",
+      "channel": "The Mik Maks",
+      "url": "https://www.youtube.com/watch?v=QGiHZxYuDhA",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "2:00",
+      "duration_seconds": 120,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "ASMR UNBOXING Ms RACHEL WOODEN SONG PUZZLE",
+      "channel": "C0C0 Cadz",
+      "url": "https://www.youtube.com/watch?v=g8GG7btk-Fs",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "6:06",
+      "duration_seconds": 366,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "DIY Doll Animated Read Aloud | 6 David Stories by David Shannon",
+      "channel": "Ah!Young Spring Studio",
+      "url": "https://www.youtube.com/watch?v=LiMsCLCB0Po",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "19:00",
+      "duration_seconds": 1140,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": [
+        "Contains 'read aloud' \u2014 positive developmental signal"
+      ]
+    },
+    {
+      "title": "Kids Book Read Aloud: DAVID GOES TO SCHOOL by David Shannon",
+      "channel": "StoryTime at Awnie's House",
+      "url": "https://www.youtube.com/watch?v=JWafD1H8tLA",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "5:00",
+      "duration_seconds": 300,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": [
+        "Contains 'read aloud' \u2014 positive developmental signal"
+      ]
+    },
+    {
+      "title": "DAVID GOES TO SCHOOL | ANIMATED STORY BOOKS | BY DAVID SHANNON",
+      "channel": "Animated Children Books",
+      "url": "https://www.youtube.com/watch?v=Gap2eob5acI",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "6:16",
+      "duration_seconds": 376,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "Children's Books Read Aloud - That's Not Funny David Animated | By David Shannon",
+      "channel": "Storytime Hullabaloo Hi",
+      "url": "https://www.youtube.com/watch?v=mPqRRGeEOjQ",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "2:26",
+      "duration_seconds": 146,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": [
+        "Contains 'read aloud' \u2014 positive developmental signal"
+      ]
+    },
+    {
+      "title": "That's Not Funny, David | David Shannon",
+      "channel": "Read with Scarlett",
+      "url": "https://www.youtube.com/watch?v=9QVKUS5atdI",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "1:28",
+      "duration_seconds": 88,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "Human Sounds - Kids vocabulary - imitating sounds - English educational video for kids",
+      "channel": "English Singsing",
+      "url": "https://www.youtube.com/watch?v=gOO_1SE5k_A",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "4:10",
+      "duration_seconds": 250,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": [
+        "Contains 'educational' \u2014 positive developmental signal"
+      ]
+    },
+    {
+      "title": "Guess the Vegetables | Shadow Game and Song, Vocabulary Builder | Dream English Kids",
+      "channel": "Dream English Kids",
+      "url": "https://www.youtube.com/watch?v=ZYnvYPtsjAc",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "3:17",
+      "duration_seconds": 197,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "Dessert (Sweets / Treats) - Kids vocabulary - Learn English for kids - English educational video",
+      "channel": "English Singsing",
+      "url": "https://www.youtube.com/watch?v=qvZMLVOB5hs",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "3:55",
+      "duration_seconds": 235,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": [
+        "Contains 'learn' \u2014 positive developmental signal",
+        "Contains 'educational' \u2014 positive developmental signal"
+      ]
+    },
+    {
+      "title": "Peppa Pig | Jelly | Peppa Pig Official | Family Kids Cartoon",
+      "channel": "Peppa Pig - Official Channel",
+      "url": "https://www.youtube.com/watch?v=GYFiJoCc9rc",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "5:13",
+      "duration_seconds": 313,
+      "safety_score": 4,
+      "safety_rating": "good",
+      "safety_badge": "\u2705",
+      "flags": [],
+      "positive_signals": [
+        "Consistent characters, predictable episodes, gentle pacing. Official channel \u2014 highest quality control."
+      ]
+    },
+    {
+      "title": "Pinkfong's Colorful Super Market | Kids Pretend Play | Colors for Kids | Hogi Colors",
+      "channel": "Hogi! Pinkfong - Learn & Play",
+      "url": "https://www.youtube.com/watch?v=1nlkwoiVz30",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "3:16",
+      "duration_seconds": 196,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": [
+        "Contains 'colors' \u2014 positive developmental signal"
+      ]
+    },
+    {
+      "title": "[NEW\u2728] Learn Colors with Carrot Catching Game & Jeni | Learn Colors for Kids | Pinkfong Hogi",
+      "channel": "Hogi! Pinkfong - Learn & Play",
+      "url": "https://www.youtube.com/watch?v=SuTVeIWNCnM",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "3:32",
+      "duration_seconds": 212,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": [
+        "Contains 'learn' \u2014 positive developmental signal",
+        "Contains 'colors' \u2014 positive developmental signal"
+      ]
+    },
+    {
+      "title": "Mickey Mouse and Bluey Play Musical Statues Together! | Mickey+ Shorts | @disneyjr",
+      "channel": "Disney Jr.",
+      "url": "https://www.youtube.com/watch?v=8irjpFMQphI",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "1:50",
+      "duration_seconds": 110,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "Kid's, Make a Toy Pizza for the Paw Patrol!",
+      "channel": "Genevieve's Playhouse - Learning Videos for Kids",
+      "url": "https://www.youtube.com/watch?v=MdClLhoH9tc",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "4:49",
+      "duration_seconds": 289,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "Grow up David ANIMATED VIDEO",
+      "channel": "Storytime with Sonia Panda",
+      "url": "https://www.youtube.com/watch?v=BJKYJwvwKQk",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "6:05",
+      "duration_seconds": 365,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "No more snacks Darn David - Don't eat too many snacks - Darn David",
+      "channel": "Darn David Official",
+      "url": "https://www.youtube.com/watch?v=M-w6l2FfDFc",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "3:07",
+      "duration_seconds": 187,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "Cocomelon JJ & Bingo Get Sick & Visit Doc McStuffins!",
+      "channel": "AWESMR pop",
+      "url": "https://www.youtube.com/watch?v=U-U-MsdpnsY",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "8:47",
+      "duration_seconds": 527,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "Baby Peppa Pig, Brother George, and Baby Evie \ud83e\udd2a Sticker Activity for Kids",
+      "channel": "Play & Create",
+      "url": "https://www.youtube.com/watch?v=uCTc-6BwIuw",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "3:56",
+      "duration_seconds": 236,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "Noodle Had a Little Lamb (Sing-Along)",
+      "channel": "Super Simple Songs - Topic",
+      "url": "https://www.youtube.com/watch?v=0nlVZfEmNW8",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "3:11",
+      "duration_seconds": 191,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "Can You Please Help Me?",
+      "channel": "Super Simple Songs - Topic",
+      "url": "https://www.youtube.com/watch?v=D1sVRsmvBVM",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "3:03",
+      "duration_seconds": 183,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "It's The Holiday Countdown! | Blippi Songs | Educational Songs For Kids",
+      "channel": "Blippi - Kids Songs",
+      "url": "https://www.youtube.com/watch?v=zj9SgEafWKs",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "2:31",
+      "duration_seconds": 151,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": [
+        "Contains 'educational' \u2014 positive developmental signal"
+      ]
+    },
+    {
+      "title": "Breakfast Song | CoComelon | Sing Along | Nursery Rhymes and Songs for Kids",
+      "channel": "Kids Happy Place!",
+      "url": "https://www.youtube.com/watch?v=Nuf88V-9bY0",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "2:36",
+      "duration_seconds": 156,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "Amusement Park - Kids vocabulary - Learn English for kids - English educational video",
+      "channel": "English Singsing",
+      "url": "https://www.youtube.com/watch?v=45VmrbWcTtw",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "4:15",
+      "duration_seconds": 255,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": [
+        "Contains 'learn' \u2014 positive developmental signal",
+        "Contains 'educational' \u2014 positive developmental signal"
+      ]
+    },
+    {
+      "title": "Fisher-Price Little People Big Yellow School Bus",
+      "channel": "The Kids School",
+      "url": "https://www.youtube.com/watch?v=LbIkKq5umoE",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "4:32",
+      "duration_seconds": 272,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "ABC Song | Colorful Clay Alphabet Activity",
+      "channel": "\uc6b0\uac00\ub180\uc774 WOOGA play",
+      "url": "https://www.youtube.com/watch?v=GtkYxXVEZ2M",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "3:48",
+      "duration_seconds": 228,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": [
+        "Contains 'abc' \u2014 positive developmental signal",
+        "Contains 'alphabet' \u2014 positive developmental signal"
+      ]
+    },
+    {
+      "title": "Alphabet song | ABC Puzzle | ABC song | ABCD",
+      "channel": "\uc6b0\uac00\ub180\uc774 WOOGA play",
+      "url": "https://www.youtube.com/watch?v=d7_Dy_r1vhw",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "4:40",
+      "duration_seconds": 280,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": [
+        "Contains 'abc' \u2014 positive developmental signal",
+        "Contains 'alphabet' \u2014 positive developmental signal"
+      ]
+    },
+    {
+      "title": "HIDE-AND-SEEK WITH HERBIE | MS. RACHEL NEW RELEASE! | READ ALONG!",
+      "channel": "Read Aloud Edu",
+      "url": "https://www.youtube.com/watch?v=3peCalB3M_I",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "5:00",
+      "duration_seconds": 300,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "Daniel Tiger's Neighborhood | STOP! Margaret Doesn't Like That! | PBS KIDS",
+      "channel": "PBS KIDS",
+      "url": "https://www.youtube.com/watch?v=UpQEVyC_ApM",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "3:47",
+      "duration_seconds": 227,
+      "safety_score": 5,
+      "safety_rating": "good",
+      "safety_badge": "\u2705",
+      "flags": [],
+      "positive_signals": [
+        "Curated educational content, structured, low stimulation, autism-inclusive (Sesame Street's Julia character)."
+      ]
+    },
+    {
+      "title": "Old MacDonald + More | Classic Kids Songs & Nursery Rhymes | Noodle & Pals",
+      "channel": "Noodle & Pals",
+      "url": "https://www.youtube.com/watch?v=FQ-lfN6WHG0",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "1:08:00",
+      "duration_seconds": 4080,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "Best Of 2024 | Super Simple Songs featuring Noodle & Pals",
+      "channel": "Noodle & Pals",
+      "url": "https://www.youtube.com/watch?v=g8POTojyr98",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "1:02:00",
+      "duration_seconds": 3720,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "What's Inside The Toy Box? | Favorite Toy Song | Surprises with Noodle & Pals!",
+      "channel": "Noodle & Pals",
+      "url": "https://www.youtube.com/watch?v=GGbm73UAfUs",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "2:38",
+      "duration_seconds": 158,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "Diana Pretend Play with Playhouse Tent Toy",
+      "channel": "\u273f Kids Diana Show",
+      "url": "https://www.youtube.com/watch?v=NNCIFGBuRAQ",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "5:47",
+      "duration_seconds": 347,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "#peppapig peppa suzy kids english reading library funny story",
+      "channel": "Teeny Rainbows",
+      "url": "https://www.youtube.com/watch?v=rx9PN2F-IgM",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "1:00",
+      "duration_seconds": 60,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "Peppa Pig story book: Dream big, Peppa! read aloud",
+      "channel": "FizzToys",
+      "url": "https://www.youtube.com/watch?v=rfV9h9XffqU",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "3:00",
+      "duration_seconds": 180,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": [
+        "Contains 'read aloud' \u2014 positive developmental signal"
+      ]
+    },
+    {
+      "title": "Peppa Goes Swimming Sticker Scenes Book for kids and toddlers",
+      "channel": "Valerie Toys and Play",
+      "url": "https://www.youtube.com/watch?v=LbQtE6rJUI4",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "7:01",
+      "duration_seconds": 421,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "PEPPA PIG Toys! George's Birthday Party Countdown | Peppa Pig Advent Calendar",
+      "channel": "Finley's Toys | Pretend Play & Learning",
+      "url": "https://www.youtube.com/watch?v=UPmtZagvvq4",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "11:31",
+      "duration_seconds": 691,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "Teach Kids Spanish and English words with Painting Pororo Toy Car and Tayo Playsets!",
+      "channel": "Genevieve's Playhouse - Learning Videos for Kids",
+      "url": "https://www.youtube.com/watch?v=XKbZJV1Ql4M",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "19:00",
+      "duration_seconds": 1140,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "Daniel Tiger's Stories | Daniel Tiger's Neighborhood",
+      "channel": "Mikel Toy Tv",
+      "url": "https://www.youtube.com/watch?v=kXJfZJr-WsA",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "21:00",
+      "duration_seconds": 1260,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "SPIN & SING WITH DANIEL TIGER",
+      "channel": "Mikel Toy Tv",
+      "url": "https://www.youtube.com/watch?v=4PoGugVRVVA",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "7:31",
+      "duration_seconds": 451,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "DANIEL TIGER'S NEIGHBORHOOD | Daniel's Slippers | PBS KIDS",
+      "channel": "PBS KIDS",
+      "url": "https://www.youtube.com/watch?v=M4YJEW5Z01w",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "3:36",
+      "duration_seconds": 216,
+      "safety_score": 5,
+      "safety_rating": "good",
+      "safety_badge": "\u2705",
+      "flags": [],
+      "positive_signals": [
+        "Curated educational content, structured, low stimulation, autism-inclusive (Sesame Street's Julia character)."
+      ]
+    },
+    {
+      "title": "Peppa Pig Tales Toys! Family House Playset Build with George, Mummy, Daddy Pig and BABY EVIE",
+      "channel": "Finley's Toys | Pretend Play & Learning",
+      "url": "https://www.youtube.com/watch?v=_xLPeJ-yp84",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "9:01",
+      "duration_seconds": 541,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "Toy Learning Video for Kids - Pororo Pet School!",
+      "channel": "Genevieve's Playhouse - Learning Videos for Kids",
+      "url": "https://www.youtube.com/watch?v=-1HUsDB8Dlc",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "15:00",
+      "duration_seconds": 900,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": [
+        "Contains 'learn' \u2014 positive developmental signal"
+      ]
+    },
+    {
+      "title": "Things on Wheels! \ud83d\ude98 | Transport with Dee | Yakka Dee!",
+      "channel": "Yakka Dee! - Toddler Learning",
+      "url": "https://www.youtube.com/watch?v=hydfFPdAFpE",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "10:35",
+      "duration_seconds": 635,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "Let's Talk About Body Parts | Learn Words for the Body | Baby & Toddler Phonics | Yakka Dee!",
+      "channel": "Yakka Dee! - Toddler Learning",
+      "url": "https://www.youtube.com/watch?v=_285Da8wKnc",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "7:07",
+      "duration_seconds": 427,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": [
+        "Contains 'learn' \u2014 positive developmental signal"
+      ]
+    },
+    {
+      "title": "Delicious Fruit! \ud83c\udf49 | Yakka Dee!",
+      "channel": "Yakka Dee! - Toddler Learning",
+      "url": "https://www.youtube.com/watch?v=9tigUr0fEBs",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "9:13",
+      "duration_seconds": 553,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "Savoury Food with Dee | Yakka Dee!",
+      "channel": "Yakka Dee! - Toddler Learning",
+      "url": "https://www.youtube.com/watch?v=0F4N4OrJBb4",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "9:24",
+      "duration_seconds": 564,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "Diana is trapped in a Magic Cube",
+      "channel": "Diana and Roma EN",
+      "url": "https://www.youtube.com/watch?v=WeBO8oCByZ4",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "5:39",
+      "duration_seconds": 339,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "Peppa Pig in Avatar World VS Toca World | George Catches a Cold",
+      "channel": "Dino Avatar",
+      "url": "https://www.youtube.com/watch?v=kkebnd4qW60",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "4:30",
+      "duration_seconds": 270,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "peppa the fat belly go to the bus \ud83d\ude8c Season 1 episode 2",
+      "channel": "Miss Kandice\ud83d\udc95",
+      "url": "https://www.youtube.com/watch?v=dtRS_dmfik4",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "1:00",
+      "duration_seconds": 60,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "Strength in Unity - Storytime Adventures Ep. 2 - ChuChu TV",
+      "channel": "ChuChuTV Storytime for Kids",
+      "url": "https://www.youtube.com/watch?v=AFWxSzKsvbY",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "13:10",
+      "duration_seconds": 790,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": [
+        "Contains 'storytime' \u2014 positive developmental signal"
+      ]
+    },
+    {
+      "title": "The Adventures Of The Three Little Bumble Nums | Cartoon For Kids",
+      "channel": "Super Simple TV - Kids Shows & Cartoons",
+      "url": "https://www.youtube.com/watch?v=y7XRT2G8TGQ",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "7:49",
+      "duration_seconds": 469,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "The Three Bumble Nums Gruff | Cartoon For Kids",
+      "channel": "Super Simple TV - Kids Shows & Cartoons",
+      "url": "https://www.youtube.com/watch?v=UrzP5fuBxoQ",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "5:37",
+      "duration_seconds": 337,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "Let's Go To The Doctor! | Caitie's Classroom Field Trip | First Time Experience for Kids",
+      "channel": "Super Simple Play with Caitie!",
+      "url": "https://www.youtube.com/watch?v=_w33mjdN6gM",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "9:19",
+      "duration_seconds": 559,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "Let's train our dog! | Can YOUR dog complete this agility obstacle course? | Super Simple Play",
+      "channel": "Super Simple Play with Caitie!",
+      "url": "https://www.youtube.com/watch?v=jKFKDl8f5ow",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "9:02",
+      "duration_seconds": 542,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "Kids Christmas Songs | Santa and Reindeer Songs | Rhymington Square",
+      "channel": "Rhymington Square - Songs & Rhymes for Kids!",
+      "url": "https://www.youtube.com/watch?v=1_ja97_hBlI",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "44:00",
+      "duration_seconds": 2640,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "It's Way Too Hot Today + More | Fun Preschool Songs for Kids! | Rhymington Square",
+      "channel": "Rhymington Square - Songs & Rhymes for Kids!",
+      "url": "https://www.youtube.com/watch?v=gMhoQCO38Mk",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "57:00",
+      "duration_seconds": 3420,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "Apples And Bananas | Monster Song for Kids | Rhymington Square",
+      "channel": "Rhymington Square - Songs & Rhymes for Kids!",
+      "url": "https://www.youtube.com/watch?v=Ir_aVUKUCQs",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "3:07",
+      "duration_seconds": 187,
+      "safety_score": 2,
+      "safety_rating": "review",
+      "safety_badge": "\u26a0\ufe0f",
+      "flags": [
+        {
+          "type": "VIOLENT_OR_SCARY",
+          "message": "Title contains violent or scary pattern"
+        }
+      ],
+      "positive_signals": []
+    },
+    {
+      "title": "One Little Finger Part 2 + More | Songs for Preschool and beyond! | Noodle & Pals",
+      "channel": "Noodle & Pals",
+      "url": "https://www.youtube.com/watch?v=Fav7udLUwGU",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "1:00:00",
+      "duration_seconds": 3600,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "Happy Halloween from Noodle & Pals! | Toddler Spooky Season Party | Songs for Halloween",
+      "channel": "Noodle & Pals",
+      "url": "https://www.youtube.com/watch?v=hOeP_RBan84",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "1:06:00",
+      "duration_seconds": 3960,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "Skidamarink + More | Have Fun on Valentine's Day at Preschool! | Noodle & Pals",
+      "channel": "Noodle & Pals",
+      "url": "https://www.youtube.com/watch?v=RryPY87OPeM",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "1:07:00",
+      "duration_seconds": 4020,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "Here Comes The Fire Truck + More | Classic Kids Preschool Songs | Noodle & Pals",
+      "channel": "Noodle & Pals",
+      "url": "https://www.youtube.com/watch?v=hyUsfovmkZg",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "1:04:00",
+      "duration_seconds": 3840,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "Best of 2025! | Your Favorite Preschool Songs | Happy New Year from Noodle & Pals!",
+      "channel": "Noodle & Pals",
+      "url": "https://www.youtube.com/watch?v=GlprS1K_Hxw",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "59:00",
+      "duration_seconds": 3540,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "Five Senses + More | Kids Songs | Follow Along Playtime! | Noodle & Pals",
+      "channel": "Noodle & Pals",
+      "url": "https://www.youtube.com/watch?v=nfIhLoilnjU",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "1:12:00",
+      "duration_seconds": 4320,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    },
+    {
+      "title": "NEW Goo Goo Colors LIVE Show | 24hr Goo Goo Gaga Marathon",
+      "channel": "Goo Goo Colors",
+      "url": "https://www.youtube.com/watch?v=IjLEeH1r1iw",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "10:00",
+      "duration_seconds": 600,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": [
+        "Contains 'colors' \u2014 positive developmental signal"
+      ]
+    },
+    {
+      "title": "THIS IS THE WAY WE MAKE OUR BREAKFAST! Goo Goo Gaga Morning Routine",
+      "channel": "Goo Goo Colors",
+      "url": "https://www.youtube.com/watch?v=fklQyfk_DnU",
+      "timestamp": "2026-03-24T12:00:00-05:00",
+      "duration": "10:01",
+      "duration_seconds": 601,
+      "safety_score": 3,
+      "safety_rating": "neutral",
+      "safety_badge": "\u2b1c",
+      "flags": [],
+      "positive_signals": []
+    }
+  ],
+  "top_channels": [
+    {
+      "channel": "Super Simple Play with Caitie!",
+      "count": 23
+    },
+    {
+      "channel": "Noodle & Pals",
+      "count": 17
+    },
+    {
+      "channel": "Genevieve's Playhouse - Learning Videos for Kids",
+      "count": 15
+    },
+    {
+      "channel": "Rhymington Square - Songs & Rhymes for Kids!",
+      "count": 8
+    },
+    {
+      "channel": "\u273f Kids Diana Show",
+      "count": 4
+    },
+    {
+      "channel": "Krista Edwards",
+      "count": 4
+    },
+    {
+      "channel": "English Singsing",
+      "count": 4
+    },
+    {
+      "channel": "Yakka Dee! - Toddler Learning",
+      "count": 4
+    },
+    {
+      "channel": "Goo Goo Colors",
+      "count": 3
+    },
+    {
+      "channel": "Hogi! Pinkfong - Learn & Play",
+      "count": 3
+    }
+  ],
+  "top_categories": [
+    {
+      "category": "Other Kids Content",
+      "count": 58
+    },
+    {
+      "category": "Cartoons",
+      "count": 46
+    },
+    {
+      "category": "Educational",
+      "count": 36
+    },
+    {
+      "category": "Kids Songs",
+      "count": 23
+    },
+    {
+      "category": "ASMR/Effects",
+      "count": 14
+    },
+    {
+      "category": "Storytime",
+      "count": 12
+    },
+    {
+      "category": "App/Game Reviews",
+      "count": 6
+    },
+    {
+      "category": "Pretend Play",
+      "count": 5
+    }
+  ],
+  "hourly_counts": {
+    "8": 20,
+    "9": 25,
+    "10": 30,
+    "11": 20,
+    "12": 15,
+    "13": 15,
+    "14": 20,
+    "15": 25,
+    "16": 20,
+    "17": 10
+  },
+  "daily_counts": {
+    "Mon": 30,
+    "Tue": 25,
+    "Wed": 28,
+    "Thu": 32,
+    "Fri": 30,
+    "Sat": 35,
+    "Sun": 20
+  },
+  "safety": {
+    "generated": "2026-03-24T20:09:55.907955",
+    "total_scored": 200,
+    "good_count": 4,
+    "neutral_count": 187,
+    "review_count": 9,
+    "flag_count": 0,
+    "concern_breakdown": {
+      "VIOLENT_OR_SCARY": 4,
+      "RAPID_PACING": 3,
+      "SENSORY_OVERLOAD": 3
+    },
+    "channel_summary": [
+      {
+        "channel": "Super Simple Play with Caitie!",
+        "video_count": 23,
+        "avg_score": 3.0,
+        "badge": "\u2b1c"
+      },
+      {
+        "channel": "Noodle & Pals",
+        "video_count": 17,
+        "avg_score": 3.0,
+        "badge": "\u2b1c"
+      },
+      {
+        "channel": "Genevieve's Playhouse - Learning Videos for Kids",
+        "video_count": 15,
+        "avg_score": 3.0,
+        "badge": "\u2b1c"
+      },
+      {
+        "channel": "Rhymington Square - Songs & Rhymes for Kids!",
+        "video_count": 8,
+        "avg_score": 2.5,
+        "badge": "\u26a0\ufe0f"
+      },
+      {
+        "channel": "\u273f Kids Diana Show",
+        "video_count": 4,
+        "avg_score": 3.0,
+        "badge": "\u2b1c"
+      },
+      {
+        "channel": "Krista Edwards",
+        "video_count": 4,
+        "avg_score": 3.0,
+        "badge": "\u2b1c"
+      },
+      {
+        "channel": "English Singsing",
+        "video_count": 4,
+        "avg_score": 3.0,
+        "badge": "\u2b1c"
+      },
+      {
+        "channel": "Yakka Dee! - Toddler Learning",
+        "video_count": 4,
+        "avg_score": 3.0,
+        "badge": "\u2b1c"
+      },
+      {
+        "channel": "Goo Goo Colors",
+        "video_count": 3,
+        "avg_score": 3.0,
+        "badge": "\u2b1c"
+      },
+      {
+        "channel": "Hogi! Pinkfong - Learn & Play",
+        "video_count": 3,
+        "avg_score": 2.7,
+        "badge": "\u26a0\ufe0f"
+      },
+      {
+        "channel": "Finny The Shark",
+        "video_count": 3,
+        "avg_score": 3.0,
+        "badge": "\u2b1c"
+      },
+      {
+        "channel": "The Bumble Nums",
+        "video_count": 3,
+        "avg_score": 3.0,
+        "badge": "\u2b1c"
+      },
+      {
+        "channel": "ChuChuTV Storytime for Kids",
+        "video_count": 3,
+        "avg_score": 3.0,
+        "badge": "\u2b1c"
+      },
+      {
+        "channel": "Learning Literacy - Kids Reading & Phonics",
+        "video_count": 3,
+        "avg_score": 3.0,
+        "badge": "\u2b1c"
+      },
+      {
+        "channel": "Storytime Hullabaloo Hi",
+        "video_count": 3,
+        "avg_score": 3.0,
+        "badge": "\u2b1c"
+      },
+      {
+        "channel": "ToonyMonka",
+        "video_count": 2,
+        "avg_score": 3.0,
+        "badge": "\u2b1c"
+      },
+      {
+        "channel": "Storytime with Sonia Panda",
+        "video_count": 2,
+        "avg_score": 3.0,
+        "badge": "\u2b1c"
+      },
+      {
+        "channel": "DudduTV Duddu",
+        "video_count": 2,
+        "avg_score": 3.0,
+        "badge": "\u2b1c"
+      },
+      {
+        "channel": "Miss Kandice\ud83d\udc95",
+        "video_count": 2,
+        "avg_score": 3.0,
+        "badge": "\u2b1c"
+      },
+      {
+        "channel": "Gabby's Dollhouse",
+        "video_count": 2,
+        "avg_score": 3.0,
+        "badge": "\u2b1c"
+      }
+    ],
+    "flagged_videos": [
+      {
+        "title": "Eating Colorful Donuts \ud83c\udf69 | 15 min | Learn Colors for Children | Compilation | Hogi & Pinkfong",
+        "channel": "Hogi! Pinkfong - Learn & Play",
+        "badge": "\u26a0\ufe0f",
+        "flags": [
+          {
+            "type": "RAPID_PACING",
+            "message": "Title contains rapid pacing pattern"
+          }
+        ]
+      },
+      {
+        "title": "Which Crazy Bed Would You Choose? | Ultimate Oddly Satisfying AI ASMR",
+        "channel": "AI ASMR Satisfait",
+        "badge": "\u26a0\ufe0f",
+        "flags": [
+          {
+            "type": "RAPID_PACING",
+            "message": "Title contains rapid pacing pattern"
+          }
+        ]
+      },
+      {
+        "title": "Guess the logo by it's sound / logo sound part 2 #logo #logoquiz",
+        "channel": "Quiz Jockey",
+        "badge": "\u26a0\ufe0f",
+        "flags": [
+          {
+            "type": "SENSORY_OVERLOAD",
+            "message": "Title contains sensory overload pattern"
+          }
+        ]
+      },
+      {
+        "title": "Guess The Logo Sound Challenge | McDonald's, TikTok, Netflix, KFC, Pepsi | Logo Quiz 2024",
+        "channel": "WhizQuizz",
+        "badge": "\u26a0\ufe0f",
+        "flags": [
+          {
+            "type": "SENSORY_OVERLOAD",
+            "message": "Title contains sensory overload pattern"
+          }
+        ]
+      },
+      {
+        "title": "Guess the logo Sound | MacDonald's, Tiktok, Netflix, Pepsi / logoQuiz 2025",
+        "channel": "Empire of Quiz",
+        "badge": "\u26a0\ufe0f",
+        "flags": [
+          {
+            "type": "SENSORY_OVERLOAD",
+            "message": "Title contains sensory overload pattern"
+          }
+        ]
+      },
+      {
+        "title": "Down By The Spooky Bay + More | Monster Fun For Kids! | Rhymington Square",
+        "channel": "Rhymington Square - Songs & Rhymes for Kids!",
+        "badge": "\u26a0\ufe0f",
+        "flags": [
+          {
+            "type": "VIOLENT_OR_SCARY",
+            "message": "Title contains violent or scary pattern"
+          }
+        ]
+      },
+      {
+        "title": "Fun Kids Party Songs! | There's A Monster In My Tummy #2 + More Rhymington Square Songs!",
+        "channel": "Rhymington Square - Songs & Rhymes for Kids!",
+        "badge": "\u26a0\ufe0f",
+        "flags": [
+          {
+            "type": "VIOLENT_OR_SCARY",
+            "message": "Title contains violent or scary pattern"
+          }
+        ]
+      },
+      {
+        "title": "Super Spooky Halloween Storm + More | Top Monster Kids Songs Compilation | Rhymington Square",
+        "channel": "Rhymington Square - Songs & Rhymes for Kids!",
+        "badge": "\u26a0\ufe0f",
+        "flags": [
+          {
+            "type": "VIOLENT_OR_SCARY",
+            "message": "Title contains violent or scary pattern"
+          },
+          {
+            "type": "RAPID_PACING",
+            "message": "Title contains rapid pacing pattern"
+          }
+        ]
+      },
+      {
+        "title": "Apples And Bananas | Monster Song for Kids | Rhymington Square",
+        "channel": "Rhymington Square - Songs & Rhymes for Kids!",
+        "badge": "\u26a0\ufe0f",
+        "flags": [
+          {
+            "type": "VIOLENT_OR_SCARY",
+            "message": "Title contains violent or scary pattern"
+          }
+        ]
+      }
+    ]
+  }
+}
